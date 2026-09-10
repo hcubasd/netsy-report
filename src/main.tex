@@ -1,0 +1,52 @@
+\documentclass[title]{article}
+
+\usepackage{amsmath}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage{siunitx}
+\usepackage{newfloat}
+
+\DeclareFloatingEnvironment[
+  fileext=los,
+  listname={searchstrings},
+  name=Search String,
+  placement=htbp
+]{searchstring}
+
+\sisetup{
+  group-digits = integer,
+  group-separator = {,},
+  output-decimal-marker = {.}
+}
+
+\usepackage[style=apa, language=american]{biblatex}
+\usepackage{hyperref}
+\usepackage[mocha, styleAll]{catppuccinpalette}
+\usepackage{listingsutf8}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\lstdefinelanguage{SearchString}{
+  keywords={AND, OR, NOT},
+  string=[b]"
+}
+
+\lstset{
+  inputencoding=utf8/latin1,
+  basicstyle=\small\ttfamily,
+  showstringspaces=false,
+  tabsize=4,
+  keywordstyle=\color{CtpMauve},
+  stringstyle=\color{CtpGreen},
+  commentstyle=\color{CtpOverlay2},
+  numberstyle=\color{CtpOverlay1},
+  identifierstyle=\color{CtpYellow}
+}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+\input{development.tex}
+
+\end{document}

@@ -1,0 +1,12 @@
+csquotes
+biber
+biblatex
+biblatex-apa
+biblatex-abnt
+listingsutf8
+siunitx
+latexmk
+pgfopts
+catppuccinpalette
+booktabs
+graphics

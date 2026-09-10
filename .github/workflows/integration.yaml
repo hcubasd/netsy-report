@@ -1,0 +1,14 @@
+name: Integration
+on:
+  push:
+    branches:
+      - "**"
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    container:
+      image: texlive/texlive:latest-small
+    steps:
+      - uses: actions/checkout@v6
+      - run: sh -e scripts/install-dependencies.sh
+      - run: make all 
