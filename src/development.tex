@@ -1,1 +1,54 @@
 \section{Development}
+
+\subsection{Needs and capacities}
+
+Capacities and needs are synthesized by the same model from independent file pairs: the
+capacity effects and thresholds give the capacity distribution, and the need effects and
+thresholds give the need distribution. Each resource is modeled as an ordinal outcome with
+a cumulative-logit (proportional-odds) model, where $\sigma(x) = 1 / (1 + e^{-x})$ is the
+logistic function.
+
+\paragraph{Linear predictor.}
+A stratum $s = (v_1, \dots, v_D)$ takes one value from each of the $D$ dimensions of the
+effects file, which holds a coefficient $\gamma_{r,d,v}$ for every resource $r$, dimension
+$d$ and value $v$. Effects are additive main effects, with no interactions, intercept or
+reference level:
+\begin{equation}
+  \beta_{r,s} = \sum_{d=1}^{D} \gamma_{r,d,v_d}.
+\end{equation}
+If any coefficient is empty, $\beta_{r,s}$ is undefined and the pair $(s, r)$ is omitted:
+an empty effect means the stratum does not participate in the resource, which is not the
+same as an effect of zero.
+
+\paragraph{Cutpoints.}
+Resource $r$ has ordered integer levels $\ell_{r,1} < \dots < \ell_{r,K_r}$ and sorted
+cutpoints $\mu_{r,1} \le \dots \le \mu_{r,K_r-1}$ from the thresholds file; the largest
+level has none. Only resources present in both files are synthesized.
+
+\paragraph{Distribution.}
+The cumulative probability of the outcome being at most level $\ell_{r,k}$ is
+\begin{equation}
+  F_{r,s}(k) = \sigma\left(\mu_{r,k} - \beta_{r,s}\right),
+  \qquad k = 1, \dots, K_r - 1,
+\end{equation}
+with $F_{r,s}(0) = 0$ and $F_{r,s}(K_r) = 1$, and the probability of each level is the
+consecutive difference
+\begin{equation}
+  p_{r,s}(\ell_{r,k}) = F_{r,s}(k) - F_{r,s}(k-1).
+\end{equation}
+These are non-negative and sum to one. The distribution is kept whole, one row per stratum,
+resource and level. The synthesis is deterministic; agents are sampled from these
+distributions in a later step.
+
+\subsection{Supply and demand}
+
+Aggregate supply and demand use the same model, fed by their own effects and thresholds
+files, but each distribution is collapsed to its rounded expected value. For a stratum $s$
+and resource $r$, with $p_{r,s}$ as in the previous subsection,
+\begin{equation}
+  A_{r,s} = \operatorname{round}\left(\sum_{k=1}^{K_r} \ell_{r,k} \, p_{r,s}(\ell_{r,k})\right),
+\end{equation}
+where $A$ is the supply or the demand. The rounding reflects that resources are counted in
+whole units. Pairs $(s, r)$ omitted by the model stay empty, which is distinct from a
+computed zero, since zero is itself a valid level. The result is wide, one row per stratum
+and one column per resource, and deterministic.

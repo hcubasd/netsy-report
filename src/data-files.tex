@@ -1,0 +1,118 @@
+\section{Data files}
+
+% Catppuccin syntax colors for data tables: strata as strings (Green), values as
+% numbers (Peach). Header cells opt out with \hd so they stay the normal text color.
+\newcolumntype{T}{>{\color{CtpGreen}}c}
+\newcolumntype{N}{>{\color{CtpPeach}}c}
+\newcommand{\hd}[1]{\textcolor{CtpText}{#1}}
+\newcommand{\emptycell}{\textcolor{CtpOverlay2}{(empty)}}
+
+\subsection{Effects}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{TTNN}
+		\toprule
+		\hd{stratum} & \hd{stratum\_value} & \hd{resource\_1} & \hd{resource\_2} \\
+		\midrule
+		zone\_id & 1 & \num{-1.347} & \num{-0.813} \\
+		zone\_id & 2 & \num{1.494} & \num{1.546} \\
+		stratum\_1 & value\_1 & \num{-0.627} & \num{0.398} \\
+		stratum\_1 & value\_2 & \num{-0.191} & \num{0.078} \\
+		stratum\_2 & value\_1 & \num{-0.204} & \num{-1.179} \\
+		stratum\_2 & value\_2 & \num{-2.511} & \num{0.471} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Thresholds}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{TTN}
+		\toprule
+		\hd{resource} & \hd{resource\_level} & \hd{threshold} \\
+		\midrule
+		resource\_1 & 0 & \num{0.432} \\
+		resource\_1 & 2 & \num{1.738} \\
+		resource\_1 & 3 & \emptycell \\
+		resource\_2 & 4 & \num{-0.220} \\
+		resource\_2 & 9 & \emptycell \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Supply and demand}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{TTTNN}
+		\toprule
+		\hd{zone\_id} & \hd{stratum\_1} & \hd{stratum\_2} & \hd{resource\_1} & \hd{resource\_2} \\
+		\midrule
+		1 & value\_1 & value\_1 & 0 & 5 \\
+		1 & value\_1 & value\_2 & 0 & 7 \\
+		1 & value\_2 & value\_1 & 0 & 5 \\
+		1 & value\_2 & value\_2 & 0 & 6 \\
+		2 & value\_1 & value\_1 & 1 & 8 \\
+		2 & value\_1 & value\_2 & 0 & 9 \\
+		2 & value\_2 & value\_1 & 2 & 7 \\
+		2 & value\_2 & value\_2 & 0 & 9 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\clearpage
+\subsection{Needs and capacities}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{TTTTTN}
+		\toprule
+		\hd{zone\_id} & \hd{stratum\_1} & \hd{stratum\_2} & \hd{resource} & \hd{resource\_level} & \hd{probability} \\
+		\midrule
+		1 & value\_2 & value\_1 & resource\_1 & 0 & \num{0.898} \\
+		1 & value\_2 & value\_1 & resource\_1 & 2 & \num{0.072} \\
+		1 & value\_2 & value\_1 & resource\_1 & 3 & \num{0.030} \\
+		1 & value\_2 & value\_1 & resource\_2 & 4 & \num{0.845} \\
+		1 & value\_2 & value\_1 & resource\_2 & 9 & \num{0.155} \\
+		2 & value\_1 & value\_1 & resource\_1 & 0 & \num{0.443} \\
+		2 & value\_1 & value\_1 & resource\_1 & 2 & \num{0.303} \\
+		2 & value\_1 & value\_1 & resource\_1 & 3 & \num{0.254} \\
+		2 & value\_1 & value\_1 & resource\_2 & 4 & \num{0.272} \\
+		2 & value\_1 & value\_1 & resource\_2 & 9 & \num{0.728} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Zones}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{Tc}
+		\toprule
+		\hd{zone\_id} & \hd{geometry} \\
+		\midrule
+		1 & POLYGON ((0.41 0.09, 0.63 0.22, \dots)) \\
+		2 & POLYGON ((0.12 0.55, 0.41 0.09, \dots)) \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Agents}
+
+\begin{table}[h]
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{4pt}
+	\begin{tabular}{TTTNNc}
+		\toprule
+		\hd{agent\_id} & \hd{zone\_id} & \hd{stratum\_1} & \hd{resource\_1\_capacity} & \hd{resource\_1\_need} & \hd{geometry} \\
+		\midrule
+		1 & 1 & value\_1 & 3 & 0 & POINT (0.42 0.71) \\
+		2 & 1 & value\_1 & 0 & 2 & POINT (0.38 0.65) \\
+		3 & 2 & value\_2 & 2 & 0 & POINT (0.81 0.10) \\
+		4 & 2 & value\_2 & 0 & 3 & POINT (0.77 0.16) \\
+		\bottomrule
+	\end{tabular}
+\end{table}
