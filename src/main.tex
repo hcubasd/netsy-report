@@ -1,4 +1,4 @@
-\documentclass[title]{article}
+\documentclass[titlepage]{article}
 
 \usepackage{amsmath}
 \usepackage[american]{babel}
@@ -20,7 +20,7 @@
 }
 
 \usepackage[style=apa, language=american]{biblatex}
-\usepackage{hyperref}
+\usepackage[plainpages=false]{hyperref}
 \usepackage[latte, styleAll]{catppuccinpalette}
 \usepackage{listingsutf8}
 \usepackage{graphicx}
@@ -45,9 +45,21 @@
 
 \addbibresource{references.bib}
 
+\title{NetSy: Network Loads and Emissions Synthesizer}
+\author{%
+  Nicolle Damschi Dolfini \\
+  Henrique Cubas Douat \\
+  Helry Luvillany Fontenele Dias}
+\date{September 2026}
+
 \begin{document}
 
+\pagenumbering{alph}
+\maketitle
+\pagenumbering{arabic}
+
 \input{development}
+\clearpage
 \appendix
 \input{data-files}
 

@@ -11,8 +11,9 @@ logistic function.
 \paragraph{Linear predictor.}
 A stratum $s = (v_1, \dots, v_D)$ takes one value from each of the $D$ dimensions of the
 effects file, which holds a coefficient $\gamma_{r,d,v}$ for every resource $r$, dimension
-$d$ and value $v$. Effects are additive main effects, with no interactions, intercept or
-reference level:
+$d$ and value $v$. One of the $D$ dimensions is always \texttt{zone\_id}: every stratum
+belongs to a zone, and the zone is what agent synthesis later places on the map. Effects
+are additive main effects, with no interactions, intercept or reference level:
 \begin{equation}
   \beta_{r,s} = \sum_{d=1}^{D} \gamma_{r,d,v_d}.
 \end{equation}
@@ -52,3 +53,82 @@ where $A$ is the supply or the demand. The rounding reflects that resources are 
 whole units. Pairs $(s, r)$ omitted by the model stay empty, which is distinct from a
 computed zero, since zero is itself a valid level. The result is wide, one row per stratum
 and one column per resource, and deterministic.
+
+\subsection{Agents}
+
+Agents are individuals drawn from each stratum until its supply and demand are used up. A
+stratum $s$ is usable only if it has the same dimensions in the supply, demand, capacity and
+need files, and a resource $r$ is usable in $s$ only if it is defined in all four. Unusable
+strata and resources yield no agents. The zone of $s$ is its \texttt{zone\_id}, with polygon
+$\Omega_s$.
+
+\paragraph{Depletion.}
+Fix a stratum $s$, and let $a_r^{(0)} = A^{\mathrm{sup}}_{r,s}$ and
+$b_r^{(0)} = A^{\mathrm{dem}}_{r,s}$ be its aggregate supply and demand. For agent
+$t = 1, 2, \dots$ and each usable resource $r$, the capacity distribution
+$p^{\mathrm{cap}}_{r,s}$ is truncated to the levels the remaining supply can still cover
+and renormalized,
+\begin{equation}
+  \tilde p^{\mathrm{cap}}_{r,t}(\ell) =
+  \frac{p^{\mathrm{cap}}_{r,s}(\ell) \, \mathbf{1}\left[\ell \le a_r^{(t-1)}\right]}
+       {\sum_{\ell' \le a_r^{(t-1)}} p^{\mathrm{cap}}_{r,s}(\ell')},
+\end{equation}
+and likewise $\tilde p^{\mathrm{need}}_{r,t}$ from $p^{\mathrm{need}}_{r,s}$ truncated at
+$b_r^{(t-1)}$. A capacity $x_{r,t} \sim \tilde p^{\mathrm{cap}}_{r,t}$ and a need
+$y_{r,t} \sim \tilde p^{\mathrm{need}}_{r,t}$ are drawn independently. If for any $r$ no
+level is feasible, the agent cannot be a complete record and generation for $s$ stops.
+Otherwise the agent takes $x_{r,t}$ and $y_{r,t}$ for every $r$, and the budgets are
+updated,
+\begin{equation}
+  a_r^{(t)} = a_r^{(t-1)} - x_{r,t}, \qquad b_r^{(t)} = b_r^{(t-1)} - y_{r,t}.
+\end{equation}
+If an agent draws zero capacity and zero need for every resource, the state is unchanged
+and generation stops after it. The number of agents per stratum is the stopping time of
+this process rather than an input.
+
+\paragraph{Placement.}
+An agent is placed uniformly in $\Omega_s$: a point is drawn uniformly in the polygon's
+bounding box and kept if it lies inside $\Omega_s$, and redrawn otherwise.
+
+The result has one row per agent, with its identifier, strata, capacity and need for each
+usable resource, and its location, as in the Agents table of the appendix.
+
+\subsection{Desire lines}
+
+Desire lines are individual transactions between pairs of agents: for each resource,
+agents with leftover capacity (providers) are matched to agents with leftover need
+(consumers) until one side is used up. Resources are handled independently, and only
+agents with both a capacity and a need value for a resource take part in it.
+
+\paragraph{Provider.}
+Fix a resource $r$, and let $\kappa_i$ and $\nu_i$ be agent $i$'s residual capacity and
+need for $r$, initialized from the agents file. While some agent has $\kappa_i > 0$ and
+some agent has $\nu_i > 0$, a provider $p$ is drawn from $\{i : \kappa_i > 0\}$ with
+probability proportional to $\kappa_p$.
+
+\paragraph{Consumer.}
+While $p$ still has capacity left and some agent still has need left, a consumer
+$c \neq p$ is drawn from $\{i \neq p : \nu_i > 0\}$ with probability proportional to
+\begin{equation}
+  \nu_c \, \sigma\!\left(-\frac{d(p,c)}{L}\right),
+\end{equation}
+where $d(p,c)$ is the distance between the two agents' locations and $L$ is the
+bounding-box diagonal of the whole agent cloud, computed once so the decay does not
+depend on the coordinate units. Nearer consumers are more likely; the decay is a spatial
+weight here, not a probability.
+
+\paragraph{Transaction.}
+The traded quantity is
+\begin{equation}
+  q = \min(\kappa_p, \nu_c),
+\end{equation}
+after which both $\kappa_p$ and $\nu_c$ are reduced by $q$, and a line is recorded from
+$p$ to $c$ carrying $q$. Once $\kappa_p$ reaches zero a fresh provider is drawn, and
+one provider can be matched to several consumers in a row before that happens. A weight
+is always a residual, so a used-up agent is never drawn again, and every transaction
+strictly reduces the capacity or the need left for $r$.
+
+The result has one row per transaction, with the resource, the quantity, the provider's
+agent identifier, and a two-point line from the provider's location to the consumer's, as
+in the Desire lines table of the appendix. The same pair of agents can appear together
+more than once, even for the same resource.
