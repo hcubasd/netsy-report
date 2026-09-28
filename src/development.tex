@@ -130,5 +130,6 @@ strictly reduces the capacity or the need left for $r$.
 
 The result has one row per transaction, with the resource, the quantity, the provider's
 agent identifier, and a two-point line from the provider's location to the consumer's, as
-in the Desire lines table of the appendix. The same pair of agents can appear together
-more than once, even for the same resource.
+in the Desire lines table of the appendix. The same pair of agents can appear again only in the opposite direction: after a
+transaction from $p$ to $c$, either $p$ has no capacity or $c$ has no need left, so that
+directed pair cannot recur for the same resource.
