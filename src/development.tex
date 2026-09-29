@@ -133,3 +133,75 @@ agent identifier, and a two-point line from the provider's location to the consu
 in the Desire lines table of the appendix. The same pair of agents can appear again only in the opposite direction: after a
 transaction from $p$ to $c$, either $p$ has no capacity or $c$ has no need left, so that
 directed pair cannot recur for the same resource.
+
+\subsection{Network loads}
+
+Network loads turn desire lines into capacity-constrained vehicle tours over a directed
+road network. A vehicle type is available in unlimited instances. Each tour carries one
+resource, starts and ends at one provider, delivers to one or more consumers, and returns
+empty. There is no radius-based consolidation: capacity and route cost decide which
+consumers share a tour.
+
+\paragraph{Interval targets.}
+For resource $r$, let $Q_r$ be the total quantity in its desire lines and let $w_{r,t}$
+be the departure weight for defined time interval $t$. The target volume is first computed
+as
+\begin{equation}
+  z_{r,t} = Q_r \frac{w_{r,t}}{\sum_{u} w_{r,u}}.
+\end{equation}
+The integer target $B_{r,t}$ starts at $\lfloor z_{r,t} \rfloor$; the remaining units are
+given to the intervals with the largest fractional remainders, breaking ties by interval
+order. Thus $\sum_t B_{r,t} = Q_r$ exactly.
+
+\paragraph{Provider and seed.}
+Within an interval, providers are drawn repeatedly from the resource's residual
+transactions. Provider $p$ is selected with probability proportional to its remaining
+quantity $q_p$. A seed consumer is then selected from $p$'s remaining desire lines with
+probability proportional to its remaining quantity. These are weighted random draws, not
+logit models: the desire-line model has already incorporated distance-decay matching.
+
+\paragraph{Vehicle-tour alternatives.}
+For each feasible vehicle type $v$, a candidate closed tour begins
+\begin{equation}
+  p \rightarrow c_1 \rightarrow p,
+\end{equation}
+where $c_1$ is the seed consumer. The tour carries at most the vehicle's capacity for
+resource $r$. Further consumers of $p$ are inserted one at a time in the position that
+minimizes the increase in generalized route cost
+\begin{equation}
+  C_v(\tau) =
+  -\left(\beta^{\mathrm{time}}_v T_v(\tau)
+  + \beta^{\mathrm{distance}}_v D(\tau)\right).
+\end{equation}
+Here $T_v(\tau)$ and $D(\tau)$ are the directed-network travel time and distance of tour
+$\tau$ for vehicle $v$. This is a capacitated cheapest-insertion travelling-salesperson
+heuristic: vehicle capacity determines tour membership, and the insertion order determines
+the visit sequence. A desire line exceeding remaining capacity is split across tours.
+
+Every feasible $(v,\tau)$ pair is an alternative in a multinomial logit:
+\begin{equation}
+  U_{v,\tau} =
+  \alpha_{v,r}
+  + \beta^{\mathrm{time}}_v T_v(\tau)
+  + \beta^{\mathrm{distance}}_v D(\tau).
+\end{equation}
+One alternative is drawn with probability proportional to $\exp(U_{v,\tau})$, committed,
+and its delivered quantities are removed before the next tour is built.
+
+\paragraph{Movement and load.}
+Road links are directed: a two-way link has forward and backward traversals, while a
+one-way link has only its stored direction. Grade is relative to the stored direction.
+For a traversal with signed grade $g$, free-flow speed $s$, BPR parameters
+$(\alpha,\beta)$, and link volume-to-capacity ratio $x$, its speed is
+\begin{equation}
+  v = \frac{s\exp(-g/100)}{1+\alpha x^\beta}.
+\end{equation}
+Tours use the congestion state from the preceding interval; traffic produced in an
+interval supplies the next interval's $x$. A vehicle waits for the resource-specific dwell
+time after every consumer delivery and travels empty from its final consumer back to its
+provider.
+
+Network loads are aggregated by link, interval, resource, vehicle, direction, and payload
+fraction. Keeping payload fractions separate avoids replacing the distinct loads on the
+successive legs of a multi-stop tour with one mean that would lose payload-dependent
+emission information.

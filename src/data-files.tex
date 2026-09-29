@@ -132,3 +132,49 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+\subsection{Network-load inputs}
+
+\begin{table}[h]
+	\centering
+	\footnotesize
+	\begin{tabular}{ll}
+		\toprule
+		\hd{file} & \hd{required columns beyond geometry} \\
+		\midrule
+		\texttt{network.gpkg} & \texttt{link\_id}, \texttt{grade}, \texttt{road\_type}, \texttt{oneway} \\
+		\texttt{desire\_lines.gpkg} & \texttt{resource}, \texttt{quantity}, \texttt{origin\_agent\_id} \\
+		\texttt{departures.csv} & \texttt{resource}, \texttt{time\_interval}, \texttt{probability} \\
+		\texttt{time\_intervals.csv} & \texttt{time\_interval}, \texttt{duration} \\
+		\texttt{dwell\_times.csv} & \texttt{resource}, \texttt{dwell\_time} \\
+		\texttt{vehicles.csv} & vehicle behaviour, BPR, and PCU columns \\
+		\texttt{vehicle\_velocities.csv} & \texttt{vehicle}, \texttt{road\_type}, \texttt{velocity} \\
+		\texttt{vehicle\_capacities.csv} & \texttt{vehicle}, \texttt{resource}, \texttt{capacity} \\
+		\texttt{road\_capacities.csv} & \texttt{road\_type}, \texttt{capacity} \\
+		\texttt{alternative\_specific\_constants.csv} & \texttt{vehicle}, \texttt{resource}, ASC \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+The two GeoPackages must share a projected CRS. Link lengths, velocities, and interval
+durations use compatible units. There is no \texttt{consolidation\_radii.csv}; there is
+also no return-load column in \texttt{dwell\_times.csv}.
+
+\subsection{Network loads}
+
+\begin{table}[h]
+	\centering
+	\footnotesize
+	\begin{tabular}{NTTTcNNN}
+		\toprule
+		\hd{link\_id} & \hd{time\_interval} & \hd{resource} & \hd{vehicle} & \hd{forward} & \hd{vehicle\_count} & \hd{velocity} & \hd{load\_pct} \\
+		\midrule
+		17 & morning & parcels & van & true & 3 & \num{34.2} & \num{1.0} \\
+		17 & morning & parcels & van & false & 3 & \num{29.8} & \num{0.0} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Rows are stratified by \texttt{load\_pct}: a full outbound leg and an empty return on the
+same directional link are separate rows. \texttt{vehicle\_count} is the number of
+traversals in that stratum, and \texttt{velocity} is their mean link speed.
