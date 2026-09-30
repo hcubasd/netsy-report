@@ -7,10 +7,11 @@
 \newcommand{\hd}[1]{\textcolor{CtpText}{#1}}
 \newcommand{\emptycell}{\textcolor{CtpOverlay2}{(empty)}}
 
-\subsection{Effects}
+\subsection{Stratified synthesis inputs}
 
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{effects.csv}}
 	\begin{tabular}{TTNN}
 		\toprule
 		\hd{stratum} & \hd{stratum\_value} & \hd{resource\_1} & \hd{resource\_2} \\
@@ -24,11 +25,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Thresholds}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{thresholds.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{resource} & \hd{resource\_level} & \hd{threshold} \\
@@ -41,11 +42,13 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Supply and demand}
+\subsection{Stratified synthesis outputs}
 
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{supply.csv} and \texttt{demand.csv}}
 	\begin{tabular}{TTTNN}
 		\toprule
 		\hd{zone\_id} & \hd{stratum\_1} & \hd{stratum\_2} & \hd{resource\_1} & \hd{resource\_2} \\
@@ -61,12 +64,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\clearpage
-\subsection{Needs and capacities}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{capacities.csv} and \texttt{needs.csv}}
 	\begin{tabular}{TTTTTN}
 		\toprule
 		\hd{zone\_id} & \hd{stratum\_1} & \hd{stratum\_2} & \hd{resource} & \hd{resource\_level} & \hd{probability} \\
@@ -84,11 +86,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Zones}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{zones.gpkg}}
 	\begin{tabular}{Tc}
 		\toprule
 		\hd{zone\_id} & \hd{geometry} \\
@@ -98,12 +100,12 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Agents}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{agents.gpkg}}
 	\setlength{\tabcolsep}{4pt}
 	\begin{tabular}{TTTNNc}
 		\toprule
@@ -116,12 +118,12 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Desire lines}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{desire\_lines.gpkg}}
 	\begin{tabular}{TNTc}
 		\toprule
 		\hd{resource} & \hd{quantity} & \hd{origin\_agent\_id} & \hd{geometry} \\
@@ -132,12 +134,14 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Network}
+\subsection{Network loads}
 
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{network.gpkg}}
 	\begin{tabular}{NNTTc}
 		\toprule
 		\hd{link\_id} & \hd{grade} & \hd{road\_type} & \hd{oneway} & \hd{geometry} \\
@@ -147,11 +151,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Departures}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{departures.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{resource} & \hd{time\_interval} & \hd{probability} \\
@@ -161,11 +165,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Time intervals}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{time\_intervals.csv}}
 	\begin{tabular}{TN}
 		\toprule
 		\hd{time\_interval} & \hd{duration} \\
@@ -175,11 +179,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Dwell times}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{dwell\_times.csv}}
 	\begin{tabular}{TN}
 		\toprule
 		\hd{resource} & \hd{dwell\_time} \\
@@ -189,12 +193,12 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Vehicles}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{vehicles.csv}}
 	\setlength{\tabcolsep}{3pt}
 	\begin{tabular}{TTNNNNN}
 		\toprule
@@ -205,11 +209,13 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Vehicle velocities}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{3pt}
+	\caption{\texttt{vehicle\_velocities.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{vehicle} & \hd{road\_type} & \hd{velocity} \\
@@ -220,11 +226,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Vehicle capacities}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{vehicle\_capacities.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{vehicle} & \hd{resource} & \hd{capacity} \\
@@ -234,11 +240,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Road capacities}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{road\_capacities.csv}}
 	\begin{tabular}{TN}
 		\toprule
 		\hd{road\_type} & \hd{capacity} \\
@@ -248,11 +254,11 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Alternative-specific constants}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{alternative\_specific\_constants.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{vehicle} & \hd{resource} & \hd{alternative\_specific\_constant} \\
@@ -262,12 +268,13 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Network loads}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{network\_loads.csv}}
+	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{NTTTcNNN}
 		\toprule
 		\hd{link\_id} & \hd{time\_interval} & \hd{resource} & \hd{vehicle} & \hd{forward} & \hd{vehicle\_count} & \hd{velocity} & \hd{load\_pct} \\
@@ -275,14 +282,17 @@
 		17 & morning & parcels & van & true & 3 & \num{34.2} & \num{1.0} \\
 		17 & morning & parcels & van & false & 3 & \num{29.8} & \num{0.0} \\
 		\bottomrule
-	\end{tabular}
+	\end{tabular}%
+	}
 \end{table}
+\FloatBarrier
 
-\subsection{COPERT V coefficients}
+\subsection{Network emissions}
 
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\scriptsize
+	\caption{\texttt{copert\_v\_coefficients.csv}}
 	\setlength{\tabcolsep}{2pt}
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{TTNNNNNNNNNN}
@@ -294,11 +304,11 @@
 	\end{tabular}%
 	}
 \end{table}
+\FloatBarrier
 
-\subsection{Emission factors}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
+	\caption{\texttt{emission\_factors.csv}}
 	\begin{tabular}{TTN}
 		\toprule
 		\hd{vehicle\_type} & \hd{pollutant} & \hd{emission\_factor} \\
@@ -308,12 +318,12 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier
 
-\subsection{Network emissions}
-
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
 	\footnotesize
+	\caption{\texttt{network\_emissions.csv}}
 	\setlength{\tabcolsep}{3pt}
 	\begin{tabular}{NTTTcTTN}
 		\toprule
@@ -324,3 +334,4 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+\FloatBarrier

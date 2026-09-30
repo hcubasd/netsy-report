@@ -10,3 +10,4 @@ pgfopts
 catppuccinpalette
 booktabs
 graphics
+placeins
