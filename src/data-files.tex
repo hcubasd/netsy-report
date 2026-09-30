@@ -277,3 +277,50 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+\subsection{COPERT V coefficients}
+
+\begin{table}[h]
+	\centering
+	\scriptsize
+	\setlength{\tabcolsep}{2pt}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{TTNNNNNNNNNN}
+		\toprule
+		\hd{vehicle\_type} & \hd{pollutant} & \hd{gradient\_bin} & \hd{payload\_bin} & \hd{alpha} & \hd{beta} & \hd{gamma} & \hd{delta} & \hd{epsilon} & \hd{zeta} & \hd{eta} & \hd{rf} \\
+		\midrule
+		light\_commercial & nox & 2 & 50 & \num{0.012} & \num{-0.091} & \num{3.442} & \num{0.16} & \num{0.003} & \num{0.22} & \num{1.71} & \num{0.08} \\
+		\bottomrule
+	\end{tabular}%
+	}
+\end{table}
+
+\subsection{Emission factors}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{TTN}
+		\toprule
+		\hd{vehicle\_type} & \hd{pollutant} & \hd{emission\_factor} \\
+		\midrule
+		light\_commercial & pm10 & \num{0.041} \\
+		heavy\_commercial & pm10 & \num{0.083} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Network emissions}
+
+\begin{table}[h]
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{3pt}
+	\begin{tabular}{NTTTcTTN}
+		\toprule
+		\hd{link\_id} & \hd{time\_interval} & \hd{resource} & \hd{vehicle} & \hd{forward} & \hd{pollutant} & \hd{source} & \hd{grams} \\
+		\midrule
+		17 & morning & parcels & van & true & nox & exhaust & \num{12.84} \\
+		17 & morning & parcels & van & true & pm10 & non-exhaust & \num{0.67} \\
+		\bottomrule
+	\end{tabular}
+\end{table}

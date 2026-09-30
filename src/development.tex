@@ -205,3 +205,41 @@ Network loads are aggregated by link, interval, resource, vehicle, direction, an
 fraction. Keeping payload fractions separate avoids replacing the distinct loads on the
 successive legs of a multi-stop tour with one mean that would lose payload-dependent
 emission information.
+
+\subsection{Network emissions}
+
+Network emissions combine each network-load row with its road link, vehicle type, and
+emission coefficients. Network geometry is transiently normalized to kilometres; velocity
+is in kilometres per hour. Exhaust and non-exhaust emissions remain separate output rows,
+because they are distinct physical mechanisms even when they share a pollutant.
+
+\paragraph{Hot exhaust.}
+COPERT V publishes hot-exhaust coefficients by vehicle type, pollutant, gradient bin
+$g \in \{-6,-4,-2,0,2,4,6\}$, and payload bin $p \in \{0,50,100\}$. A load row's signed
+grade is the stored link grade for a forward traversal and its negation for a backward
+traversal. Signed grade and $100$ times load fraction are snapped to their nearest
+published bins, clamped at the ends. With velocity $V > 0$, the hot-emission factor in
+grams per kilometre is
+\begin{equation}
+  e^{\mathrm{hot}}(V) =
+  \max\left(
+    0,
+    \frac{\alpha V^2 + \beta V + \gamma + \delta/V}
+         {\epsilon V^2 + \zeta V + \eta}
+    (1-\mathrm{RF})
+  \right).
+\end{equation}
+No exhaust row is produced at non-positive velocity or where the denominator vanishes.
+For link length $L$ in kilometres and vehicle count $N$, emitted exhaust mass is
+\begin{equation}
+  E^{\mathrm{exhaust}} = N L e^{\mathrm{hot}}(V).
+\end{equation}
+
+\paragraph{Non-exhaust.}
+Brake wear, tyre wear, road-surface wear, and resuspension use an input factor
+$e^{\mathrm{non}}$ in grams per kilometre for the vehicle type and pollutant:
+\begin{equation}
+  E^{\mathrm{non\text{-}exhaust}} = N L e^{\mathrm{non}}.
+\end{equation}
+This factor does not vary with velocity, grade, or payload. COPERT V supplies no
+corresponding canonical speed function for the flat factor, so none is invented.
