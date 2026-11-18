@@ -1,13 +1,13 @@
 # NetSy review protocol — available-evidence revision
 
-Version: 0.2, 18 November 2026. Branch: v0. Status: active, bounded review with institutional retrieval pending. This protocol governs reassessment and synthesis from this point; it does not retrospectively govern the exploratory searches of 11–16 November. Amendments must be dated and justified.
+Version: 0.3, 18 November 2026. Branch: v0. Status: active, bounded review; functional synthesis released as v0.2.0, with access gaps remaining. This protocol governs reassessment and synthesis from this point; it does not retrospectively govern the exploratory searches of 11–16 November. Amendments must be dated and justified.
 
 ## Purpose and questions
-Map established formulations, credible alternatives, empirical support and information conditions for synthesizing freight network loads and emissions. NetSy is the intended application; its existing implementation is not an inclusion criterion. MASS-GT is a designated reference configuration, not a standard of truth or an eighth domain.
+Map established formulations, credible alternatives, empirical support and information conditions for synthesizing freight network loads and emissions. NetSy is the intended application; its existing implementation is not an inclusion criterion. MASS-GT is a designated reference configuration, not a standard of truth. Its dedicated search is the eighth retrieval strand, not an eighth academic field.
 
-- RQ1: Which modelling approaches address the seven domains, and what theoretical, comparative and validation evidence supports them?
+- RQ1: Which modelling approaches address the seven functional responsibilities, and what theoretical, comparative and validation evidence supports them?
 - RQ2: Which data configurations, classifications and resolutions support these approaches across study areas, and what adaptations and limitations arise when information is missing?
-- RQ3: Which formulations, data and assessment evidence define the MASS-GT reference within each domain?
+- RQ3: Which formulations, data and assessment evidence define the MASS-GT reference within each functional responsibility?
 
 Concept: freight demand, logistics decisions, vehicle activity, road-network use and environmental effects, including their enabling data. Context: urban, metropolitan and regional applications; broader economic/network foundations when they support these outcomes. Study areas are application contexts, not a population assumed to have homogeneous data.
 
@@ -31,9 +31,9 @@ Assess conceptual definition, empirical basis, comparison fairness, independent/
 AI-assisted extraction and synthesis are performed by one assistant; no independent second screening/extraction is claimed. Author/advisor verification remains necessary before submission. Preserve page-level evidence notes and flags for incomplete reading.
 
 ## Synthesis and MASS-GT anchor
-Narrative synthesis by seven domains; distinguish established principles, established alternatives and unresolved questions. Provide a source-linked MASS-GT reference paragraph in each. The 2025 full-model paper, earlier applications and manual at commit 4f727c3633bf5edabc1b0d0fa081a9e232bf169a are separately versioned: neither publication date nor model name proves correspondence to that checkout.
+Framework-based narrative synthesis by seven functional responsibilities: study-area representation, goods demand, goods exchanges, logistics organization, vehicle activity, network loading and environmental assessment. Distinguish established principles, established alternatives and unresolved questions. Provide explicit data requirements/feasibility analysis and a source-linked MASS-GT reference paragraph in each. The 2025 full-model paper, earlier applications and manual at commit 4f727c3633bf5edabc1b0d0fa081a9e232bf169a are separately versioned: neither publication date nor model name proves correspondence to that checkout.
 
-Data availability is both a domain and a cross-domain extraction field. Separate collected information, published aggregates, restricted microdata, operational inputs, estimated parameters, and calibration/validation observations. Do not claim availability in most regions from a convenience sample of documented applications.
+Evidence identification has eight complementary search strands: six subject areas, data availability/representation/transferability, and MASS-GT discovery. These search strands are distinct from the seven functional synthesis sections. A source may inform several sections irrespective of its retrieval route. Data availability is a cross-cutting extraction and synthesis dimension, not a separate functional result section. Separate collected information, published aggregates, restricted microdata, operational inputs, estimated parameters, and calibration/validation observations. Do not claim availability in most regions from a convenience sample of documented applications.
 
 Do not position or redesign NetSy's implementation, claim causal policy validity from fit, or call MASS-GT agreement independent validation. No meta-analysis is planned because objectives, evidence designs and outcomes differ.
 
@@ -43,3 +43,5 @@ Kitchenham–Charters informs protocol/conduct; PRISMA-ScR informs reporting; PR
 16 November amendment: user authorized synthesis and manuscript revision using available evidence while the 14 priority full texts are sought. This supersedes the earlier access-pass instruction to stop before editing; access limitations remain in effect.
 
 18 November amendment: eleven relevant full texts received and appraised; one unrelated upload excluded. Full versions supersede two partial placeholders. Original topic searches remain unchanged. The release v0.1.0 fixes this evidence snapshot; three of the original priority requests and other lower-priority requests remain unresolved. A source/version and selection ledger records the changes.
+
+18 November structural amendment (after v0.1.0): organize the narrative by functional responsibility, integrating data feasibility and the MASS-GT reference throughout. The eight retrieval strands retain the original A1–A7 and M query identifiers and all dates, expressions, source decisions and appraisal limits. The same 61-document cohort is reinterpreted through the functional framework; no new search or independent appraisal is claimed. The initial seven-domain synthesis is preserved in the immutable v0.1.0 release. `results/synthesis-framework.json` records principal strand-to-function relationships; `results/source-function-map.csv` indexes actual citations in the functional findings. Imported `domains` fields remain historical topic codes (1–7/A1–A7), not the new functional numbering. The integrated discussion also assesses whether the combined information requirements are feasible together.

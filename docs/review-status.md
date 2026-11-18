@@ -1,7 +1,9 @@
-# v0.1.0 evidence snapshot — 18 November 2026
+# v0.2.0 functional synthesis — 18 November 2026
 
-Eleven relevant complete papers were received through institutional access, verified and appraised. Two replace previously partial files; one unrelated syllabus was excluded. The narrative now contrasts information regimes, conditional model transfer, loaded/empty OD consistency, data enrichment, microhub scenario operations and measurement-based emission assessment.
+The narrative now follows seven functional responsibilities, informed by eight evidence-search strands. Data feasibility and the MASS-GT configuration are integrated in every functional section. The methods and appendix explain the distinction and retain the original search identifiers. The protocol is version 0.3; the amendment follows the published v0.1.0 snapshot.
 
-The current cohort comprises 61 complete documents (59 domain evidence, two background). Three of the original priority requests and 25 additional requests remain unresolved. Queries and dates remain historical; no new topical search or independent duplicate screening is claimed. The source ledger preserves versions and inspected sections.
+Evidence is unchanged: 61 complete documents (59 substantive, two background), eleven relevant institutional papers, two superseded partial files and one unrelated upload excluded. Three original priority requests and 25 additional requests remain unresolved. No new search, new selection decision or independent second appraisal is claimed. Original reading notes and hashes remain the evidence base.
 
-The publication release v0.1.0 fixes the SLR evidence snapshot. NetSy implementation positioning and the user-facing comparison resource are a separate post-release task. PDFs obtained via institutional access remain outside the repository.
+A strand-to-function framework and a citation-to-function index accompany the manuscript. Functional synthesis does not evaluate NetSy's current algorithms or claim numerical superiority. The older comparison companion is a separate resource tied to its own recorded code snapshot, not the current SLR structure.
+
+This revision is released as v0.2.0 on the v0 publication line. The published v0.1.0 release is unchanged. Institutional-access PDFs remain outside the repository.

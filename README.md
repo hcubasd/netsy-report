@@ -3,12 +3,16 @@
 NetSy: **A Network loads and emissions Synthesizer**.
 
 Publication infrastructure and the NetSy literature review on `v0`.
-The current available-evidence review covers seven academic domains, with MASS-GT
-as a designated reference in each and data availability as the seventh domain.
+The current available-evidence review uses eight search strands: six subject
+areas, data availability/transferability, and MASS-GT reference discovery.
+Findings follow seven functional responsibilities, with data requirements and
+the MASS-GT configuration integrated into every section.
 A search/selection appendix prints all 33 retained query pairs, including
 model-name refinement, and records the limits of the current evidence base.
 Model positioning and implementation choices are deliberately deferred.
 The v0 line explicitly opts in to tagged PDF releases.
+Release v0.2.0 reorganizes the synthesis while retaining the evidence cohort of
+v0.1.0; the earlier published tag remains unchanged.
 
 ## Build
 
@@ -51,3 +55,7 @@ The checked local review is `dist/netsy-slr.pdf`. Build outputs are ignored and
 are not source-controlled. Tagged releases are enabled for this review line. Reference PDFs and the full
 review audit remain outside this checkout; portable query/reading metadata are
 versioned in `results/` and `references/`. See `docs/draft.md` for scope and provenance.
+`results/synthesis-framework.json` describes the search-to-function mapping;
+`results/source-function-map.csv` indexes citations by functional section.
+The historical `domains` fields in imported evidence retain search-strand
+identifiers A1–A7; they are not the new functional section numbers.

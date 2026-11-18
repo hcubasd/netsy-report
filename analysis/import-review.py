@@ -113,9 +113,12 @@ ranked windows, not complete database exports. Search expressions are
 engine-specific: conceptual Boolean syntax submitted to OpenAlex and term-based
 Crossref queries do not establish equivalent coverage.
 
-Seven topic streams identify the modelling literature. A separate model-name
-stream identifies MASS-GT; it is mapped into the domains during extraction,
-not appended with OR to every topic query. The first name query returned
+Eight complementary search strands comprise six subject searches, a separate
+search on data availability and transferability, and MASS-GT reference discovery.
+Their evidence is synthesized by functional responsibility, as described in
+Section~\ref{sec:review-framework}; data feasibility and the reference
+configuration inform every section. Historical identifiers A1--A7 and M remain
+unchanged. MASS-GT is not appended with OR to every subject query. The first name query returned
 non-transport material because of ambiguous name/token matching; the
 transport-qualified refinement is shown alongside that pilot. Superseded query
 variants from earlier rounds remain in the raw audit; the retained variants
@@ -124,7 +127,8 @@ retrieval and identity checks, not independent evidence of topical coverage.
 
 \subsection{Eligibility, selection and current accounting}\label{app:selection}
 Eligible sources provide an identifiable formulation, empirical assessment or
-data specification for at least one domain. Journal and conference papers,
+data specification informing a functional responsibility or its information
+requirements. Journal and conference papers,
 author versions, theses, books and official guidance are eligible, with source
 type retained. Optimization-only evidence is interpreted as planning evidence;
 conceptual proposals are not empirical validation. Generic shortest-path
@@ -133,7 +137,8 @@ files and abstracts cannot support performance findings. Search language and
 geographical scope are stated in Section~\ref{sec:slr-methodology}.
 
 DOIs are normalized and titles used where DOIs are absent. Duplicates can occur
-across queries and domains; a source may inform several domains without being
+across queries and search strands; a source may inform several responsibilities
+without being
 counted several times. Publication versions remain linked but distinguishable.
 For the November extension, the consolidated index contains 2,120 DOI/title-key
 records from 2,367 returned hits. These are retrieval counts, not numbers of
@@ -156,7 +161,7 @@ Institutionally supplied files (18 November) & 12 \\
 \quad Unrelated syllabus excluded & 1 \\
 Earlier partial placeholders replaced & 2 \\
 Current complete-document cohort & 61 \\
-\quad Retained as domain evidence & 59 \\
+\quad Retained as substantive evidence & 59 \\
 \quad Retained as background only & 2 \\
 \bottomrule
 \end{tabular}
@@ -240,8 +245,8 @@ for id in priority:
  if id not in byid:continue
  r=byid[id];A.append(esc(id)+' & '+esc(r['title'])+r'\newline '+r'\url{https://doi.org/'+r['doi']+r'} \\[.6em]')
 A += [r'\bottomrule\end{longtable}',r'''\subsection{Amendment and update boundary}
-The 16 November revision added the seventh domain, a separately retrieved
-MASS-GT anchor and explicit data-access extraction. The protocol for this
+The 16 November revision added a data-availability search strand, separate
+MASS-GT discovery and explicit data-access extraction. The protocol for this
 reassessment was recorded after exploratory collection, not backdated. The
 18 November amendment incorporates eleven institutionally supplied complete
 papers after identity, completeness and eligibility checks, excluding one
@@ -249,8 +254,15 @@ unrelated upload. Original search dates and expressions are unchanged: this is
 retrieval of previously identified sources, not a new database search. Relevant
 methods, data, results and limitations were inspected; the IEEE emissions paper
 required page-rendered OCR and visual checking because embedded text was corrupt.
-The v0.1.0 release fixes this evidence snapshot while remaining access gaps and
-search-coverage limitations stay explicit. No conclusion about NetSy's
+Release v0.1.0 fixed this evidence snapshot. A subsequent 18 November
+amendment reorganizes the narrative into seven functional responsibilities,
+informed by eight search strands. Data requirements and the MASS-GT reference
+are integrated within each responsibility. The search expressions, retrieval
+dates, source cohort and selection decisions are unchanged; no new database
+search or independent screening is implied. Historical metadata fields named
+\texttt{domains} retain A1--A7 retrieval-topic identifiers, not functional
+section numbers. Release v0.2.0 fixes this functional synthesis framework.
+Remaining access gaps and search-coverage limitations stay explicit. No conclusion about NetSy's
 implemented formulation, numerical superiority or general transferability is
 implied by this review.
 ''']
