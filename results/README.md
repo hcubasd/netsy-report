@@ -1,5 +1,8 @@
-# Numerical evidence
+# Article results
 
-Version small, curated numerical results needed to reproduce this publication's
-figures/tables. Record source model revisions, case inputs, assumptions and units.
-Keep large model inputs/outputs outside Git and document retrieval and checksums.
+No article results are claimed yet. The inherited palette file is a figure
+resource, not experimental evidence. The SLR's search and synthesis records
+remain at v0.2.0, rather than being presented as this paper's results.
+
+Store small reproducible result tables here once the experiment is defined.
+Keep large case inputs, source-paper PDFs and restricted records outside Git.

@@ -1,7 +1,12 @@
 {
-  "id": "netsy-slr",
-  "title": "NetSy: A Network loads and emissions Synthesizer",
-  "major": 0,
-  "publish_pdf": true,
-  "parent": null
+  "id": "netsy-trd",
+  "title": "NetSy transport and environment study",
+  "major": 1,
+  "publish_pdf": false,
+  "parent": {
+    "branch": "v0",
+    "commit": "bc28fd1fea954fa772c9b4378b42684b8f4135f6",
+    "tag": "v0.2.0",
+    "relationship": "Original research article informed by the reusable NetSy literature review; Dutch reference comparison and environmental assessment."
+  }
 }

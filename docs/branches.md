@@ -1,6 +1,8 @@
 # Publication graph
 
-`v0` is the NetSy literature-review publication line. Each publication has one long-lived branch (`v1`,
+`v0` is the NetSy literature-review publication line. `v1` is the proposed
+Transportation Research Part D original-research line, initialized from v0.2.0
+(`bc28fd1fea954fa772c9b4378b42684b8f4135f6`) with PDF releases disabled. Each publication has one long-lived branch (`v1`,
 `v2`, or an agreed codename) containing only its own manuscript and infrastructure.
 A new publication starts from a suitable infrastructure baseline or a specific commit in another paper.
 

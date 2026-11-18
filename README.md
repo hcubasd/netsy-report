@@ -1,61 +1,43 @@
-# NetSy publications
+# NetSy — proposed Transportation Research Part D article
 
-NetSy: **A Network loads and emissions Synthesizer**.
+`v1` is the first original-research publication line. Target venue:
+**Transportation Research Part D: Transport and Environment**. The title in
+`publication.json` is a working identifier, not an approved article title.
 
-Publication infrastructure and the NetSy literature review on `v0`.
-The current available-evidence review uses eight search strands: six subject
-areas, data availability/transferability, and MASS-GT reference discovery.
-Findings follow seven functional responsibilities, with data requirements and
-the MASS-GT configuration integrated into every section.
-A search/selection appendix prints all 33 retained query pairs, including
-model-name refinement, and records the limits of the current evidence base.
-Model positioning and implementation choices are deliberately deferred.
-The v0 line explicitly opts in to tagged PDF releases.
-Release v0.2.0 reorganizes the synthesis while retaining the evidence cohort of
-v0.1.0; the earlier published tag remains unchanged.
+The reusable SLR remains on `v0`, with [v0.2.0](https://github.com/hcubasd/netsy-report/releases/tag/v0.2.0)
+as this branch's background baseline. Git ancestry and `publication.json.parent`
+record the exact relationship. The SLR manuscript/search machinery is not
+carried as this article's active content; it remains available on its own branch.
+The inherited scientific bibliography and cached metadata are a starting pool,
+not a final selection of references for the article.
 
-## Build
+## Start here
 
-With Docker: `make container`. This uses the image digest in
-`infrastructure/texlive-image.txt`; no TeX installation or update occurs during CI.
+- [Venue reconnaissance](docs/venue/README.md).
+- [Requirements and unresolved verification](docs/venue/requirements.md).
+- [Patterns in three published articles](docs/venue/paper-patterns.md).
+- [Proposed paper outline and evidence decisions](docs/venue/paper-plan.md).
+- [Draft status](docs/draft.md) and [publication graph](docs/branches.md).
 
-With an existing TeX Live installation: `make check` (Python 3, make, latexmk,
-pdfLaTeX and Biber required). Local dependencies must already be installed.
-`make build` only compiles; `make check` also runs infrastructure tests, rejects
-unresolved references/citations and overfull boxes, and collects the checked PDF
-and build provenance in `dist/`. Underfull boxes remain informational.
-`make clean` removes generated files.
+The live journal author guide returned HTTP 403. Exact current word limits,
+review model and journal-specific submission requirements are not certified.
+Official publisher policies and the official LaTeX archive were collected;
+a historical 2022 guide is labelled as historical, not current authority.
 
-## Layout
+## Build and publication
 
-- `publication.json`: publication identity, release policy and parent manuscript.
-- `manuscript/`: LaTeX entry point and sections; journal classes can differ by branch.
-- `references/`: bibliography and reference metadata.
-- `figures/`, `tables/`: assets used by this manuscript.
-- `analysis/`, `results/`: generation scripts and small versioned numerical evidence.
-- `infrastructure/`, `scripts/`: pinned TeX environment and common build tools.
-- `docs/branches.md`: publication branching and release convention.
+`make check` builds a **planning placeholder**, runs infrastructure tests,
+checks layout/references, and writes `dist/netsy-trd.pdf` plus provenance.
+It does not build an actual paper or certify journal formatting. `make container`
+uses the inherited pinned TeX image; CI does not run live package updates.
 
-Large data and reference-paper PDFs stay outside Git. Root `data/` and `literature/`
-are ignored optional local directories; small publication figure PDFs are allowed.
+Branch pushes run CI. PDF publication is explicitly disabled for `v1`.
+Future approved milestones on this line use `v1.MINOR.PATCH` tags; no `v1.0.0`
+research release has been created. The source archive made for GitHub releases
+is not an Editorial Manager submission bundle: a flattened source exporter and
+journal-compatible bibliography workflow still need to be prepared.
 
-## CI and releases
-
-Branch pushes and pull requests call the same build workflow. Obsolete CI runs on
-the same ref are cancelled. Successful builds upload checked PDFs and provenance;
-logs are retained even on failure. These CI artifacts are not GitHub releases.
-
-Only a tag push matching `v*.*.*` can trigger CD. The exact tag must satisfy the
-three-number format and the major in publication.json. Publication lines without explicit opt-in are blocked.
-An eligible tag rebuilds/checks the manuscript, then publishes the PDF, source archive,
-provenance and SHA-256 checksums. Release jobs have write permission; checks do not.
-See `docs/branches.md` before enabling publication on a paper branch.
-
-The checked local review is `dist/netsy-slr.pdf`. Build outputs are ignored and
-are not source-controlled. Tagged releases are enabled for this review line. Reference PDFs and the full
-review audit remain outside this checkout; portable query/reading metadata are
-versioned in `results/` and `references/`. See `docs/draft.md` for scope and provenance.
-`results/synthesis-framework.json` describes the search-to-function mapping;
-`results/source-function-map.csv` indexes citations by functional section.
-The historical `domains` fields in imported evidence retain search-strand
-identifiers A1–A7; they are not the new functional section numbers.
+Large source PDFs and retrieval snapshots stay outside Git, in the local recon
+collection at `/workdir/docs/report-planning/trd-recon/`. The portable findings
+are versioned in `docs/venue/`. No results, authors, funding statements or
+journal submission have been fabricated or initiated.

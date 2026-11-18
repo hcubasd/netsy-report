@@ -1,0 +1,330 @@
+{
+  "checked_date": "2026-11-18",
+  "live_journal_guide_verified": false,
+  "main_text_maximum_verified": false,
+  "local_raw_collection": "/workdir/docs/report-planning/trd-recon",
+  "official_retrievals": [
+    {
+      "id": "guide",
+      "url": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment/publish/guide-for-authors",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "author-pack",
+      "url": "https://www.elsevier.com/inca/publications/misc/30488authorinfo.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "author-pack-api",
+      "url": "https://www.elsevier.com/__data/promis_misc/30488authorinfo.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "author-pack-api2",
+      "url": "https://legacyfileshare.elsevier.com/promis_misc/30488authorinfo.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "latex",
+      "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+      "final_url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions",
+      "status": 200,
+      "size": 252583,
+      "file": "latex.html",
+      "sha256": "eff1c67d6f26903ad1b34193a9cbec2b16bf4b55525b9fa5d98b3654b136dd39",
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:02:05.042419+00:00"
+    },
+    {
+      "id": "legacy-pack",
+      "url": "https://www.elsevier.com/wps/find/journaldescription.cws_home/30488/authorinstructions",
+      "final_url": "https://www.elsevier.com/products/journals",
+      "status": 200,
+      "size": 200899,
+      "file": "legacy-pack.html",
+      "sha256": "743acd2bec6ef429bea7d19ac7e80020ca713514674f0dccdb8cb4f9675cec39",
+      "checked_date": "2026-11-18",
+      "usable_as_journal_guide": false,
+      "note": "Redirected to generic journal catalog; not the requested author guide.",
+      "saved_at_utc": "2026-11-18T19:02:03.987728+00:00"
+    },
+    {
+      "id": "guide-pdf",
+      "url": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment/publish/guide-for-authors?generatepdf=true",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "latex-template",
+      "url": "https://legacyfileshare.elsevier.com/promis_misc/elsarticle-template.zip",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "scope",
+      "url": "https://shop.elsevier.com/journals/transportation-research-part-d-transport-and-environment/1361-9209",
+      "final_url": "https://shop.elsevier.com/journals/transportation-research-part-d-transport-and-environment/1361-9209",
+      "status": 200,
+      "file": "scope.html",
+      "sha256": "2f79440d447ad41eda0a6217c6af21569d237855c7aa9807db39ccf4670b83eb",
+      "bytes": 184178,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:04:27.331316+00:00"
+    },
+    {
+      "id": "ethics",
+      "url": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+      "final_url": "https://www.elsevier.com/about/policies-and-standards/publishing-ethics",
+      "status": 200,
+      "file": "ethics.html",
+      "sha256": "72664ea99cf57fdce3209374175951add3f5884b91faabd51d7059a95c503297",
+      "bytes": 315325,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:04:28.429896+00:00"
+    },
+    {
+      "id": "ai-policy",
+      "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "final_url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "status": 200,
+      "file": "ai-policy.html",
+      "sha256": "46c0aafa5fdeab2cc49bf549d24c8e7ccbdd01509575a0901cab2055c31bf006",
+      "bytes": 388275,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:04:26.315023+00:00"
+    },
+    {
+      "id": "research-data",
+      "url": "https://www.elsevier.com/about/policies-and-standards/research-data",
+      "final_url": "https://www.elsevier.com/about/policies-and-standards/research-data",
+      "status": 200,
+      "file": "research-data.html",
+      "sha256": "97551460bb4e34a56cfda65b877a11a4a50c32a22ea59a4f9d5af4ddf60faf7d",
+      "bytes": 217240,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:04:28.303681+00:00"
+    },
+    {
+      "id": "artwork",
+      "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/artwork-and-media-instructions",
+      "error": "HTTP Error 404: Not Found",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "highlights",
+      "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/highlights",
+      "error": "HTTP Error 404: Not Found",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "graphical-abstract",
+      "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/graphical-abstract",
+      "error": "HTTP Error 404: Not Found",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "journal-oa",
+      "url": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment/publish/open-access-options",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_date": "2026-11-18"
+    },
+    {
+      "id": "elsarticle-template",
+      "url": "https://assets.ctfassets.net/o78em1y1w4i4/4MpsJHO0MOJ2xZuwGTAbOZ/7bc64af36477c5d6cfce335a1f872363/elsarticle.zip",
+      "final_url": "https://assets.ctfassets.net/o78em1y1w4i4/4MpsJHO0MOJ2xZuwGTAbOZ/7bc64af36477c5d6cfce335a1f872363/elsarticle.zip",
+      "status": 200,
+      "file": "elsarticle-template.zip",
+      "sha256": "0b093093e84db49f99bcc9a7c3f69ed1fb61b0147c6d296427aff7963e7f50f6",
+      "bytes": 1430199,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:04:27.663548+00:00"
+    },
+    {
+      "id": "highlights-current",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/highlights",
+      "final_url": "https://www.elsevier.com/researcher/author/tools-and-resources/highlights",
+      "status": 200,
+      "file": "highlights-current.html",
+      "sha256": "cd2e11c53baa9d80267facff2d37723896e1870018b3d6cee207cc1db35c45a5",
+      "bytes": 205974,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:07:29.609607+00:00"
+    },
+    {
+      "id": "graphical-current",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract",
+      "final_url": "https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract",
+      "status": 200,
+      "file": "graphical-current.html",
+      "sha256": "f7f573a55f0592d499ee09e2d451619a38136cd22b8872ab403947778a1e815d",
+      "bytes": 234143,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:07:28.632376+00:00"
+    },
+    {
+      "id": "artwork-overview",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview",
+      "final_url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview",
+      "status": 200,
+      "file": "artwork-overview.html",
+      "sha256": "cbdaefd36a248490e6993994c411c0ee19511b0a7c2faceee55f16adb0636b3c",
+      "bytes": 208470,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:07:29.498699+00:00"
+    },
+    {
+      "id": "artwork-sizing",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-sizing",
+      "final_url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-sizing",
+      "status": 200,
+      "file": "artwork-sizing.html",
+      "sha256": "853c28364d0debae8eda43b998fa85c6e98ea445b4ce0daf0d4cbc8bed61376e",
+      "bytes": 211134,
+      "checked_date": "2026-11-18",
+      "saved_at_utc": "2026-11-18T19:07:29.855202+00:00"
+    },
+    {
+      "id": "journal-guide-historical-mirror",
+      "url": "https://www.readkong.com/page/transportation-research-part-d-transport-and-environment-4012795",
+      "final_url": "https://www.readkong.com/page/transportation-research-part-d-transport-and-environment-4012795",
+      "status": 200,
+      "file": "journal-guide-historical-mirror.html",
+      "sha256": "a5899fd6480686574aeda524583ab4d9f4aa41a3ffc95e4c71e1fe7b89853adc",
+      "bytes": 158725,
+      "checked_date": "2026-11-18",
+      "authority": "third-party mirror of an Elsevier document dated 4 January 2022; historical only, not current verification",
+      "saved_at_utc": "2026-11-18T19:07:31.158872+00:00"
+    }
+  ],
+  "paper_retrievals": [
+    {
+      "id": "P01",
+      "doi": "10.1016/j.trd.2023.104020",
+      "pdf_attempts": [],
+      "openalex_error": "HTTP Error 404: Not Found",
+      "pdf": "P01.pdf",
+      "download_url": "https://pure.tudelft.nl/ws/portalfiles/portal/175612911/1-s2.0-S1361920923004170-main.pdf",
+      "final_url": "https://pure.tudelft.nl/ws/portalfiles/portal/175612911/1-s2.0-S1361920923004170-main.pdf",
+      "pdf_sha256": "394bf0005fdbf0561cb7550473f8296f32bdfcb244f761729463873b112f6743",
+      "bytes": 4078122,
+      "title": "Dynamics of freight transport decarbonization: A simulation study for Brazil",
+      "authors": "Ghisolfi, Tavasszy, Correia, Chaves and Ribeiro",
+      "year": 2024,
+      "accepted": "2023-12-10",
+      "online": "2024-01-15",
+      "version": "publisher version with repository cover",
+      "access": "public institutional repository; Taverne notice, not a CC licence",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": true,
+      "initial_lookup": {
+        "doi_guess": "10.1016/j.trd.2024.104020",
+        "error": "HTTP Error 429: Too Many Requests",
+        "note": "Corrected using downloaded publisher PDF or verified publisher DOI and OpenAlex metadata."
+      }
+    },
+    {
+      "id": "P02",
+      "doi": "10.1016/j.trd.2022.103569",
+      "pdf_attempts": [
+        {
+          "url": "https://toi.brage.unit.no/toi-xmlui/bitstream/handle/11250/3071347/Rosenberg_et_al_Transportation%2BResearch%2BPart%2BD_2023_103569.pdf?isAllowed=y&sequence=1",
+          "error": "<urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "openalex_error": "HTTP Error 404: Not Found",
+      "title": "Modelling the interaction between the energy system and road freight in Norway",
+      "selection": "not in full-text structural sample",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": false,
+      "initial_lookup": {
+        "doi_guess": "10.1016/j.trd.2023.103569",
+        "error": "HTTP Error 404: Not Found",
+        "note": "Corrected using downloaded publisher PDF or verified publisher DOI and OpenAlex metadata."
+      }
+    },
+    {
+      "id": "P03",
+      "doi": "10.1016/j.trd.2025.104955",
+      "pdf_attempts": [],
+      "metadata_error": "HTTP Error 429: Too Many Requests",
+      "pdf": "P03.pdf",
+      "download_url": "https://henry.baw.de/server/api/core/bitstreams/89bc7a5a-f22d-45c3-815e-4a8edd48552f/content",
+      "final_url": "https://henry.baw.de/server/api/core/bitstreams/89bc7a5a-f22d-45c3-815e-4a8edd48552f/content",
+      "pdf_sha256": "38e21eb1394d035d8ed9853b5d397c474f2a106dafd84f8e366d0a6d5d3edf33",
+      "bytes": 4313985,
+      "title": "Exhaust emission rates along German inland waterways",
+      "authors": "Weber, Stachel and Noss",
+      "year": 2025,
+      "accepted": "2025-08-06",
+      "online": "2025-08-16",
+      "version": "publisher version",
+      "access": "public institutional repository; CC BY stated in PDF",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": true
+    },
+    {
+      "id": "P04",
+      "doi": "10.1016/j.trd.2025.104956",
+      "pdf_attempts": [],
+      "metadata_error": "HTTP Error 429: Too Many Requests",
+      "pdf": "P04.pdf",
+      "download_url": "https://dk.upce.cz/bitstreams/260b9fe0-7ded-4df0-8279-b13ba6fd9ce0/download",
+      "final_url": "https://dk.upce.cz/server/api/core/bitstreams/260b9fe0-7ded-4df0-8279-b13ba6fd9ce0/content",
+      "pdf_sha256": "9c3016597a7e35cf8851e6c182898b200479e54dec9b4bab7f74fbb65b8b689e",
+      "bytes": 13060523,
+      "title": "Navigating the future of urban logistics: Conceptual framework for Dynamic Freight Management",
+      "authors": "Galkin, Svadlenka, Vrba and Kijewska",
+      "year": 2025,
+      "accepted": "2025-08-06",
+      "online": "2025-08-20",
+      "version": "publisher version",
+      "access": "public institutional repository; CC BY-NC stated in PDF",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": true
+    },
+    {
+      "id": "P05",
+      "doi": "10.1016/j.trd.2020.102468",
+      "pdf_attempts": [],
+      "title": "Comparing emission estimation models for rail freight transportation",
+      "journal": [
+        "Transportation Research Part D: Transport and Environment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            9
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": false
+    },
+    {
+      "id": "P06",
+      "doi": "10.1016/j.trd.2025.105114",
+      "pdf_attempts": [],
+      "title": "Linking freight transport and energy system models for strategic investments decisions",
+      "journal": [
+        "Transportation Research Part D: Transport and Environment"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "checked_date": "2026-11-18",
+      "in_structural_sample": false
+    }
+  ]
+}
