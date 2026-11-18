@@ -30,8 +30,8 @@ def release_tag(tag, config):
         raise ValueError('release tags must be vMAJOR.MINOR.PATCH without leading zeros')
     if int(match[1]) != config['major']:
         raise ValueError('tag major does not match publication.json')
-    if config['major'] == 0 or not config['publish_pdf']:
-        raise ValueError('PDF publication is disabled for this branch/template')
+    if not config['publish_pdf']:
+        raise ValueError('PDF publication is disabled for this publication line')
     return tag
 
 

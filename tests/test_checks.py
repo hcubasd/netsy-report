@@ -28,10 +28,10 @@ class PublicationChecks(unittest.TestCase):
     def test_clean_log(self):
         self.assertEqual(project.log_problems('Output written on main.pdf (1 page).'), [])
 
-    def test_template_cannot_publish_even_if_enabled(self):
-        for enabled in (False, True):
-            with self.assertRaises(ValueError):
-                project.release_tag('v0.1.0', {'major': 0, 'publish_pdf': enabled})
+    def test_major_zero_requires_publication_opt_in(self):
+        with self.assertRaises(ValueError):
+            project.release_tag('v0.1.0', {'major': 0, 'publish_pdf': False})
+        self.assertEqual(project.release_tag('v0.1.0', {'major': 0, 'publish_pdf': True}), 'v0.1.0')
 
     def test_publication_must_opt_in(self):
         with self.assertRaises(ValueError):

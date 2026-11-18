@@ -1,8 +1,8 @@
 # Publication graph
 
-`v0` is the evolving template. Each publication has one long-lived branch (`v1`,
+`v0` is the NetSy literature-review publication line. Each publication has one long-lived branch (`v1`,
 `v2`, or an agreed codename) containing only its own manuscript and infrastructure.
-A new publication starts from the template or a specific commit in another paper.
+A new publication starts from a suitable infrastructure baseline or a specific commit in another paper.
 
 Record its source branch/commit and scientific relationship in `publication.json`
 (`parent`, e.g. {"branch": "v1", "commit": "FULL_SHA", "relationship": "..."}).
@@ -16,8 +16,9 @@ claim under strict Semantic Versioning. Tags are repository-wide: reserve a dist
 major number per publication, even if branches have descriptive codenames.
 
 Keep infrastructure changes in separate commits so they can be cherry-picked.
-General infrastructure changes originate on `v0`; venue-specific changes remain on
-the paper branch. Do not routinely merge template manuscript changes into a paper.
+General infrastructure changes may originate on `v0`; venue-specific changes remain on
+the paper branch. Cherry-pick relevant infrastructure changes rather than routinely
+merging another publication’s manuscript.
 
 Before a publication release:
 1. Set `id`, `title` and the reserved `major` in publication.json; record `parent`.
@@ -25,7 +26,6 @@ Before a publication release:
 3. Set `publish_pdf` to true only when PDF releases are appropriate.
 4. Pass CI; tag the intended commit with its matching major version and push the tag.
 
-No release tag is created by initialization. Template PDF publication is disabled.
-Changing that policy requires an explicit source change; the guard also rejects
-all major-zero PDF releases. Tags for template history can exist, but the release
-workflow deliberately refuses to publish them.
+Initialization did not publish a PDF. The literature review now explicitly opts in to
+PDF releases on v0, including v0.1.0. Every publication line, including major zero,
+must set publish_pdf to true and use a tag matching its reserved major.
