@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": { "palette": "node generate-palette.mjs" },
+  "dependencies": { "nicrainha": "1.1.0" }
+}

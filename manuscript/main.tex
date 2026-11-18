@@ -1,18 +1,45 @@
 \documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage[english]{babel}
+\usepackage[a4paper,margin=25mm]{geometry}
 \usepackage{csquotes}
-\usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage[backend=biber,style=authoryear]{biblatex}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage[backend=biber,style=authoryear,maxcitenames=2,maxbibnames=6,
+  giveninits=true,useprefix=true,uniquename=init,uniquelist=false,dashed=false,url=false,doi=true]{biblatex}
 \usepackage[hidelinks]{hyperref}
+\setcounter{biburllcpenalty}{100}
+\setcounter{biburlucpenalty}{100}
+\setcounter{biburlnumpenalty}{100}
 \addbibresource{../references/references.bib}
-\title{NetSy publication template}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\setlength{\emergencystretch}{1.5em}
+\title{NetSy: A Network loads and emissions Synthesizer}
+\hypersetup{pdftitle={NetSy: A Network loads and emissions Synthesizer}}
 \author{}
-\date{}
+\date{Literature review --- v0.1.0 --- 18 November 2026}
 \begin{document}
 \maketitle
-\input{sections/placeholder}
-\printbibliography
+\begin{abstract}
+Freight network-load and emissions synthesis connects economic activity,
+logistics decisions, vehicle operations and road-network use. This review maps
+those foundations across seven domains, including data availability and
+transferability. It synthesizes the currently accessible literature and official
+guidance, with MASS-GT as a designated reference configuration. The evidence
+supports established consistency principles alongside context-dependent
+formulations and uneven validation. Documented data configurations combine
+public statistics, restricted records and estimated information; their usable
+stratification cannot be inferred from nominal data availability alone. The
+search and selection record is reported explicitly, including bounded retrieval
+and outstanding full-text access. NetSy's implementation choices are deferred.
+\end{abstract}
+\input{sections/slr/review}
+\clearpage
+\appendix
+\input{sections/slr/search-appendix}
+\clearpage
+\printbibliography[heading=bibintoc]
 \end{document}

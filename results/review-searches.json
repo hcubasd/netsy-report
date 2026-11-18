@@ -1,0 +1,1217 @@
+{
+  "scope": "Dated bounded searches; retained exploratory queries and explicit model-name refinement. Search hits are not included studies.",
+  "queries": [
+    {
+      "id": "A1-I-1",
+      "folder": "01-demand-generation",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "generation",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight generation\" OR \"freight trip generation\") AND (model OR review)",
+          "parameters": {
+            "search.title_and_abstract": "(\"freight generation\" OR \"freight trip generation\") AND (model OR review)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:41.178442+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22freight+generation%22+OR+%22freight+trip+generation%22%29+AND+%28model+OR+review%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight generation freight trip generation models",
+          "parameters": {
+            "query.bibliographic": "freight generation freight trip generation models",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:40.496048+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+generation+freight+trip+generation+models&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A1-I-2",
+      "folder": "01-demand-generation",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "representation-v2",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"synthetic firms\" OR \"firm synthesis\" OR \"synthetic establishments\" OR \"synthetic business\") AND (freight OR logistics OR transport)",
+          "parameters": {
+            "search.title_and_abstract": "(\"synthetic firms\" OR \"firm synthesis\" OR \"synthetic establishments\" OR \"synthetic business\") AND (freight OR logistics OR transport)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:27:22.624374+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22synthetic+firms%22+OR+%22firm+synthesis%22+OR+%22synthetic+establishments%22+OR+%22synthetic+business%22%29+AND+%28freight+OR+logistics+OR+transport%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 8,
+          "error": null
+        },
+        "crossref": {
+          "query": "synthetic firms establishments freight population synthesis",
+          "parameters": {
+            "query.bibliographic": "synthetic firms establishments freight population synthesis",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:27:22.894834+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=synthetic+firms+establishments+freight+population+synthesis&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A2-I-1",
+      "folder": "02-spatial-exchange",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "spatial-models",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR commodity) AND (\"spatial interaction\" OR \"gravity model\" OR \"input-output\")",
+          "parameters": {
+            "search.title_and_abstract": "(freight OR commodity) AND (\"spatial interaction\" OR \"gravity model\" OR \"input-output\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:43.715936+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28freight+OR+commodity%29+AND+%28%22spatial+interaction%22+OR+%22gravity+model%22+OR+%22input-output%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight commodity spatial interaction gravity input output models",
+          "parameters": {
+            "query.bibliographic": "freight commodity spatial interaction gravity input output models",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:43.483960+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+commodity+spatial+interaction+gravity+input+output+models&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A2-I-2",
+      "folder": "02-spatial-exchange",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "od-inference",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR truck) AND (\"origin destination\" OR \"origin-destination\") AND (estimation OR synthesis)",
+          "parameters": {
+            "search.title_and_abstract": "(freight OR truck) AND (\"origin destination\" OR \"origin-destination\") AND (estimation OR synthesis)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:44.665812+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28freight+OR+truck%29+AND+%28%22origin+destination%22+OR+%22origin-destination%22%29+AND+%28estimation+OR+synthesis%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight origin destination matrix estimation synthesis",
+          "parameters": {
+            "query.bibliographic": "freight origin destination matrix estimation synthesis",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:44.726319+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+origin+destination+matrix+estimation+synthesis&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A3-I-1",
+      "folder": "03-logistics-decisions",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "decision-frameworks-v2",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "freight AND (\"logistics decisions\" OR \"logistics services\" OR \"logistics networks\")",
+          "parameters": {
+            "search.title_and_abstract": "freight AND (\"logistics decisions\" OR \"logistics services\" OR \"logistics networks\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:27:23.893271+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=freight+AND+%28%22logistics+decisions%22+OR+%22logistics+services%22+OR+%22logistics+networks%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "descriptive freight logistics decisions model review",
+          "parameters": {
+            "query.bibliographic": "descriptive freight logistics decisions model review",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:27:24.167149+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=descriptive+freight+logistics+decisions+model+review&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A3-I-2",
+      "folder": "03-logistics-decisions",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "shipment-inventory",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"shipment size\" OR \"shipment frequency\") AND (inventory OR \"mode choice\" OR \"freight model\")",
+          "parameters": {
+            "search.title_and_abstract": "(\"shipment size\" OR \"shipment frequency\") AND (inventory OR \"mode choice\" OR \"freight model\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:47.285506+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22shipment+size%22+OR+%22shipment+frequency%22%29+AND+%28inventory+OR+%22mode+choice%22+OR+%22freight+model%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "shipment size inventory freight transport mode choice model",
+          "parameters": {
+            "query.bibliographic": "shipment size inventory freight transport mode choice model",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:47.102914+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=shipment+size+inventory+freight+transport+mode+choice+model&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A4-I-1",
+      "folder": "04-vehicle-operations",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "routing-formulations",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "\"vehicle routing\" AND (review OR survey OR \"savings algorithm\")",
+          "parameters": {
+            "search.title_and_abstract": "\"vehicle routing\" AND (review OR survey OR \"savings algorithm\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:49.010390+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%22vehicle+routing%22+AND+%28review+OR+survey+OR+%22savings+algorithm%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "vehicle routing problem survey classical heuristics savings",
+          "parameters": {
+            "query.bibliographic": "vehicle routing problem survey classical heuristics savings",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:49.483703+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=vehicle+routing+problem+survey+classical+heuristics+savings&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A4-I-2",
+      "folder": "04-vehicle-operations",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "descriptive-tours",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR commercial) AND (\"tour formation\" OR \"tour based\" OR \"tour-based\")",
+          "parameters": {
+            "search.title_and_abstract": "(freight OR commercial) AND (\"tour formation\" OR \"tour based\" OR \"tour-based\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:48.374613+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28freight+OR+commercial%29+AND+%28%22tour+formation%22+OR+%22tour+based%22+OR+%22tour-based%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight descriptive tour formation tour based model",
+          "parameters": {
+            "query.bibliographic": "freight descriptive tour formation tour based model",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:48.248606+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+descriptive+tour+formation+tour+based+model&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A5-I-1",
+      "folder": "05-network-models",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "assignment",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "\"traffic assignment\" AND (equilibrium OR stochastic OR \"all-or-nothing\")",
+          "parameters": {
+            "search.title_and_abstract": "\"traffic assignment\" AND (equilibrium OR stochastic OR \"all-or-nothing\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:50.715306+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%22traffic+assignment%22+AND+%28equilibrium+OR+stochastic+OR+%22all-or-nothing%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "traffic assignment user equilibrium stochastic models",
+          "parameters": {
+            "query.bibliographic": "traffic assignment user equilibrium stochastic models",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:50.446687+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=traffic+assignment+user+equilibrium+stochastic+models&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A5-I-2",
+      "folder": "05-network-models",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "freight-paths",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "\"route choice\" AND (freight OR truck)",
+          "parameters": {
+            "search.title_and_abstract": "\"route choice\" AND (freight OR truck)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:51.738875+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%22route+choice%22+AND+%28freight+OR+truck%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight truck route choice model",
+          "parameters": {
+            "query.bibliographic": "freight truck route choice model",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:51.644812+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+truck+route+choice+model&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A6-I-1",
+      "folder": "06-energy-emissions",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "emission-models",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "\"road transport\" AND (\"emission models\" OR \"emission inventory\" OR \"emission factors\")",
+          "parameters": {
+            "search.title_and_abstract": "\"road transport\" AND (\"emission models\" OR \"emission inventory\" OR \"emission factors\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:52.741119+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%22road+transport%22+AND+%28%22emission+models%22+OR+%22emission+inventory%22+OR+%22emission+factors%22%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "road transport emission models review emission factors",
+          "parameters": {
+            "query.bibliographic": "road transport emission models review emission factors",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:52.755804+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=road+transport+emission+models+review+emission+factors&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A6-I-2",
+      "folder": "06-energy-emissions",
+      "stage": "I",
+      "date": "2026-11-11",
+      "iteration": "energy-models",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(vehicle OR truck) AND (\"energy consumption model\" OR \"fuel consumption model\") AND (review OR gradient OR load)",
+          "parameters": {
+            "search.title_and_abstract": "(vehicle OR truck) AND (\"energy consumption model\" OR \"fuel consumption model\") AND (review OR gradient OR load)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:26:54.162182+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28vehicle+OR+truck%29+AND+%28%22energy+consumption+model%22+OR+%22fuel+consumption+model%22%29+AND+%28review+OR+gradient+OR+load%29&per-page=25&filter=to_publication_date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "vehicle fuel energy consumption models review load gradient",
+          "parameters": {
+            "query.bibliographic": "vehicle fuel energy consumption models review load gradient",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-11"
+          },
+          "retrieved_at_utc": "2026-11-11T21:25:53.712813+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=vehicle+fuel+energy+consumption+models+review+load+gradient&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-11",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A1-II-1",
+      "folder": "01-demand-generation",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "generation-transfer",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight generation\" OR \"freight trip generation\") AND (transferability OR comparison OR validation OR conceptualizing)",
+          "parameters": {
+            "search.title_and_abstract": "(\"freight generation\" OR \"freight trip generation\") AND (transferability OR comparison OR validation OR conceptualizing)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:07.027922+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22freight+generation%22+OR+%22freight+trip+generation%22%29+AND+%28transferability+OR+comparison+OR+validation+OR+conceptualizing%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight generation trip generation model comparison spatial transferability validation",
+          "parameters": {
+            "query.bibliographic": "freight generation trip generation model comparison spatial transferability validation",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:08.667206+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+generation+trip+generation+model+comparison+spatial+transferability+validation&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A1-II-2",
+      "folder": "01-demand-generation",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "firm-controls-v2",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"population synthesis\" OR \"synthetic firms\") AND (transport OR firms OR establishments) AND (\"iterative proportional\" OR \"combinatorial optimization\" OR comparison)",
+          "parameters": {
+            "search.title_and_abstract": "(\"population synthesis\" OR \"synthetic firms\") AND (transport OR firms OR establishments) AND (\"iterative proportional\" OR \"combinatorial optimization\" OR comparison)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:56.901268+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22population+synthesis%22+OR+%22synthetic+firms%22%29+AND+%28transport+OR+firms+OR+establishments%29+AND+%28%22iterative+proportional%22+OR+%22combinatorial+optimization%22+OR+comparison%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "population synthesis transport firms iterative proportional fitting combinatorial optimization comparison",
+          "parameters": {
+            "query.bibliographic": "population synthesis transport firms iterative proportional fitting combinatorial optimization comparison",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:56:00.845785+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=population+synthesis+transport+firms+iterative+proportional+fitting+combinatorial+optimization+comparison&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A2-II-1",
+      "folder": "02-spatial-exchange",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "spatial-closure",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight\" OR \"trade flows\") AND (\"input-output\" OR \"spatial equilibrium\" OR \"cross entropy\") AND (estimation OR comparison OR review)",
+          "parameters": {
+            "search.title_and_abstract": "(\"freight\" OR \"trade flows\") AND (\"input-output\" OR \"spatial equilibrium\" OR \"cross entropy\") AND (estimation OR comparison OR review)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:12.975001+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22freight%22+OR+%22trade+flows%22%29+AND+%28%22input-output%22+OR+%22spatial+equilibrium%22+OR+%22cross+entropy%22%29+AND+%28estimation+OR+comparison+OR+review%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight trade flows input output spatial equilibrium cross entropy comparison",
+          "parameters": {
+            "query.bibliographic": "freight trade flows input output spatial equilibrium cross entropy comparison",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:13.930940+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+trade+flows+input+output+spatial+equilibrium+cross+entropy+comparison&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A2-II-2",
+      "folder": "02-spatial-exchange",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "inverse-od",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight\" OR \"truck\") AND (\"origin-destination\" OR \"origin destination\") AND (\"traffic counts\" OR \"empty trips\" OR estimation)",
+          "parameters": {
+            "search.title_and_abstract": "(\"freight\" OR \"truck\") AND (\"origin-destination\" OR \"origin destination\") AND (\"traffic counts\" OR \"empty trips\" OR estimation)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:15.617521+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22freight%22+OR+%22truck%22%29+AND+%28%22origin-destination%22+OR+%22origin+destination%22%29+AND+%28%22traffic+counts%22+OR+%22empty+trips%22+OR+estimation%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight origin destination synthesis estimation traffic counts empty trips",
+          "parameters": {
+            "query.bibliographic": "freight origin destination synthesis estimation traffic counts empty trips",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:16.424813+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+origin+destination+synthesis+estimation+traffic+counts+empty+trips&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A3-II-1",
+      "folder": "03-logistics-decisions",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "joint-logistics",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"shipment size\" AND (\"transport chain\" OR \"mode choice\")) AND (estimation OR empirical OR joint)",
+          "parameters": {
+            "search.title_and_abstract": "(\"shipment size\" AND (\"transport chain\" OR \"mode choice\")) AND (estimation OR empirical OR joint)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:18.536948+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22shipment+size%22+AND+%28%22transport+chain%22+OR+%22mode+choice%22%29%29+AND+%28estimation+OR+empirical+OR+joint%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "joint shipment size transport chain mode choice empirical estimation inventory",
+          "parameters": {
+            "query.bibliographic": "joint shipment size transport chain mode choice empirical estimation inventory",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:19.144837+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=joint+shipment+size+transport+chain+mode+choice+empirical+estimation+inventory&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A3-II-2",
+      "folder": "03-logistics-decisions",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "logistics-segmentation",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"shipment size\" OR \"logistics choices\") AND (\"latent\" OR \"sequential\" OR \"stability\" OR validation)",
+          "parameters": {
+            "search.title_and_abstract": "(\"shipment size\" OR \"logistics choices\") AND (\"latent\" OR \"sequential\" OR \"stability\" OR validation)",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:21.011338+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22shipment+size%22+OR+%22logistics+choices%22%29+AND+%28%22latent%22+OR+%22sequential%22+OR+%22stability%22+OR+validation%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight shipment size logistics choices joint sequential latent classes temporal stability",
+          "parameters": {
+            "query.bibliographic": "freight shipment size logistics choices joint sequential latent classes temporal stability",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:21.858929+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+shipment+size+logistics+choices+joint+sequential+latent+classes+temporal+stability&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A4-II-1",
+      "folder": "04-vehicle-operations",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "tour-evidence",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight\" OR \"commercial vehicle\") AND (\"tour\" OR \"empty trips\") AND (transferability OR validation OR \"inverse optimization\")",
+          "parameters": {
+            "search.title_and_abstract": "(\"freight\" OR \"commercial vehicle\") AND (\"tour\" OR \"empty trips\") AND (transferability OR validation OR \"inverse optimization\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:23.542010+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22freight%22+OR+%22commercial+vehicle%22%29+AND+%28%22tour%22+OR+%22empty+trips%22%29+AND+%28transferability+OR+validation+OR+%22inverse+optimization%22%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight tour models empty trips inverse optimization validation transferability",
+          "parameters": {
+            "query.bibliographic": "freight tour models empty trips inverse optimization validation transferability",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:25.126152+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+tour+models+empty+trips+inverse+optimization+validation+transferability&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A5-II-1",
+      "folder": "05-network-models",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "assignment-validation",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(\"traffic assignment\" OR \"route choice\") AND (freight OR truck) AND (validation OR comparison OR \"stochastic\")",
+          "parameters": {
+            "search.title_and_abstract": "(\"traffic assignment\" OR \"route choice\") AND (freight OR truck) AND (validation OR comparison OR \"stochastic\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:27.058286+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28%22traffic+assignment%22+OR+%22route+choice%22%29+AND+%28freight+OR+truck%29+AND+%28validation+OR+comparison+OR+%22stochastic%22%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight truck traffic assignment route choice stochastic validation comparison",
+          "parameters": {
+            "query.bibliographic": "freight truck traffic assignment route choice stochastic validation comparison",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:27.663930+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+truck+traffic+assignment+route+choice+stochastic+validation+comparison&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A6-II-1",
+      "folder": "06-energy-emissions",
+      "stage": "II",
+      "date": "2026-11-12",
+      "iteration": "emission-scale",
+      "limit": 25,
+      "role": "active retained exploratory query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR truck OR \"road transport\") AND (\"emission models\" OR \"emission inventories\" OR \"fuel consumption models\") AND (comparison OR validation OR \"driving behaviour\")",
+          "parameters": {
+            "search.title_and_abstract": "(freight OR truck OR \"road transport\") AND (\"emission models\" OR \"emission inventories\" OR \"fuel consumption models\") AND (comparison OR validation OR \"driving behaviour\")",
+            "per-page": 25,
+            "filter": "to_publication_date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:29.272225+00:00",
+          "request_url": "https://api.openalex.org/works?search.title_and_abstract=%28freight+OR+truck+OR+%22road+transport%22%29+AND+%28%22emission+models%22+OR+%22emission+inventories%22+OR+%22fuel+consumption+models%22%29+AND+%28comparison+OR+validation+OR+%22driving+behaviour%22%29&per-page=25&filter=to_publication_date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight road transport emission fuel consumption model comparison validation average speed driving behaviour",
+          "parameters": {
+            "query.bibliographic": "freight road transport emission fuel consumption model comparison validation average speed driving behaviour",
+            "rows": 25,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-12"
+          },
+          "retrieved_at_utc": "2026-11-12T13:55:30.822742+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+road+transport+emission+fuel+consumption+model+comparison+validation+average+speed+driving+behaviour&rows=25&sort=relevance&filter=until-pub-date%3A2026-11-12",
+          "returned": 25,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A1-III-generation",
+      "folder": "01-demand-generation",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "generation",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight generation\" OR \"freight trip generation\") AND (establishment OR synthesis OR transferability)",
+          "parameters": {
+            "search": "(\"freight generation\" OR \"freight trip generation\") AND (establishment OR synthesis OR transferability)",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:16.716919+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28%22freight+generation%22+OR+%22freight+trip+generation%22%29+AND+%28establishment+OR+synthesis+OR+transferability%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 488,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight generation establishments synthetic population transferability",
+          "parameters": {
+            "query.bibliographic": "freight generation establishments synthetic population transferability",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:18.847175+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+generation+establishments+synthetic+population+transferability&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 1800566,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A2-III-spatial",
+      "folder": "02-spatial-exchange",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "spatial",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR commodity) AND (\"origin-destination\" OR \"spatial interaction\" OR \"cross entropy\") AND (estimation OR uncertainty)",
+          "parameters": {
+            "search": "(freight OR commodity) AND (\"origin-destination\" OR \"spatial interaction\" OR \"cross entropy\") AND (estimation OR uncertainty)",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:16.717418+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28freight+OR+commodity%29+AND+%28%22origin-destination%22+OR+%22spatial+interaction%22+OR+%22cross+entropy%22%29+AND+%28estimation+OR+uncertainty%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 14347,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight commodity origin destination spatial interaction cross entropy estimation uncertainty",
+          "parameters": {
+            "query.bibliographic": "freight commodity origin destination spatial interaction cross entropy estimation uncertainty",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:19.149887+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+commodity+origin+destination+spatial+interaction+cross+entropy+estimation+uncertainty&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 51369,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A3-III-logistics",
+      "folder": "03-logistics-decisions",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "logistics",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "\"freight\" AND (\"shipment size\" OR \"distribution channel\" OR \"logistics choices\")",
+          "parameters": {
+            "search": "\"freight\" AND (\"shipment size\" OR \"distribution channel\" OR \"logistics choices\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:16.718365+00:00",
+          "request_url": "https://api.openalex.org/works?search=%22freight%22+AND+%28%22shipment+size%22+OR+%22distribution+channel%22+OR+%22logistics+choices%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 6179,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight shipment size distribution channel logistics choices",
+          "parameters": {
+            "query.bibliographic": "freight shipment size distribution channel logistics choices",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:18.917904+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+shipment+size+distribution+channel+logistics+choices&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 1770361,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A4-III-tours",
+      "folder": "04-vehicle-operations",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "tours",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR \"commercial vehicle\") AND (\"tour formation\" OR \"empty trips\" OR \"tour-based\")",
+          "parameters": {
+            "search": "(freight OR \"commercial vehicle\") AND (\"tour formation\" OR \"empty trips\" OR \"tour-based\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:16.718771+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28freight+OR+%22commercial+vehicle%22%29+AND+%28%22tour+formation%22+OR+%22empty+trips%22+OR+%22tour-based%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 1209,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight tour formation empty trips tour based model",
+          "parameters": {
+            "query.bibliographic": "freight tour formation empty trips tour based model",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:19.150126+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+tour+formation+empty+trips+tour+based+model&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 10074690,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A5-III-network",
+      "folder": "05-network-models",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "network",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR truck) AND (\"route choice\" OR \"traffic assignment\") AND (validation OR heterogeneity OR transferability)",
+          "parameters": {
+            "search": "(freight OR truck) AND (\"route choice\" OR \"traffic assignment\") AND (validation OR heterogeneity OR transferability)",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:22.876778+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28freight+OR+truck%29+AND+%28%22route+choice%22+OR+%22traffic+assignment%22%29+AND+%28validation+OR+heterogeneity+OR+transferability%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 6216,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight truck route choice assignment validation heterogeneity transferability",
+          "parameters": {
+            "query.bibliographic": "freight truck route choice assignment validation heterogeneity transferability",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:25.126855+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+truck+route+choice+assignment+validation+heterogeneity+transferability&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 1074789,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A6-III-emissions",
+      "folder": "06-energy-emissions",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "emissions",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR \"heavy-duty\") AND (\"emission model\" OR \"emissions model\" OR \"fuel consumption\") AND (payload OR gradient OR validation)",
+          "parameters": {
+            "search": "(freight OR \"heavy-duty\") AND (\"emission model\" OR \"emissions model\" OR \"fuel consumption\") AND (payload OR gradient OR validation)",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:23.016133+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28freight+OR+%22heavy-duty%22%29+AND+%28%22emission+model%22+OR+%22emissions+model%22+OR+%22fuel+consumption%22%29+AND+%28payload+OR+gradient+OR+validation%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 22306,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight heavy duty emission model fuel consumption payload road gradient validation",
+          "parameters": {
+            "query.bibliographic": "freight heavy duty emission model fuel consumption payload road gradient validation",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:27.440871+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+heavy+duty+emission+model+fuel+consumption+payload+road+gradient+validation&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 125457,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A7-III-availability",
+      "folder": "07-data-availability",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "availability",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(\"freight model\" OR \"freight modelling\" OR \"freight modeling\") AND (\"data availability\" OR \"data requirements\" OR \"data scarcity\")",
+          "parameters": {
+            "search": "(\"freight model\" OR \"freight modelling\" OR \"freight modeling\") AND (\"data availability\" OR \"data requirements\" OR \"data scarcity\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:23.318240+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28%22freight+model%22+OR+%22freight+modelling%22+OR+%22freight+modeling%22%29+AND+%28%22data+availability%22+OR+%22data+requirements%22+OR+%22data+scarcity%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 427,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight model data availability requirements scarcity",
+          "parameters": {
+            "query.bibliographic": "freight model data availability requirements scarcity",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:25.430831+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+model+data+availability+requirements+scarcity&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 5993991,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A7-III-data-reviews",
+      "folder": "07-data-availability",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "data-reviews",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "(freight OR \"urban logistics\") AND (\"data\" AND (review OR availability OR requirements))",
+          "parameters": {
+            "search": "(freight OR \"urban logistics\") AND (\"data\" AND (review OR availability OR requirements))",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:29:21.874600+00:00",
+          "request_url": "https://api.openalex.org/works?search=%28freight+OR+%22urban+logistics%22%29+AND+%28%22data%22+AND+%28review+OR+availability+OR+requirements%29%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 187909,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight urban logistics data availability requirements review",
+          "parameters": {
+            "query.bibliographic": "freight urban logistics data availability requirements review",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:29:24.378564+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+urban+logistics+data+availability+requirements+review&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 11313468,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A7-III-resources",
+      "folder": "07-data-availability",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "resources",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "freight AND (\"data sources\" OR \"data collection\" OR \"commodity flow survey\" OR \"classification\")",
+          "parameters": {
+            "search": "freight AND (\"data sources\" OR \"data collection\" OR \"commodity flow survey\" OR \"classification\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:30.299700+00:00",
+          "request_url": "https://api.openalex.org/works?search=freight+AND+%28%22data+sources%22+OR+%22data+collection%22+OR+%22commodity+flow+survey%22+OR+%22classification%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 102180,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight modelling data sources collection commodity flow survey classification",
+          "parameters": {
+            "query.bibliographic": "freight modelling data sources collection commodity flow survey classification",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:32.456087+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+modelling+data+sources+collection+commodity+flow+survey+classification&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 6109406,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "A7-III-transfer",
+      "folder": "07-data-availability",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "transfer",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "freight AND (\"model transferability\" OR \"data transferability\" OR \"synthetic population\" OR \"data fusion\")",
+          "parameters": {
+            "search": "freight AND (\"model transferability\" OR \"data transferability\" OR \"synthetic population\" OR \"data fusion\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:26.106547+00:00",
+          "request_url": "https://api.openalex.org/works?search=freight+AND+%28%22model+transferability%22+OR+%22data+transferability%22+OR+%22synthetic+population%22+OR+%22data+fusion%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 5393,
+          "error": null
+        },
+        "crossref": {
+          "query": "freight model transferability synthetic population data fusion",
+          "parameters": {
+            "query.bibliographic": "freight model transferability synthetic population data fusion",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:28.256582+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=freight+model+transferability+synthetic+population+data+fusion&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 7108881,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "M-III-mass-gt",
+      "folder": "mass-gt-reference",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "mass-gt",
+      "limit": 100,
+      "role": "superseded model-name discovery pilot",
+      "engines": {
+        "openalex": {
+          "query": "\"MASS-GT\" OR \"MASS GT\"",
+          "parameters": {
+            "search": "\"MASS-GT\" OR \"MASS GT\"",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:33.036823+00:00",
+          "request_url": "https://api.openalex.org/works?search=%22MASS-GT%22+OR+%22MASS+GT%22&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 258,
+          "error": null
+        },
+        "crossref": {
+          "query": "\"MASS-GT\"",
+          "parameters": {
+            "query.bibliographic": "\"MASS-GT\"",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:23:34.806409+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=%22MASS-GT%22&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 1683401,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "M-III-mass-gt-transport",
+      "folder": "mass-gt-reference",
+      "stage": "III",
+      "date": "2026-11-16",
+      "iteration": "mass-gt-transport",
+      "limit": 100,
+      "role": "access-discovery query",
+      "engines": {
+        "openalex": {
+          "query": "\"MASS-GT\" AND (freight OR \"goods transport\")",
+          "parameters": {
+            "search": "\"MASS-GT\" AND (freight OR \"goods transport\")",
+            "per-page": 100,
+            "filter": "to_publication_date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:29:12.144249+00:00",
+          "request_url": "https://api.openalex.org/works?search=%22MASS-GT%22+AND+%28freight+OR+%22goods+transport%22%29&per-page=100&filter=to_publication_date%3A2026-11-16",
+          "returned": 67,
+          "reported_total": 67,
+          "error": null
+        },
+        "crossref": {
+          "query": "MASS-GT goods transport freight simulation",
+          "parameters": {
+            "query.bibliographic": "MASS-GT goods transport freight simulation",
+            "rows": 100,
+            "sort": "relevance",
+            "filter": "until-pub-date:2026-11-16"
+          },
+          "retrieved_at_utc": "2026-11-16T02:29:14.692015+00:00",
+          "request_url": "https://api.crossref.org/works?query.bibliographic=MASS-GT+goods+transport+freight+simulation&rows=100&sort=relevance&filter=until-pub-date%3A2026-11-16",
+          "returned": 100,
+          "reported_total": 3267909,
+          "error": null
+        }
+      }
+    }
+  ]
+}

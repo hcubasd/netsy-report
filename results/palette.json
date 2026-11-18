@@ -1,0 +1,22 @@
+{
+  "generator": "nicrainha",
+  "version": "1.1.0",
+  "specification": {
+    "size": 2,
+    "lightness": 90,
+    "rotation": 17
+  },
+  "purpose": "Categorical distinction between functional and academic classifications",
+  "colours": {
+    "functionalView": {
+      "r": 226,
+      "g": 224,
+      "b": 250
+    },
+    "academicView": {
+      "r": 226,
+      "g": 229,
+      "b": 202
+    }
+  }
+}

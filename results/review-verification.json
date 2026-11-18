@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-18",
+  "release": "v0.1.0",
+  "domains": 7,
+  "mass_gt_reference_paragraphs": 7,
+  "paired_queries": 33,
+  "supplementary_expressions": 29,
+  "current_complete_documents": 61,
+  "included_domain_documents": 59,
+  "background_documents": 2,
+  "institutional_files_received": 12,
+  "institutional_relevant_complete": 11,
+  "institutional_excluded_unrelated": 1,
+  "partial_placeholders_superseded": 2,
+  "pending_requests": 28,
+  "pending_original_priorities": [
+    "D16",
+    "D03",
+    "A01"
+  ],
+  "independent_duplicate_screening": false,
+  "all_database_hits_screened": false,
+  "source_hashes": {
+    "manuscript/sections/slr/review.tex": "a5c4f67287679db38c1912fd5942cf2ce19538ee3c695ae2aa70ef81458a2cbc",
+    "manuscript/sections/slr/search-appendix.tex": "d1d07d2d45657e6e7fa501addf1ca63d94a2513a6780dbc66e9b29ef63a950c4",
+    "references/review-evidence.json": "da57e61ecc30e79e06b0b70cf7107e82aaa549873ba9f036e1e7869cab7cb957"
+  }
+}

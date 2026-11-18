@@ -1,0 +1,833 @@
+\section{Search and selection record}\label{app:search}
+
+This appendix reports the retrieval that produced the available collection,
+including its limits. Search strings are reproduced as executed, rather than
+rewritten into an idealized strategy after seeing the results. The versioned
+protocol, literal requests and source-reading metadata accompany the manuscript
+in \texttt{docs/review-protocol.md}, \texttt{results/review-searches.json} and
+\texttt{references/review-evidence.json}. Large source PDFs and raw responses
+remain in the external reading/audit collection.
+
+\subsection{Search strategy and sources}
+The first two rounds used OpenAlex full-text/metadata search and Crossref ranked
+bibliographic queries, with at most 25 records per engine and configuration.
+The 16 November extension used 100. Publication-date ceilings followed the
+search date; there was no lower year bound. Exact parameter values and UTC
+retrieval timestamps are retained in the machine-readable register. These are
+ranked windows, not complete database exports. Search expressions are
+engine-specific: conceptual Boolean syntax submitted to OpenAlex and term-based
+Crossref queries do not establish equivalent coverage.
+
+Seven topic streams identify the modelling literature. A separate model-name
+stream identifies MASS-GT; it is mapped into the domains during extraction,
+not appended with OR to every topic query. The first name query returned
+non-transport material because of ambiguous name/token matching; the
+transport-qualified refinement is shown alongside that pilot. Superseded query
+variants from earlier rounds remain in the raw audit; the retained variants
+below define their active snapshots. Targeted repository/title lookups serve
+retrieval and identity checks, not independent evidence of topical coverage.
+
+\subsection{Eligibility, selection and current accounting}\label{app:selection}
+Eligible sources provide an identifiable formulation, empirical assessment or
+data specification for at least one domain. Journal and conference papers,
+author versions, theses, books and official guidance are eligible, with source
+type retained. Optimization-only evidence is interpreted as planning evidence;
+conceptual proposals are not empirical validation. Generic shortest-path
+exposition and a literature-discovery compendium are background only. Partial
+files and abstracts cannot support performance findings. Search language and
+geographical scope are stated in Section~\ref{sec:slr-methodology}.
+
+DOIs are normalized and titles used where DOIs are absent. Duplicates can occur
+across queries and domains; a source may inform several domains without being
+counted several times. Publication versions remain linked but distinguishable.
+For the November extension, the consolidated index contains 2,120 DOI/title-key
+records from 2,367 returned hits. These are retrieval counts, not numbers of
+eligible studies. Earlier round totals are not added to them as if globally
+unique. The current reassessment covers the held-document cohort. Institutional retrieval
+on 18 November supplied twelve files: eleven relevant complete papers and an
+unrelated electricity-course syllabus, excluded at eligibility checking. Two
+complete papers replace earlier one-page placeholders. The accounting is:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Available-document accounting & Documents \\
+\midrule
+Initial held PDFs (16 November) & 52 \\
+\quad Complete documents & 50 \\
+\quad One-page partial documents & 2 \\
+Institutionally supplied files (18 November) & 12 \\
+\quad Relevant complete papers & 11 \\
+\quad Unrelated syllabus excluded & 1 \\
+Earlier partial placeholders replaced & 2 \\
+Current complete-document cohort & 61 \\
+\quad Retained as domain evidence & 59 \\
+\quad Retained as background only & 2 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The commodity OD synthesis and emissions-validation review previously held as
+one-page files are now available in full; their placeholders are superseded,
+not counted as separate studies. Twenty-eight access requests remain unresolved,
+including three of the original fourteen priorities. These access counts are
+separate from the complete-document cohort.
+The remaining database hits are deferred rather than
+assigned invented full-text exclusion reasons. No complete identification-to-
+inclusion PRISMA flow is claimed. AI-assisted prioritization and extraction have
+not been independently duplicated. Full-text availability and single-assessor
+judgement can influence the synthesis even when reported transparently.
+
+\subsection{Extraction and appraisal record}
+The retained metadata records the source/version, inspected PDF pages, modelling
+object, formulation, data role, assessment design and inference limits. Public
+tabulations, confidential microdata, borrowed parameters and synthetic inputs
+are distinguished. Controls used to construct a model do not become independent
+validation data merely because their totals match. Reviews and related
+publications are not independent votes for consensus. Narrative findings are
+conditional on the inspected evidence; no pooled quality or accuracy score is
+computed.
+
+\subsection{Exact topic and model-name searches}
+Round I is dated 11 November, round II 12 November and round III 16 November
+2026. The following identifiers also link sources and queries in the supporting
+metadata. Both engine strings are printed even when only one retrieved a
+particular paper. Supplementary sources need not have database-query membership.
+
+
+\subsubsection{Demand generation and economic representation}
+
+\paragraph{A1-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight generation" OR "freight trip generation") AND (model OR review)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight generation freight trip generation models
+
+\end{quote}
+
+\paragraph{A1-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("synthetic firms" OR "firm synthesis" OR "synthetic establishments" OR "synthetic business") AND (freight OR logistics OR transport)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+synthetic firms establishments freight population synthesis
+
+\end{quote}
+
+\paragraph{A1-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight generation" OR "freight trip generation") AND (transferability OR comparison OR validation OR conceptualizing)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight generation trip generation model comparison spatial transferability validation
+
+\end{quote}
+
+\paragraph{A1-II-2 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("population synthesis" OR "synthetic firms") AND (transport OR firms OR establishments) AND ("iterative proportional" OR "combinatorial optimization" OR comparison)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+population synthesis transport firms iterative proportional fitting combinatorial optimization comparison
+
+\end{quote}
+
+\paragraph{A1-III-generation (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight generation" OR "freight trip generation") AND (establishment OR synthesis OR transferability)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight generation establishments synthetic population transferability
+
+\end{quote}
+
+\subsubsection{Spatial exchange and OD inference}
+
+\paragraph{A2-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR commodity) AND ("spatial interaction" OR "gravity model" OR "input-output")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight commodity spatial interaction gravity input output models
+
+\end{quote}
+
+\paragraph{A2-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR truck) AND ("origin destination" OR "origin-destination") AND (estimation OR synthesis)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight origin destination matrix estimation synthesis
+
+\end{quote}
+
+\paragraph{A2-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight" OR "trade flows") AND ("input-output" OR "spatial equilibrium" OR "cross entropy") AND (estimation OR comparison OR review)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight trade flows input output spatial equilibrium cross entropy comparison
+
+\end{quote}
+
+\paragraph{A2-II-2 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight" OR "truck") AND ("origin-destination" OR "origin destination") AND ("traffic counts" OR "empty trips" OR estimation)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight origin destination synthesis estimation traffic counts empty trips
+
+\end{quote}
+
+\paragraph{A2-III-spatial (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR commodity) AND ("origin-destination" OR "spatial interaction" OR "cross entropy") AND (estimation OR uncertainty)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight commodity origin destination spatial interaction cross entropy estimation uncertainty
+
+\end{quote}
+
+\subsubsection{Logistics decisions and shipment formation}
+
+\paragraph{A3-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight AND ("logistics decisions" OR "logistics services" OR "logistics networks")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+descriptive freight logistics decisions model review
+
+\end{quote}
+
+\paragraph{A3-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("shipment size" OR "shipment frequency") AND (inventory OR "mode choice" OR "freight model")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+shipment size inventory freight transport mode choice model
+
+\end{quote}
+
+\paragraph{A3-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("shipment size" AND ("transport chain" OR "mode choice")) AND (estimation OR empirical OR joint)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+joint shipment size transport chain mode choice empirical estimation inventory
+
+\end{quote}
+
+\paragraph{A3-II-2 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("shipment size" OR "logistics choices") AND ("latent" OR "sequential" OR "stability" OR validation)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight shipment size logistics choices joint sequential latent classes temporal stability
+
+\end{quote}
+
+\paragraph{A3-III-logistics (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"freight" AND ("shipment size" OR "distribution channel" OR "logistics choices")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight shipment size distribution channel logistics choices
+
+\end{quote}
+
+\subsubsection{Vehicle activity, tours and scheduling}
+
+\paragraph{A4-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"vehicle routing" AND (review OR survey OR "savings algorithm")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+vehicle routing problem survey classical heuristics savings
+
+\end{quote}
+
+\paragraph{A4-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR commercial) AND ("tour formation" OR "tour based" OR "tour-based")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight descriptive tour formation tour based model
+
+\end{quote}
+
+\paragraph{A4-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight" OR "commercial vehicle") AND ("tour" OR "empty trips") AND (transferability OR validation OR "inverse optimization")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight tour models empty trips inverse optimization validation transferability
+
+\end{quote}
+
+\paragraph{A4-III-tours (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR "commercial vehicle") AND ("tour formation" OR "empty trips" OR "tour-based")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight tour formation empty trips tour based model
+
+\end{quote}
+
+\subsubsection{Network models and route choice}
+
+\paragraph{A5-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"traffic assignment" AND (equilibrium OR stochastic OR "all-or-nothing")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+traffic assignment user equilibrium stochastic models
+
+\end{quote}
+
+\paragraph{A5-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"route choice" AND (freight OR truck)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight truck route choice model
+
+\end{quote}
+
+\paragraph{A5-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("traffic assignment" OR "route choice") AND (freight OR truck) AND (validation OR comparison OR "stochastic")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight truck traffic assignment route choice stochastic validation comparison
+
+\end{quote}
+
+\paragraph{A5-III-network (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR truck) AND ("route choice" OR "traffic assignment") AND (validation OR heterogeneity OR transferability)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight truck route choice assignment validation heterogeneity transferability
+
+\end{quote}
+
+\subsubsection{Energy and emissions}
+
+\paragraph{A6-I-1 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"road transport" AND ("emission models" OR "emission inventory" OR "emission factors")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+road transport emission models review emission factors
+
+\end{quote}
+
+\paragraph{A6-I-2 (2026-11-11).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(vehicle OR truck) AND ("energy consumption model" OR "fuel consumption model") AND (review OR gradient OR load)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+vehicle fuel energy consumption models review load gradient
+
+\end{quote}
+
+\paragraph{A6-II-1 (2026-11-12).} Limit: 25 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR truck OR "road transport") AND ("emission models" OR "emission inventories" OR "fuel consumption models") AND (comparison OR validation OR "driving behaviour")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight road transport emission fuel consumption model comparison validation average speed driving behaviour
+
+\end{quote}
+
+\paragraph{A6-III-emissions (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR "heavy-duty") AND ("emission model" OR "emissions model" OR "fuel consumption") AND (payload OR gradient OR validation)
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight heavy duty emission model fuel consumption payload road gradient validation
+
+\end{quote}
+
+\subsubsection{Data availability, representation and transferability}
+
+\paragraph{A7-III-availability (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+("freight model" OR "freight modelling" OR "freight modeling") AND ("data availability" OR "data requirements" OR "data scarcity")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight model data availability requirements scarcity
+
+\end{quote}
+
+\paragraph{A7-III-data-reviews (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+(freight OR "urban logistics") AND ("data" AND (review OR availability OR requirements))
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight urban logistics data availability requirements review
+
+\end{quote}
+
+\paragraph{A7-III-resources (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight AND ("data sources" OR "data collection" OR "commodity flow survey" OR "classification")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight modelling data sources collection commodity flow survey classification
+
+\end{quote}
+
+\paragraph{A7-III-transfer (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight AND ("model transferability" OR "data transferability" OR "synthetic population" OR "data fusion")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+freight model transferability synthetic population data fusion
+
+\end{quote}
+
+\subsubsection{MASS-GT reference discovery}
+
+\paragraph{M-III-mass-gt (2026-11-16).} Limit: 100 per engine. Model-name pilot; superseded by the transport-qualified refinement.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"MASS-GT" OR "MASS GT"
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"MASS-GT"
+
+\end{quote}
+
+\paragraph{M-III-mass-gt-transport (2026-11-16).} Limit: 100 per engine.
+
+\noindent OpenAlex:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+"MASS-GT" AND (freight OR "goods transport")
+
+\end{quote}
+
+\noindent Crossref:
+
+\begin{quote}\footnotesize\ttfamily\raggedright
+
+MASS-GT goods transport freight simulation
+
+\end{quote}
+
+\subsection{Supplementary web discovery and access searches}
+
+The following expressions were used for targeted discovery, identity or access
+follow-up on 16 November. Not every query returned a retained source. They are
+separate from the paired topical searches and are not equivalent to database
+eligibility decisions.
+
+\begin{longtable}{@{}p{.08\linewidth}p{.86\linewidth}@{}}
+
+\toprule ID & Expression \\ \midrule\endhead
+
+S1 & "MASS-GT" "103140" pdf \\[.4em]
+
+S2 & "freight" "data availability" "model" review \\[.4em]
+
+S3 & "freight" "data requirements" "transferability" model \\[.4em]
+
+S4 & "MASS-GT" "micro-hub" 2024 pdf \\[.4em]
+
+S5 & "MASS-GT" "shipment-based urban freight emission" pdf \\[.4em]
+
+S6 & "Hunting for treasure" "urban logistics" pdf \\[.4em]
+
+S7 & "freight" "data repository" "101417" \\[.4em]
+
+S8 & "Learnings from the simulation of use cases" DOI \\[.4em]
+
+S9 & "A simulation study of the impacts of micro-hub scenarios" DOI \\[.4em]
+
+S10 & "A conceptual framework for agent-based modelling of logistics services" pdf \\[.4em]
+
+S11 & site:ec.europa.eu/eurostat "Road freight transport methodology" pdf 2024 \\[.4em]
+
+S12 & site:trafa.se varuflödesundersökningen 2021 statistik pdf \\[.4em]
+
+S13 & "Aggregate urban truck tour synthesis from public data" pdf \\[.4em]
+
+S14 & "Hunting for treasure" "pdf" Rai Dablanc \\[.4em]
+
+S15 & "Hunting for treasure" "TTRV" pdf \\[.4em]
+
+S16 & "Assessing regional transferability" "103780" pdf \\[.4em]
+
+S17 & "Aggregate urban truck tour synthesis" Davis pdf download \\[.4em]
+
+S18 & "A freight data repository as foundational pillar" pdf download \\[.4em]
+
+S19 & "Hunting for treasure" "225111144" \\[.4em]
+
+S20 & "Data Availability and Model Form" freight \\[.4em]
+
+S21 & "A conceptual framework for agent-based modelling of logistics services" site:utoronto.ca \\[.4em]
+
+S22 & "SimMobility Freight" "102017" pdf \\[.4em]
+
+S23 & "Introducing CRISTAL" pdf \\[.4em]
+
+S24 & "Freight transport modelling in urban areas" "FRETURB" pdf \\[.4em]
+
+S25 & "Data Availability and Model Form" "pdf" Tavasszy Jong \\[.4em]
+
+S26 & "931da973-3e05-4ad7-bde3-fed190360c34" \\[.4em]
+
+S27 & "SimMobility Freight" site:mit.edu pdf \\[.4em]
+
+S28 & "Introducing CRISTAL" site:osti.gov \\[.4em]
+
+S29 & "Data Availability and Model Form" site:publications.tno.nl \\[.4em]
+
+\bottomrule\end{longtable}
+
+\subsection{Supplementary retrieval and the fixed reference}
+The official MASS-GT project bibliography and its overview repository identify
+model publications in addition to model-name searching. Targeted backward
+tracing from \textcite{massgt2025} selected the SimMobility, CRISTAL and FRETURB
+references for access follow-up; this was not exhaustive snowballing. Other
+supplements include foundational books, theses, official FHWA and EMEP/EEA
+manuals, Eurostat guidance, UK model-review material and Trafikanalys survey
+documentation. Their institutions, versions and retrieval routes are retained
+with each source. Exact-title and DOI searches sought public full text and
+verified identities. Sources obtained through these routes are not represented
+as products of a bucket string that did not retrieve them.
+
+The Swedish operator-level study is an explicitly designated application case
+\parencite{dias2026}. MASS-GT technical documentation version~3.0, dated
+6 July 2023, is retained at checkout
+\begin{quote}\footnotesize\ttfamily\raggedright
+4f727c3633bf5edabc1b0d0fa081a9e232bf169a
+\end{quote}
+This fixes the technical reference; it does not establish that the 2025 article
+specifies exactly that checkout. Published descriptions, code and scenario
+inputs require separate reconciliation for later numerical comparisons.
+
+\subsection{Remaining priority full texts awaiting access}
+The sources below are retrieval priorities, not supporting full-text evidence
+for the present findings. Some have public repository copies whose download
+endpoints failed; others require an institutional-access attempt. Failure to
+retrieve is not a scientific exclusion. Additional lower-priority requests are
+retained in the supporting access list.
+\begin{longtable}{@{}p{.10\linewidth}p{.84\linewidth}@{}}
+\toprule ID & Source and DOI \\
+\midrule\endhead
+
+
+D16 & Data Availability and Model Form\newline \url{https://doi.org/10.1016/b978-0-12-410400-6.00010-0} \\[.6em]
+
+D03 & Hunting for treasure: a systematic literature review on urban logistics and e-commerce data\newline \url{https://doi.org/10.1080/01441647.2022.2082580} \\[.6em]
+
+A01 & Population Synthesis: Comparing the Major Techniques Using a Small, Complete Population of Firms\newline \url{https://doi.org/10.1111/j.1538-4632.2009.00750.x} \\[.6em]
+
+\bottomrule\end{longtable}
+
+\subsection{Amendment and update boundary}
+The 16 November revision added the seventh domain, a separately retrieved
+MASS-GT anchor and explicit data-access extraction. The protocol for this
+reassessment was recorded after exploratory collection, not backdated. The
+18 November amendment incorporates eleven institutionally supplied complete
+papers after identity, completeness and eligibility checks, excluding one
+unrelated upload. Original search dates and expressions are unchanged: this is
+retrieval of previously identified sources, not a new database search. Relevant
+methods, data, results and limitations were inspected; the IEEE emissions paper
+required page-rendered OCR and visual checking because embedded text was corrupt.
+The v0.1.0 release fixes this evidence snapshot while remaining access gaps and
+search-coverage limitations stay explicit. No conclusion about NetSy's
+implemented formulation, numerical superiority or general transferability is
+implied by this review.

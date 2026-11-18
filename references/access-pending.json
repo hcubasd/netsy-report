@@ -1,0 +1,329 @@
+[
+  {
+    "id": "A01",
+    "title": "Population Synthesis: Comparing the Major Techniques Using a Small, Complete Population of Firms",
+    "doi": "10.1111/j.1538-4632.2009.00750.x",
+    "buckets": [
+      1,
+      7
+    ],
+    "reason": "Firm-specific comparison of synthetic population methods.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "A02",
+    "title": "Comparison of Iterative Proportional Fitting and Simulated Annealing as synthetic population generation techniques: Importance of the rounding method",
+    "doi": "10.1016/j.compenvurbsys.2017.11.001",
+    "buckets": [
+      1,
+      7
+    ],
+    "reason": "Rounding-sensitive comparison of synthesis methods; demographic rather than firm evidence.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "A04",
+    "title": "Generalized Cross Entropy estimators and the estimation of interregional trade flows",
+    "doi": "10.1080/09535314.2025.2577470",
+    "buckets": [
+      2,
+      7
+    ],
+    "reason": "Cross-entropy estimation with uncertain trade information.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "A06",
+    "title": "Generalized noortman and van es’ empty trips model",
+    "doi": "10.1016/j.tra.2021.01.005",
+    "buckets": [
+      4
+    ],
+    "reason": "Empty-trip model formulation.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "A07",
+    "title": "Comparison of road traffic emission models in Madrid (Spain)",
+    "doi": "10.1016/j.atmosenv.2012.08.073",
+    "buckets": [
+      6
+    ],
+    "reason": "Emission model comparison under a common traffic application.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "C02",
+    "title": "Introducing CRISTAL: A model of collaborative, informed, strategic trade agents with logistics",
+    "doi": "10.1016/j.trip.2022.100539",
+    "buckets": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "reason": "Comparator model implementation and data configuration identified in MASS-GT 2025 references.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "C03",
+    "title": "Freight transport modelling in urban areas: The French case of the FRETURB model",
+    "doi": "10.1016/j.cstp.2018.09.009",
+    "buckets": [
+      1,
+      4,
+      7
+    ],
+    "reason": "Comparator model implementation and data configuration identified in MASS-GT 2025 references.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D03",
+    "title": "Hunting for treasure: a systematic literature review on urban logistics and e-commerce data",
+    "doi": "10.1080/01441647.2022.2082580",
+    "buckets": [
+      7,
+      4
+    ],
+    "reason": "Systematic review of urban logistics and e-commerce data.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D04",
+    "title": "A freight data repository as foundational pillar for urban freight research",
+    "doi": "10.1016/j.rtbm.2025.101417",
+    "buckets": [
+      7,
+      6
+    ],
+    "reason": "Freight repository governance and access; availability does not imply open access.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D05",
+    "title": "Agent-Based Urban Freight Modeling: Lessons Learned from the Literature and a Framework for Passenger–Freight Integration",
+    "doi": "10.1177/03611981261451187",
+    "buckets": [
+      7,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reason": "Recent ABM review with data-availability table; conceptual proposal, not independent validation.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D07",
+    "title": "Modelling peak-hour urban freight movements with limited data availability",
+    "doi": "10.1016/j.cie.2010.02.013",
+    "buckets": [
+      7,
+      4
+    ],
+    "reason": "Urban freight modelling with limited data.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D08",
+    "title": "Synthetic European road freight transport flow data",
+    "doi": "10.1016/j.dib.2021.107786",
+    "buckets": [
+      7,
+      2
+    ],
+    "reason": "Synthetic European road freight flow data; distinguish constructed from observed flows.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D09",
+    "title": "Carrier-provided freight data for improved sustainable urban mobility planning",
+    "doi": "10.1016/j.retrec.2023.101352",
+    "buckets": [
+      7
+    ],
+    "reason": "Carrier-provided freight data and institutional access.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D10",
+    "title": "Modelling non-response in establishment-based freight surveys: A sampling tool for statewide freight data collection in middle-income countries",
+    "doi": "10.1016/j.tranpol.2019.10.011",
+    "buckets": [
+      7,
+      1
+    ],
+    "reason": "Non-response and sampling in establishment freight surveys.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D11",
+    "title": "Freight Trip Generation Modeling: A Narrative Review",
+    "doi": "10.1177/03611981251393157",
+    "buckets": [
+      1,
+      7
+    ],
+    "reason": "Recent freight trip generation narrative review.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D12",
+    "title": "Urban Freight Transport Demand: Transferability of Survey Results Analysis and Models",
+    "doi": "10.1016/j.sbspro.2012.09.822",
+    "buckets": [
+      7,
+      1
+    ],
+    "reason": "Transferability of urban freight surveys and models.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D13",
+    "title": "Transferability of Freight Trip Generation Models",
+    "doi": "10.3141/2379-01",
+    "buckets": [
+      1,
+      7
+    ],
+    "reason": "Direct freight trip generation transferability evidence.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "D14",
+    "title": "A GPS-based user-verified shipment survey method to supplement the commodity flow survey: survey design, platform, and case study",
+    "doi": "10.1007/s11116-023-10444-7",
+    "buckets": [
+      7,
+      4
+    ],
+    "reason": "GPS user-verified shipment survey design and missing information.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D16",
+    "title": "Data Availability and Model Form",
+    "doi": "10.1016/b978-0-12-410400-6.00010-0",
+    "buckets": [
+      7
+    ],
+    "reason": "Book chapter explicitly relating data availability and model form.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D17",
+    "title": "Freight trip generation modeling and data collection processes in Latin American cities. Modeling framework for Quito and generalization issues",
+    "doi": "10.1016/j.tra.2019.10.013",
+    "buckets": [
+      1,
+      7
+    ],
+    "reason": "Latin American data collection and generalization; broadens geographical evidence.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "D18",
+    "title": "Comprehensive Freight Demand Data Collection Framework for Large Urban Areas",
+    "doi": "10.1007/978-3-642-31788-0_6",
+    "buckets": [
+      7
+    ],
+    "reason": "Freight data collection framework for large urban areas.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "G04",
+    "title": "National Freight Demand Study Research and Scoping Study: Scoping Report 2024",
+    "doi": "",
+    "buckets": [
+      7
+    ],
+    "reason": "Document data configurations and boundaries; guidance is not independent empirical validation.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "G09",
+    "title": "Australian Transport Assessment and Planning Guidelines T9 Urban freight demand modelling",
+    "doi": "",
+    "buckets": [
+      7,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "reason": "Document data configurations and boundaries; guidance is not independent empirical validation.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "M04",
+    "title": "Simulation of the Impacts of a Zero-Emission Zone on Freight Delivery Patterns in Rotterdam",
+    "doi": "10.1177/03611981211012694",
+    "buckets": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reason": "HARMONY zero-emission scenario reference.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "M05",
+    "title": "Exploring the impacts of an emission based truck charge in the Netherlands",
+    "doi": "10.1016/j.cstp.2020.05.013",
+    "buckets": [
+      3,
+      5,
+      6
+    ],
+    "reason": "Emission-based truck-charge application.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "M10",
+    "title": "MASS-GT: an empirical model for the simulation of freight policies — TRB 2025 poster",
+    "doi": "",
+    "buckets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reason": "Document data configurations and boundaries; guidance is not independent empirical validation.",
+    "status": "metadata_only"
+  },
+  {
+    "id": "U04",
+    "title": "Network Flow Methodology for Estimating Empty Trips in Freight Transportation Models",
+    "doi": "10.3141/2378-12",
+    "buckets": [
+      4,
+      2
+    ],
+    "reason": "Network-flow estimation of empty trips.",
+    "status": "abstract_only"
+  },
+  {
+    "id": "U05",
+    "title": "A conceptual framework for agent-based modelling of logistics services",
+    "doi": "10.1016/j.tre.2009.06.002",
+    "buckets": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "reason": "Foundational freight agent framework and data requirements.",
+    "status": "metadata_only"
+  }
+]

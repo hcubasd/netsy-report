@@ -1,0 +1,2936 @@
+[
+  {
+    "id": "round_1-01-R015",
+    "title": "Modelling Freight Trip Generation Based on Deliveries for Brazilian Municipalities",
+    "doi": "10.3390/su141610300",
+    "domains": [
+      1
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "62ae2d2aebcc8abeea95b928c004dd4ae4b54b2d8956cf13b6363f6c9f5dc7e3",
+    "pages": 19,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        14,
+        15,
+        16
+      ],
+      "note": "Delivery-generation outcome; conditional regression comparison. Not a commodity-tonnage model.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-14-10300/article_deploy/sustainability-14-10300.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R015-modelling-freight-trip-generation-based-on-deliveries-for-brazilian-municipalities.pdf",
+    "query_membership": [
+      {
+        "query_id": "A1-I-1",
+        "engine": "openalex",
+        "rank": 15
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "openalex",
+        "rank": 18
+      }
+    ]
+  },
+  {
+    "id": "round_1-01-R041",
+    "title": "Methods and Techniques to Create Synthetic Firms as Input into a Microscopic Freight Simulator",
+    "doi": "10.11175/eastpro.2009.0.154.0",
+    "domains": [
+      1
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "7c37adb010250d3daa3a642ed12ecc1ced18e37687e31891558d2771c6f8f474",
+    "pages": 14,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "note": "Economic-margin firm synthesis and Monte Carlo attributes. Fit to controls is not independent flow validation.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://www.jstage.jst.go.jp/article/eastpro/2009/0/2009_0_154/_pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R041-methods-and-techniques-to-create-synthetic-firms-as-input-into-a-microscopic-freight-simulator.pdf",
+    "query_membership": [
+      {
+        "query_id": "A1-I-2",
+        "engine": "openalex",
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "id": "round_1-02-S001",
+    "title": "Spatial interaction modeling of interregional commodity flows",
+    "doi": "",
+    "domains": [
+      2
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "4909dc8f3fb115f539678971d4d4120a11f556b76bf4b59f595caaa0d1a28f3a",
+    "pages": 180,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "Abstract and selected OCR methodology/conclusion reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        35,
+        36,
+        39,
+        40,
+        42,
+        43,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "note": "Scanned 2001 dissertation; distinct from the indexed later journal article. OCR used for qualitative reading, not authoritative equations.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1384446243&disposition=inline",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S001-celik-2001-spatial-interaction-dissertation.pdf",
+    "query_membership": [
+      {
+        "query_id": "A2-I-1",
+        "engine": "openalex",
+        "rank": 20
+      },
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "openalex",
+        "rank": 69
+      }
+    ]
+  },
+  {
+    "id": "round_1-02-S003",
+    "title": "Estimating Inter-Regional Freight Demand in China Based on the Input–Output Model",
+    "doi": "10.3390/su15129808",
+    "domains": [
+      2
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "759802c9bb9a70077fa3c0d943d5ee7e290014f2dc5e3020c2104e9cf56b2271",
+    "pages": 16,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "note": "Economic accounts, trade allocation and monetary/physical bridge; context-specific coefficients.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-15-09808/article_deploy/sustainability-15-09808.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S003-estimating-inter-regional-freight-demand-in-china-based-on-the-input-output-model.pdf",
+    "query_membership": [
+      {
+        "query_id": "A2-II-1",
+        "engine": "openalex",
+        "rank": 15
+      }
+    ]
+  },
+  {
+    "id": "round_1-03-R006",
+    "title": "Logistics decisions in descriptive freight transportation models: A review",
+    "doi": "10.18757/jscms.2020.1992",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "b34414b9a962b0a1c8cbf11eb8da8c8f45cd3e8f61e0113bebb7393014fc021d",
+    "pages": 13,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "note": "Functional-area/actor framework and dependencies; genuine 2020 PDF publication date.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://journals.open.tudelft.nl/jscms/article/download/1992/4611",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R006-logistics-decisions-in-descriptive-freight-transportation-models-a-review.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-I-1",
+        "engine": "openalex",
+        "rank": 6
+      },
+      {
+        "query_id": "A3-I-1",
+        "engine": "crossref",
+        "rank": 1
+      },
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 38
+      }
+    ]
+  },
+  {
+    "id": "round_1-03-R070",
+    "title": "Empirical Evaluation of Economic Order Quantity Model for Choice of Shipment Size in Freight Transport",
+    "doi": "10.3141/2269-11",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "170d9ffbc7240696a6b45b55dfec0791abe1e8fa42eb5291ab8bbc245d47f4cc",
+    "pages": 24,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "note": "French ECHO shipment-size evidence; submitted/accepted manuscript manifestation, journal year 2012.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://enpc.hal.science/hal-00738067v1/file/EOQ_estimation_F._Combes_v3.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R070-empirical-evaluation-of-economic-order-quantity-model-for-choice-of-shipment-size-in-freight-tr.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-I-2",
+        "engine": "openalex",
+        "rank": 21
+      },
+      {
+        "query_id": "A3-I-2",
+        "engine": "crossref",
+        "rank": 9
+      },
+      {
+        "query_id": "A3-II-1",
+        "engine": "openalex",
+        "rank": 7
+      },
+      {
+        "query_id": "A3-II-1",
+        "engine": "crossref",
+        "rank": 6
+      },
+      {
+        "query_id": "A3-II-2",
+        "engine": "openalex",
+        "rank": 14
+      },
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "openalex",
+        "rank": 6
+      },
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "crossref",
+        "rank": 73
+      }
+    ]
+  },
+  {
+    "id": "round_1-03-R076",
+    "title": "Inventory theory, mode choice and network structure in freight transport",
+    "doi": "10.18757/ejtir.2016.16.1.3112",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "9c3ab794abed34c2041502004f881b2efeb9b665703332bf1f5b12193ac3f384",
+    "pages": 15,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "note": "Inventory, mode and hub/direct structure coupling; context and assumptions matter.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://journals.open.tudelft.nl/ejtir/article/download/3112/3299",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R076-inventory-theory-mode-choice-and-network-structure-in-freight-transport.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-I-2",
+        "engine": "crossref",
+        "rank": 4
+      },
+      {
+        "query_id": "A3-II-1",
+        "engine": "crossref",
+        "rank": 11
+      }
+    ]
+  },
+  {
+    "id": "round_1-04-R015",
+    "title": "Heuristics for multi-attribute vehicle routing problems: A survey and synthesis",
+    "doi": "10.1016/j.ejor.2013.02.053",
+    "domains": [
+      4
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "e8f322c53cd2c838fd80ff88ec9d3f52c6b78658b40f4b010d900dad723cc6b9",
+    "pages": 48,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        32,
+        33
+      ],
+      "note": "CIRRELT-2012-05 working paper corresponding to 2013 journal article; historical algorithm comparisons.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://www.cirrelt.ca/documentstravail/cirrelt-2012-05.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R015-heuristics-for-multi-attribute-vehicle-routing-problems-a-survey-and-synthesis.pdf",
+    "query_membership": [
+      {
+        "query_id": "A4-I-1",
+        "engine": "openalex",
+        "rank": 15
+      }
+    ]
+  },
+  {
+    "id": "round_1-04-R055",
+    "title": "Compendium of Tour-Based Freight Modeling Literature",
+    "doi": "10.2172/1496012",
+    "domains": [
+      4
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "d902d5dd6973f4197422f4abdc32ce94ea34c7e0d19d6991c2071214ab999946",
+    "pages": 26,
+    "decision": "background only",
+    "decision_reason": "Generic algorithm exposition or discovery compendium, not substantive domain findings",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        23
+      ],
+      "note": "ORNL tour-model compendium; empirical/analytical model families and data requirements.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://www.osti.gov/servlets/purl/1496012",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R055-compendium-of-tour-based-freight-modeling-literature.pdf",
+    "query_membership": [
+      {
+        "query_id": "A4-I-2",
+        "engine": "openalex",
+        "rank": 5
+      },
+      {
+        "query_id": "A4-I-2",
+        "engine": "crossref",
+        "rank": 2
+      },
+      {
+        "query_id": "A4-II-1",
+        "engine": "crossref",
+        "rank": 18
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "openalex",
+        "rank": 66
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "crossref",
+        "rank": 2
+      },
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 15
+      }
+    ]
+  },
+  {
+    "id": "round_1-04-R064",
+    "title": "Descriptive modeling of freight tour formation: A shipment-based approach",
+    "doi": "10.1016/j.tre.2020.101989",
+    "domains": [
+      4
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "0387328cb39a45aced0d7e812da8272a96b017596158c5e9e2ebe93fcea4650e",
+    "pages": 16,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": "Published paper via TU Delft public repository; carrier/shipment model, choice sets, validation and missing-empty-trip limits.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://pure.tudelft.nl/ws/portalfiles/portal/85680278/1_s2.0_S1366554520306402_main.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R064-descriptive-modeling-of-freight-tour-formation-a-shipment-based-approach.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-I-1",
+        "engine": "crossref",
+        "rank": 6
+      },
+      {
+        "query_id": "A4-I-2",
+        "engine": "openalex",
+        "rank": 14
+      },
+      {
+        "query_id": "A4-I-2",
+        "engine": "crossref",
+        "rank": 3
+      },
+      {
+        "query_id": "A3-II-2",
+        "engine": "crossref",
+        "rank": 18
+      },
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "crossref",
+        "rank": 19
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "openalex",
+        "rank": 57
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "crossref",
+        "rank": 43
+      },
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 84
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 18
+      }
+    ]
+  },
+  {
+    "id": "round_1-05-R076",
+    "title": "Capturing preference heterogeneity of truck drivers’ route choice behavior with context effects using a latent class model",
+    "doi": "10.18757/ejtir.2013.13.4.3004",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "83b8c7f100007eb22b6d082579760d060057bd15074c710d16f898a663f2f757",
+    "pages": 15,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        7,
+        12,
+        13
+      ],
+      "note": "Stated-choice latent-class evidence; not revealed network equilibrium.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://journals.open.tudelft.nl/ejtir/article/download/3004/3191",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "R076-capturing-preference-heterogeneity-of-truck-drivers-route-choice-behavior-with-context-effects.pdf",
+    "query_membership": [
+      {
+        "query_id": "A5-I-2",
+        "engine": "crossref",
+        "rank": 8
+      },
+      {
+        "query_id": "A5-III-network",
+        "engine": "openalex",
+        "rank": 15
+      },
+      {
+        "query_id": "A5-III-network",
+        "engine": "crossref",
+        "rank": 6
+      }
+    ]
+  },
+  {
+    "id": "round_1-05-S001",
+    "title": "Urban Transportation Networks: Equilibrium Analysis with Mathematical Programming Methods",
+    "doi": "",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "61082386627f69a2b03e060ad32984f587f4ca59a1d2cbd80bf44ff0542a423f",
+    "pages": 415,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "Textbook chapters/sections reviewed",
+      "pdf_pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21,
+        22,
+        29,
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        75,
+        76,
+        77,
+        78,
+        127,
+        128,
+        132,
+        133,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        325,
+        326,
+        328
+      ],
+      "note": "Targeted equilibrium, distribution and stochastic-loading chapters; not cover-to-cover reading.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://sheffi.mit.edu/sites/sheffi.mit.edu/files/sheffi_urban_trans_networks_0.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S001-urban-transportation-networks-equilibrium-analysis-with-mathematical-programming-methods.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_1-05-S002",
+    "title": "A note on two problems in connexion with graphs",
+    "doi": "10.1007/bf01386390",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "ab97b5f9d777d42529eaad282f12a2faa4693beb2af0dccd48d13d58e5914679",
+    "pages": 3,
+    "decision": "background only",
+    "decision_reason": "Generic algorithm exposition or discovery compendium, not substantive domain findings",
+    "reading": {
+      "depth": "Full short paper reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "note": "Shortest-path algorithm, not assignment behaviour or freight demand.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://jmvidal.cse.sc.edu/library/dijkstra59a.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S002-a-note-on-two-problems-in-connexion-with-graphs.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_1-06-S001",
+    "title": "EMEP/EEA air pollutant emission inventory guidebook 2023: Road transport, June 2026 update",
+    "doi": "",
+    "domains": [
+      6
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "14f712b86f6ed9832871df4985e8d7cd9c76f5a78e03526e775df0264593cb57",
+    "pages": 157,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "Official methodology sections reviewed",
+      "pdf_pages": [
+        3,
+        4,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        58,
+        63,
+        114,
+        115
+      ],
+      "note": "Guidebook 2023 road chapter, June 2026 update; factor and thermal/energy accounting sections.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://copert.emisia.com/wp-content/uploads/2026/09/1.A.3.b.i-iv-Road-transport-June-2026.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S001-emep-eea-air-pollutant-emission-inventory-guidebook-2023-road-transport-june-2026-update.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_1-06-S002",
+    "title": "EMEP/EEA air pollutant emission inventory guidebook 2023: Road vehicle tyre and brake wear, May 2026 update",
+    "doi": "",
+    "domains": [
+      6
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "c850da88f86b8d47b0540df31144e0b8950668a0f3042475e97c76bce6cb83e6",
+    "pages": 38,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "Official methodology sections reviewed",
+      "pdf_pages": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "note": "May 2026 chapter update; primary wear sources and methods; resuspension explicitly not supplied.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://copert.emisia.com/wp-content/uploads/2026/09/1.A.3.b.vi-vii-Road-tyre-and-brake-wear-May-2026.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S002-emep-eea-air-pollutant-emission-inventory-guidebook-2023-road-vehicle-tyre-and-brake-wear-may-2.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_1-06-S003",
+    "title": "A Survey of Vehicle System and Energy Models",
+    "doi": "10.3390/act14010010",
+    "domains": [
+      6
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "faf6cf702174ff3c54256b401b41b2896b6be7e15de109ec5d722cbc33af001e",
+    "pages": 30,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "depth": "PDF sections reviewed",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26
+      ],
+      "note": "Energy-model taxonomy and physical/detail trade-offs; no new-setting accuracy claim.",
+      "review_date_utc": "2026-11-11"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/actuators/actuators-14-00010/article_deploy/actuators-14-00010.pdf",
+    "retrieval_route": "round_1 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "S003-a-survey-of-vehicle-system-and-energy-models.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_2-01-D008",
+    "title": "Assessing the Spatial Transferability of Freight (Trip) Generation Models across and within States of India: Empirical Evidence and Implications for Benefit Transfer",
+    "doi": "10.1007/s11067-021-09530-z",
+    "domains": [
+      1
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "b5f67d1d421ce3dd6566883b87aba31d4da68aed391b1fb895302a061470d1fd",
+    "pages": 29,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        2,
+        8,
+        9,
+        10,
+        13,
+        14,
+        21,
+        22,
+        25,
+        26
+      ],
+      "role": "Empirical geographical transfer and updating comparison",
+      "object": "Freight tonnes/week and trip frequencies by establishment sector",
+      "method": "Separate goods/vehicle-count models and transfer with local updating",
+      "validation": "Cross-region predictions and local-model references; sector/context-dependent",
+      "finding": "Transferability and updating gains vary by geography, sector and outcome.",
+      "limit": "Limited regional/industry samples; coefficients and preferred size measure do not automatically transfer elsewhere.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11067-021-09530-z.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D008-assessing-the-spatial-transferability-of-freight-trip-generation-models-across-and-within-state.pdf",
+    "query_membership": [
+      {
+        "query_id": "A1-II-1",
+        "engine": "openalex",
+        "rank": 8
+      },
+      {
+        "query_id": "A1-II-1",
+        "engine": "crossref",
+        "rank": 3
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "openalex",
+        "rank": 23
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "crossref",
+        "rank": 13
+      },
+      {
+        "query_id": "A7-III-transfer",
+        "engine": "openalex",
+        "rank": 35
+      }
+    ]
+  },
+  {
+    "id": "round_2-01-D011",
+    "title": "Conceptualizing freight generation for transport and land use planning: A review and synthesis of the literature",
+    "doi": "10.1016/j.tranpol.2018.11.007",
+    "domains": [
+      1
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "49e11c5aeb4de81150b91012fb3562b8e27e298bd952f829e7fffaecb2dc185a",
+    "pages": 31,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        20,
+        21,
+        22
+      ],
+      "role": "Conceptual review and planning framework",
+      "object": "Freight generation within changing land-use/economic systems",
+      "method": "Literature synthesis and a freight adaptation of Porter’s Diamond",
+      "validation": "Conceptual synthesis, not an estimated predictive benchmark",
+      "finding": "Firm strategies, location, demand and governance delimit static generator models.",
+      "limit": "Its proposed conceptual framework is not a validated replacement demand equation.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://ndownloader.figshare.com/files/62722534",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D011-conceptualizing-freight-generation-for-transport-and-land-use-planning-a-review-and-synthesis-o.pdf",
+    "query_membership": [
+      {
+        "query_id": "A1-II-1",
+        "engine": "openalex",
+        "rank": 11
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "openalex",
+        "rank": 77
+      }
+    ]
+  },
+  {
+    "id": "round_2-01-T001",
+    "title": "Freight Trip Generation and Land Use",
+    "doi": "10.17226/22659",
+    "domains": [
+      1
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "7111e95dbbac333dea6e77f1ee1a2b4dd3fc37104bc3e4a67cf2c867f0c4f93a",
+    "pages": 164,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        7,
+        8,
+        9,
+        10,
+        45,
+        46,
+        47,
+        48,
+        58,
+        69,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        94,
+        95
+      ],
+      "role": "Methodological guidebook with empirical generation comparisons",
+      "object": "Freight quantities versus establishment vehicle visits",
+      "method": "Economic/land-use classifications, alternative generation forms and aggregation",
+      "validation": "Case studies and external checks; some comparison cells have small samples",
+      "finding": "Generation form and sector classification determine valid aggregation; proportional trip rates are only one case.",
+      "limit": "Predominantly US cases and FTG evidence; no universal industry estimator or coefficient is established.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://library.nationalmuseum.gov.ph/digital-collection/digi/NA02/2012/22659.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T001-freight-trip-generation-and-land-use.pdf",
+    "query_membership": [
+      {
+        "query_id": "A1-I-1",
+        "engine": "openalex",
+        "rank": 8
+      },
+      {
+        "query_id": "A1-I-1",
+        "engine": "crossref",
+        "rank": 25
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "openalex",
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "round_2-02-D058",
+    "title": "ESTIMATION OF TRUCK ORIGIN-DESTINATION BASED ON COMMODITY FLOWS",
+    "doi": "10.11175/eastpro.2007.0.147.0",
+    "domains": [
+      2
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "000b28132f4a9b4fa940821d8c6efc6a797e1956a4de263462a9374e782139d4",
+    "pages": 15,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "role": "Freight commodity-to-vehicle estimation application/comparison",
+      "object": "Light/heavy truck OD from commodity flows and trip chains",
+      "method": "Survey-calibrated shipment/chain characteristics and empty-return rules",
+      "validation": "Estimated versus observed truck OD for a narrow Tokyo food-products application",
+      "finding": "Chain-aware conversion improves on naive proportional conversion in the studied case.",
+      "limit": "Survey-dependent assumptions and narrow test; fit is not proof of independent cross-area prediction.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://www.jstage.jst.go.jp/article/eastpro/2007/0/2007_0_147/_pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D058-estimation-of-truck-origin-destination-based-on-commodity-flows.pdf",
+    "query_membership": [
+      {
+        "query_id": "A2-I-2",
+        "engine": "openalex",
+        "rank": 8
+      },
+      {
+        "query_id": "A2-II-2",
+        "engine": "openalex",
+        "rank": 11
+      },
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "openalex",
+        "rank": 23
+      }
+    ]
+  },
+  {
+    "id": "round_2-02-D059",
+    "title": "Estimation of the Origin-Destination Matrix for Trucks That Use Highways: A Case Study in Chile",
+    "doi": "10.3390/su14052645",
+    "domains": [
+      2
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "680c693794d35c1dcd65613013d50a752d28454f5b38c97d706d9d1ebddf5f29",
+    "pages": 22,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "role": "Partial-observation OD inference application",
+      "object": "Truck trips using a Chilean highway, restricted to company-owned vehicles",
+      "method": "Toll/activity data, registration and survey information; probabilistic origins and proportional destinations",
+      "validation": "Random held-out observations for origin inference; aggregate land-use correlation; full target OD matrix not independently observed",
+      "finding": "Partially observed highway movements can be enriched with other data, but resulting coverage remains conditional.",
+      "limit": "It does not identify all urban freight, all owners, commodity trade or universal OD behaviour.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-14-02645/article_deploy/sustainability-14-02645.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D059-estimation-of-the-origin-destination-matrix-for-trucks-that-use-highways-a-case-study-in-chile.pdf",
+    "query_membership": [
+      {
+        "query_id": "A2-I-2",
+        "engine": "openalex",
+        "rank": 11
+      },
+      {
+        "query_id": "A2-II-2",
+        "engine": "openalex",
+        "rank": 12
+      },
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "openalex",
+        "rank": 55
+      }
+    ]
+  },
+  {
+    "id": "round_2-02-T001",
+    "title": "An Interdisciplinary Survey on Origin-destination Flows Modeling: Theory and Techniques",
+    "doi": "10.1145/3682058",
+    "domains": [
+      2
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "3b2847403019fd3077d924f496ff3d3b15adb2c809e53efadfdbcf05a04fb81c",
+    "pages": 49,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22
+      ],
+      "role": "Interdisciplinary theory/task taxonomy review",
+      "object": "OD construction, estimation, prediction and forecasting, mostly human mobility",
+      "method": "Gravity, intervening-opportunities, radiation and engineering/data-driven methods",
+      "validation": "Review synthesis rather than new freight-specific comparative validation",
+      "finding": "Separate spatial-interaction theory from the inverse problem and from temporal prediction.",
+      "limit": "Human-mobility findings cannot be treated as direct freight evidence; radiation is not established as a freight replacement.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://arxiv.org/pdf/2306.10048",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T001-an-interdisciplinary-survey-on-origin-destination-flows-modeling-theory-and-techniques.pdf",
+    "query_membership": [
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "openalex",
+        "rank": 89
+      }
+    ]
+  },
+  {
+    "id": "round_2-03-D021",
+    "title": "A disaggregate stochastic freight transport model for Sweden",
+    "doi": "10.1007/s11116-018-9856-9",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "781dfb5547955dac506b2b154cfc1789f2a3f227f4b78ad9a6f14e1a7b374ec1",
+    "pages": 24,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        5,
+        6,
+        18,
+        19,
+        20,
+        21
+      ],
+      "role": "Estimated behavioural model and implemented sensitivity comparison",
+      "object": "Swedish shipment-size/transport-chain choices and tonne-km responses",
+      "method": "Commodity-specific stochastic choice versus deterministic logistics costs",
+      "validation": "CFS estimation and implemented scenario elasticities for two commodity groups",
+      "finding": "Stochastic and deterministic versions produce materially different responses; the former often attenuates large switches.",
+      "limit": "Elasticity plausibility is not external causal validation; comparison is not evidence that logit always predicts better.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "http://eprints.whiterose.ac.uk/126412/3/Revised_Manuscript-Dec%202017-MA.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D021-a-disaggregate-stochastic-freight-transport-model-for-sweden.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-II-1",
+        "engine": "openalex",
+        "rank": 21
+      }
+    ]
+  },
+  {
+    "id": "round_2-03-D028",
+    "title": "Joint and sequential models for freight vehicle type and shipment size choice",
+    "doi": "10.1007/s11116-022-10289-6",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "075600b33001d8b73c8329f2fe5fca9e85358bc6c4a0f003fd2e20bf81b6bc0a",
+    "pages": 17,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15
+      ],
+      "role": "Direct joint/nested versus sequential specification comparison",
+      "object": "Shipment-size class and urban freight vehicle type",
+      "method": "Two sequential orders and two nesting structures on GTHA survey shipments",
+      "validation": "Fit criteria including adjusted rho-squared/BIC; no cross-region test established here",
+      "finding": "Shipment-size-first sequential specification fits best in this dataset, with nesting indicating dependence.",
+      "limit": "Fit ranking does not prove actual decision order, universal superiority or transferability.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11116-022-10289-6.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D028-joint-and-sequential-models-for-freight-vehicle-type-and-shipment-size-choice.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-I-2",
+        "engine": "crossref",
+        "rank": 15
+      },
+      {
+        "query_id": "A3-II-1",
+        "engine": "crossref",
+        "rank": 8
+      },
+      {
+        "query_id": "A3-II-2",
+        "engine": "openalex",
+        "rank": 2
+      },
+      {
+        "query_id": "A3-II-2",
+        "engine": "crossref",
+        "rank": 1
+      },
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "crossref",
+        "rank": 14
+      }
+    ]
+  },
+  {
+    "id": "round_2-03-D046",
+    "title": "Building latent segments of goods to improve shipment size modelling: Confirmatory evidence from France",
+    "doi": "10.18757/ejtir.2022.22.2.5662",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "bac2b3bb0cddd51c0b4cc21ead1658bfa4e0efbb8c523dee14a13968611a553a",
+    "pages": 31,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        8,
+        9,
+        22,
+        23,
+        24,
+        25
+      ],
+      "role": "Behavioural segmentation and specification comparison",
+      "object": "Road shipment-size classes and logistics constraints",
+      "method": "Total-logistics-cost core with latent segments versus administrative commodity segmentation",
+      "validation": "Repeated stratified cross-validation conditional on predefined segmentation",
+      "finding": "Latent segmentation offers modest aggregate accuracy gains and heterogeneous class performance.",
+      "limit": "Conditional CV is not a complete geographical transfer test; a small gain does not mandate latent segments.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://journals.open.tudelft.nl/ejtir/article/download/5662/5280",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D046-building-latent-segments-of-goods-to-improve-shipment-size-modelling-confirmatory-evidence-from.pdf",
+    "query_membership": [
+      {
+        "query_id": "A3-II-2",
+        "engine": "openalex",
+        "rank": 9
+      }
+    ]
+  },
+  {
+    "id": "round_2-03-T001",
+    "title": "Estimating the impact of transport costs on firms’ choice of transport chain and shipment size",
+    "doi": "",
+    "domains": [
+      3
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "068a7c428b36322137fd9a6a27d4d2411fe81443464bcdaeeaad37257e893df4",
+    "pages": 28,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9,
+        19,
+        20
+      ],
+      "role": "Working-paper estimation/specification study",
+      "object": "Swedish transport-chain and shipment-size choices",
+      "method": "Commodity-specific MNL using CFS and modelled costs; cost-form comparison and size proxies",
+      "validation": "Fit comparisons, not a separately demonstrated policy-response validation",
+      "finding": "Cost form and missing annual-flow proxies materially affect estimated choices.",
+      "limit": "Working paper; simulated cost inputs, choice-set construction and missing annual flows constrain interpretation.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://www.transportportal.se/VTISWoPEc/VTI%202024%205.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T001-estimating-the-impact-of-transport-costs-on-firms-choice-of-transport-chain-and-shipment-size.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_2-04-D024",
+    "title": "Freight Operations Modelling for Urban Delivery and Pickup with Flexible Routing: Cluster Transport Modelling Incorporating Discrete-Event Simulation and GIS",
+    "doi": "10.3390/infrastructures6120180",
+    "domains": [
+      4
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "db6bcf2b2ebb70a0510a8b1e9ecf4c0eb83104ad35865ccb32a9ea045de15c2a",
+    "pages": 21,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "role": "Operator-scale simulation resolution comparison",
+      "object": "Urban pickup/delivery operations for an observed truck/case",
+      "method": "Discrete-event simulation with simple suburb clusters versus an intersection network",
+      "validation": "Route distance/time compared against GPS and operator information",
+      "finding": "Operational detail and network representation affect reproduced routes and service timing.",
+      "limit": "An operator/truck case with informed route sequence is not a transferable citywide tour-choice model.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/infrastructures/infrastructures-06-00180/article_deploy/infrastructures-06-00180.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D024-freight-operations-modelling-for-urban-delivery-and-pickup-with-flexible-routing-cluster-transp.pdf",
+    "query_membership": [
+      {
+        "query_id": "A4-II-1",
+        "engine": "openalex",
+        "rank": 24
+      }
+    ]
+  },
+  {
+    "id": "round_2-04-D046",
+    "title": "Proposed Methodology for a Tour-Based Freight Model",
+    "doi": "10.2172/1505336",
+    "domains": [
+      4
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "8574841ebe11749d7154e3dade6d46e4baccc7a538716b105143f211454ba746",
+    "pages": 15,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        7,
+        10,
+        12,
+        13
+      ],
+      "role": "Proposed model-development methodology",
+      "object": "Tour-based freight modelling and future technology scenarios",
+      "method": "Planned GPS, regressions and least-cost tour modelling",
+      "validation": "Proposal; no completed empirical performance test in this document",
+      "finding": "Useful account of planned data and activity definitions.",
+      "limit": "Not evidence that a model was built, validated, or outperformed alternatives.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://www.osti.gov/servlets/purl/1505336",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D046-proposed-methodology-for-a-tour-based-freight-model.pdf",
+    "query_membership": [
+      {
+        "query_id": "A4-I-2",
+        "engine": "openalex",
+        "rank": 7
+      },
+      {
+        "query_id": "A4-I-2",
+        "engine": "crossref",
+        "rank": 1
+      },
+      {
+        "query_id": "A4-II-1",
+        "engine": "crossref",
+        "rank": 22
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "openalex",
+        "rank": 69
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "crossref",
+        "rank": 1
+      }
+    ],
+    "source_type": "Model-development proposal, not completed empirical validation"
+  },
+  {
+    "id": "round_2-05-D028",
+    "title": "Assignment of Freight Truck Shipment on the U.S. Highway Network",
+    "doi": "10.3390/su13116369",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "bf2decbedaf879bd5f94843b7424c1f1936c8c950f43ca8d0da1c630632ec6fa",
+    "pages": 12,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "role": "Static-equilibrium freight assignment application",
+      "object": "National highway freight flows with background traffic",
+      "method": "Wardrop UE with modified congestion costs and convex-combination algorithm",
+      "validation": "Aggregate tonne-mile agreement and qualitative spatial comparison",
+      "finding": "Demonstrates a conventional congestion-aware freight assignment formulation.",
+      "limit": "Aggregate/map agreement is weaker than held-out link and travel-time validation; not a general UE-versus-AON accuracy test.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-13-06369/article_deploy/sustainability-13-06369.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D028-assignment-of-freight-truck-shipment-on-the-u-s-highway-network.pdf",
+    "query_membership": [
+      {
+        "query_id": "A5-II-1",
+        "engine": "crossref",
+        "rank": 3
+      },
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "crossref",
+        "rank": 49
+      },
+      {
+        "query_id": "A5-III-network",
+        "engine": "openalex",
+        "rank": 28
+      },
+      {
+        "query_id": "A5-III-network",
+        "engine": "crossref",
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "id": "round_2-05-T001",
+    "title": "Truck Route Choice Modeling using Large Streams of GPS Data",
+    "doi": "",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "896f56f74056fa518f3d9236370185297db9c41d438d2690013ff49f1bf10345",
+    "pages": 51,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        4,
+        7,
+        31,
+        32,
+        35,
+        43,
+        44,
+        46,
+        48
+      ],
+      "role": "Observed route-choice/choice-set empirical comparison",
+      "object": "Truck GPS routes, candidate alternatives and route-choice predictions",
+      "method": "BFS link elimination and path-size logit; alternative choice-set definitions",
+      "validation": "Map-match inspection and separate route-choice validation sample",
+      "finding": "Choice-set quality and OD aggregation affect prediction, including irrelevant alternatives.",
+      "limit": "One fleet/region and filtered GPS data; route holdout is not independent validation of OD demand or network equilibrium.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://rosap.ntl.bts.gov/view/dot/34888/dot_34888_DS1.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T001-truck-route-choice-modeling-using-large-streams-of-gps-data.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_2-05-T002",
+    "title": "Dynamic traffic assignment: A review of the methodological advances for environmentally sustainable road transportation applications",
+    "doi": "10.1016/j.trb.2018.03.011",
+    "domains": [
+      5
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "f5eaa4860907144af5461f7b31a2a6afd1469103315ba47dba4af0e78ed0c3f3",
+    "pages": 26,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        7,
+        8,
+        9,
+        19,
+        20
+      ],
+      "role": "Dynamic assignment and environmental model-coupling review",
+      "object": "Traffic dynamics and environmental evaluation across scales",
+      "method": "Review of flow/loading, route choice and emission-model combinations",
+      "validation": "Synthesis; not one controlled cross-model empirical trial",
+      "finding": "Traffic/emission resolution and dynamic phenomena must be compatible.",
+      "limit": "No universal gain from microscopic detail; data, computational scale and validation constrain the choice.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/127cada2-25ae-4ec0-8e6a-6723a48019fd/content",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T002-dynamic-traffic-assignment-a-review-of-the-methodological-advances-for-environmentally-sustaina.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "round_2-06-D017",
+    "title": "Fuel Consumption Modeling and Condition-Corrected Benchmarking of Heavy-Duty Trucks Using Longitudinal OBD Data",
+    "doi": "10.3390/en19215260",
+    "domains": [
+      6
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "8c767f017c1def9a91023de192f983b290e0db7b40624ad8c4a72851fa0397c2",
+    "pages": 26,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        4,
+        5,
+        6,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "role": "Recent empirical fuel-model/feature comparison",
+      "object": "OBD-derived trip fuel intensity for 60 heavy-duty trucks",
+      "method": "Regression/tree models and feature sets, vehicle-grouped cross-validation",
+      "validation": "Held-out vehicles within one fleet/time setting; target reconstructed from OBD",
+      "finding": "Engine/thermal information affects prediction beyond motion variables.",
+      "limit": "Not independent measured-fuel or pollutant validation; retrospective features may be unavailable for ex-ante network scenarios.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://mdpi-res.com/d_attachment/energies/energies-19-05260/article_deploy/energies-19-05260.pdf",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "D017-fuel-consumption-modeling-and-condition-corrected-benchmarking-of-heavy-duty-trucks-using-longi.pdf",
+    "query_membership": [
+      {
+        "query_id": "A6-II-1",
+        "engine": "openalex",
+        "rank": 17
+      }
+    ]
+  },
+  {
+    "id": "round_2-06-T001",
+    "title": "Multi-scale comparison of modeling chains for traffic-related air pollutant emission assessment",
+    "doi": "10.1016/j.scs.2025.106354",
+    "domains": [
+      6
+    ],
+    "cohort": "previous reading collection",
+    "pdf_sha256": "1aa0c1257181a07f9767f41e11a06ae3eba1107aaed79dc389687d242acc2f47",
+    "pages": 14,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "role": "Cross-scale traffic/emission modelling-chain comparison",
+      "object": "Road emissions across trip/street/grid aggregation",
+      "method": "Two traffic models crossed with COPERT/HBEFA while retaining network/route distinctions",
+      "validation": "Model intercomparison; experimental validation explicitly left to future work",
+      "finding": "Spatial scale and traffic-model differences change emissions despite common demand.",
+      "limit": "Differences are not isolated factor-model effects or proof of which chain is more accurate; not a freight-only validation.",
+      "review_date": "2026-11-12"
+    },
+    "source_url": "https://hal.science/hal-05305911v1/document",
+    "retrieval_route": "round_2 database or explicitly recorded supplement; see original search/access audit",
+    "file_name": "T001-multi-scale-comparison-of-modeling-chains-for-traffic-related-air-pollutant-emission-assessment.pdf",
+    "query_membership": []
+  },
+  {
+    "id": "D01",
+    "title": "A Review of Big Data in Road Freight Transport Modeling: Gaps and Potentials",
+    "doi": "10.1007/s42421-023-00065-y",
+    "domains": [
+      7,
+      4,
+      5,
+      6
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "88b4678a1b16f7faf4aa633e77e63a53d445ec8f038677606159493eb197950e",
+    "pages": 16,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "D01",
+      "title": "A Review of Big Data in Road Freight Transport Modeling: Gaps and Potentials",
+      "doi": "10.1007/s42421-023-00065-y",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/D01-a-review-of-big-data-in-road-freight-transport-modeling-gaps-and-potentials.pdf",
+      "pdf_pages": [
+        1,
+        9,
+        11,
+        12,
+        13
+      ],
+      "reading_depth": "Published review; selected access, quality and conclusion excerpts.",
+      "data_and_method": "Classifies road freight data by collection method, resolution and information; highlights sharing, privacy, standards and sampling issues.",
+      "preliminary_use": "Useful for mapping obtainable data types and distinguishing potential information from practical access.",
+      "limitation": "A literature review of opportunities is not a representative census of data availability in most study areas. Data declaration on a review is not evidence that its underlying application datasets are open.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s42421-023-00065-y.pdf",
+    "retrieval_route": "ranked database retrieval or explicit access follow-up",
+    "query_membership": [
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 58
+      }
+    ],
+    "file_name": "D01-a-review-of-big-data-in-road-freight-transport-modeling-gaps-and-potentials.pdf"
+  },
+  {
+    "id": "D02",
+    "title": "State-of-the art of freight forecast modeling: lessons learned and the road ahead",
+    "doi": "10.1007/s11116-010-9281-1",
+    "domains": [
+      7,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "0ae0c7a266e7ee8cf9ef795d5dea5cd9701637490a65198a48f1b0aae1609709",
+    "pages": 20,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "D02",
+      "title": "State-of-the art of freight forecast modeling: lessons learned and the road ahead",
+      "doi": "10.1007/s11116-010-9281-1",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/D02-state-of-the-art-of-freight-forecast-modeling-lessons-learned-and-the-road-ahead.pdf",
+      "pdf_pages": [
+        1,
+        13,
+        16,
+        17
+      ],
+      "reading_depth": "Published review and California planning case; selected data/model comparison.",
+      "data_and_method": "Compares aggregate commodity, regional logistics and logistics-plus-urban-touring alternatives against data requirements.",
+      "preliminary_use": "Table 4 connects commodity flows, employment, loads, make/use, facilities, logistics costs, shipment sizes and truck diaries to supported model families.",
+      "limitation": "Historical US configuration; neither the 2010 data vintage nor agency access can be generalized to all areas or to current availability.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11116-010-9281-1.pdf",
+    "retrieval_route": "targeted official-publisher search",
+    "query_membership": [
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 78
+      }
+    ],
+    "file_name": "D02-state-of-the-art-of-freight-forecast-modeling-lessons-learned-and-the-road-ahead.pdf"
+  },
+  {
+    "id": "D15",
+    "title": "Data Mining and Big Freight Transport Database Analysis and Forecasting Capabilities",
+    "doi": "10.7225/toms.v05.n02.001",
+    "domains": [
+      7,
+      2
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "eb34ef70776ffbcbc7d705da9770c9229b80b46bda351212479d58716d6c5a8b",
+    "pages": 12,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "D15",
+      "title": "Data Mining and Big Freight Transport Database Analysis and Forecasting Capabilities",
+      "doi": "10.7225/toms.v05.n02.001",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/D15-data-mining-and-big-freight-transport-database-analysis-and-forecasting-capabilities.pdf",
+      "pdf_pages": [
+        1,
+        8,
+        9
+      ],
+      "reading_depth": "Published European corridor application; selected method and validation excerpts.",
+      "data_and_method": "Uses European official-data framework and Bayesian modelling for freight-flow forecasting.",
+      "preliminary_use": "Provides an alternative aggregate-data case beyond Dutch and US examples.",
+      "limitation": "Corridor-scale flow forecasting is a different target from urban shipment/tour reconstruction; internal cross-validation is not geographical transfer validation.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://www.toms.com.hr/index.php/toms/article/download/149/141",
+    "retrieval_route": "ranked database retrieval or explicit access follow-up",
+    "query_membership": [
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 83
+      }
+    ],
+    "file_name": "D15-data-mining-and-big-freight-transport-database-analysis-and-forecasting-capabilities.pdf"
+  },
+  {
+    "id": "G01",
+    "title": "Behavioral/Agent-Based Supply Chain Modeling Research Synthesis and Guide",
+    "doi": "",
+    "domains": [
+      7,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "958fa331317fd4bb5b0bda016402218e3b6b5c4c02eb56e8020f6612bedc5c98",
+    "pages": 156,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G01",
+      "title": "Behavioral/Agent-Based Supply Chain Modeling Research Synthesis and Guide",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G01-behavioral-agent-based-supply-chain-modeling-research-synthesis-and-guide.pdf",
+      "pdf_pages": [
+        1,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reading_depth": "Official FHWA synthesis, March 2018; chapter 3 excerpts and data tables.",
+      "data_and_method": "Classifies US public/private inputs by spatial/temporal detail, commodity/industry codes and role in estimation, calibration, validation or running scenarios.",
+      "preliminary_use": "A directly useful extraction template for the seventh bucket.",
+      "limitation": "Historical US source inventory, not a current global availability assessment. Public tabulations, confidential microdata and independent validation observations must remain distinct.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://ops.fhwa.dot.gov/publications/fhwahop18003/fhwahop18003.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G01-behavioral-agent-based-supply-chain-modeling-research-synthesis-and-guide.pdf"
+  },
+  {
+    "id": "G02",
+    "title": "Freight Demand Modeling and Data Improvement Handbook",
+    "doi": "",
+    "domains": [
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "5115e0db1bd9ca069656ffb1f63be90dc4aa469dc2b4a14bfda6c004431ddffb",
+    "pages": 60,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G02",
+      "title": "Freight Demand Modeling and Data Improvement Handbook",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G02-freight-demand-modeling-and-data-improvement-handbook.pdf",
+      "pdf_pages": [
+        1,
+        9,
+        10,
+        33
+      ],
+      "reading_depth": "Official FHWA handbook, December 2017; selected introductory and application excerpts.",
+      "data_and_method": "Relates planning agency objectives and capabilities to data and model choices; documents local examples.",
+      "preliminary_use": "Supports an application-facing account of achievable model configurations and collection effort.",
+      "limitation": "Guidance/examples rather than a statistical estimate of how common each data configuration is.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://ops.fhwa.dot.gov/publications/fhwahop18018/fhwahop18018.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 51
+      }
+    ],
+    "file_name": "G02-freight-demand-modeling-and-data-improvement-handbook.pdf"
+  },
+  {
+    "id": "G03",
+    "title": "Peer Review: Freight Analysis and Modelling Environment (FAME) – Stage 1",
+    "doi": "",
+    "domains": [
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "2bf6dc0cd5cb9bb7f6ea0daeb7a36f513c2d7df83faa68a999ac362c9eb5321b",
+    "pages": 40,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G03",
+      "title": "Peer Review: Freight Analysis and Modelling Environment (FAME) – Stage 1",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G03-peer-review-freight-analysis-and-modelling-environment-(fame)-–-stage-1.pdf",
+      "pdf_pages": [
+        1,
+        20,
+        38
+      ],
+      "reading_depth": "UK Department for Transport commissioned FAME peer review, final March 2024; selected gap discussion.",
+      "data_and_method": "Distinguishes data assumed by a proposed framework from data actually available; discusses missing last-mile freight information and shipment-based evidence.",
+      "preliminary_use": "Provides a documented counterexample to assuming that relatively rich national statistics imply sufficient local logistics data.",
+      "limitation": "A technical expert review of a specific national programme; not a worldwide comparative validation study.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://assets.publishing.service.gov.uk/media/6718b8a138149ce9d09e3895/dft-peer-review-freight-analysis-modelling-environment.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G03-peer-review-freight-analysis-and-modelling-environment-(fame)-–-stage-1.pdf"
+  },
+  {
+    "id": "G05",
+    "title": "Eurostat Road freight transport methodology 2025 revised",
+    "doi": "",
+    "domains": [
+      7,
+      2,
+      4
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "bd388974d760cc65232c213ed24b2a92a4cd1de5e687e0c2368de2d550e79225",
+    "pages": 276,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G05",
+      "title": "Eurostat Road freight transport methodology 2025 revised",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G05-eurostat-road-freight-transport-methodology-2025-revised.pdf",
+      "pdf_pages": [
+        1,
+        20,
+        45,
+        57,
+        261
+      ],
+      "reading_depth": "Official Eurostat 2025 revised manual; selected objectives, confidentiality and dissemination excerpts.",
+      "data_and_method": "Explains road freight survey design, vehicle/journey/goods data, classification and dissemination constraints.",
+      "preliminary_use": "Collected microdata and public dissemination are separate levels; useful cross-area stratification needs attention to confidentiality and sampling.",
+      "limitation": "Harmonized survey variables do not imply universal public access to detailed journey or establishment records. This is survey guidance, not a model performance comparison.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://ec.europa.eu/eurostat/cache/metadata/Annexes/road_go_esms_an_Road_freight_transport_methodo.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G05-eurostat-road-freight-transport-methodology-2025-revised.pdf"
+  },
+  {
+    "id": "G06",
+    "title": "Trafikanalys Varuflodesundersokningen 2025 Quality declaration",
+    "doi": "",
+    "domains": [
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "c6c6c7d0adb834e6f6a94486aafef824447837ec25a4c0b15df4147024d8bd10",
+    "pages": 24,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G06",
+      "title": "Trafikanalys Varuflodesundersokningen 2025 Quality declaration",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G06-trafikanalys-varuflodesundersokningen-2025-quality-declaration.pdf",
+      "pdf_pages": [
+        1,
+        4,
+        19,
+        23
+      ],
+      "reading_depth": "Official Swedish 2025 survey quality declaration, released September 2026; selected coverage/access excerpts, read in Swedish.",
+      "data_and_method": "Public statistical tables coexist with confidential primary data; finer geographical breakdowns can be constrained by disclosure and coverage.",
+      "preliminary_use": "Directly relevant to publicly available versus research-access data, and to usable spatial granularity.",
+      "limitation": "One national survey; research microdata access is conditional, not a promise of access for any user.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://www.trafa.se/globalassets/statistik/varufloden/2025/kvalitetsdeklaration-vfu-2025.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G06-trafikanalys-varuflodesundersokningen-2025-quality-declaration.pdf"
+  },
+  {
+    "id": "G07",
+    "title": "Trafikanalys Varuflodesundersokningen 2025 Method report",
+    "doi": "",
+    "domains": [
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "63dc034d42d3e025132a01e3580e51f7e45c522ed337782fc4105ccee11cf219",
+    "pages": 87,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G07",
+      "title": "Trafikanalys Varuflodesundersokningen 2025 Method report",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G07-trafikanalys-varuflodesundersokningen-2025-method-report.pdf",
+      "pdf_pages": [
+        1,
+        5,
+        23,
+        24
+      ],
+      "reading_depth": "Official Swedish VFU 2025 method report, released September 2026; selected purpose, population and stratification excerpts.",
+      "data_and_method": "Combines selected-industry sampling and register-based sources; stratifies establishments by industry and employment size and samples reporting periods/shipments.",
+      "preliminary_use": "Useful evidence for actor, commodity, time and geography dimensions and the limitations of sector coverage.",
+      "limitation": "Public report describes the collection; it is not the underlying microdata. Extracted sampling detail does not establish sufficient precision for arbitrary local zones.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://www.trafa.se/globalassets/statistik/varufloden/2025/metodrapport-varuflodesundersokningen-2025.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G07-trafikanalys-varuflodesundersokningen-2025-method-report.pdf"
+  },
+  {
+    "id": "G08",
+    "title": "Trafikanalys Varuflodesundersokningen 2021 Method report",
+    "doi": "",
+    "domains": [
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "65d02b28717c2da2dc19669bb70cf908dde7656bb1a2446efb04cec0a3c8bed4",
+    "pages": 74,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "G08",
+      "title": "Trafikanalys Varuflodesundersokningen 2021 Method report",
+      "doi": "",
+      "file": "/workdir/docs/report-planning/canonical-literature/07-data-availability/G08-trafikanalys-varuflodesundersokningen-2021-method-report.pdf",
+      "pdf_pages": [
+        1,
+        7,
+        24,
+        42
+      ],
+      "reading_depth": "Identity and selected purpose, stratification and response-handling excerpts reassessed",
+      "data_and_method": "Earlier edition retained for the relationship to prior applications and change over time.",
+      "preliminary_use": "Historical Swedish survey configuration, not independent replication of the 2025 method report",
+      "limitation": "Earlier edition; sector coverage and disclosure constrain local application",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://www.trafa.se/globalassets/statistik/varufloden/metodrapport-varuflodesundersokningen-2021.pdf",
+    "retrieval_route": "targeted official guidance/repository search",
+    "query_membership": [],
+    "file_name": "G08-trafikanalys-varuflodesundersokningen-2021-method-report.pdf"
+  },
+  {
+    "id": "L01",
+    "title": "Assessing sustainable urban logistics hub impacts in Sweden: A case study of the Mall of Scandinavia using integrated emission and freight network modelling",
+    "doi": "10.1016/j.ubtr.2026.100031",
+    "domains": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cohort": "designated local reference",
+    "pdf_sha256": "c671f8b389f902ea9f94996170d939c8be19901f9b93b9b020ad8ee922e1febd",
+    "pages": 17,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "L01",
+      "title": "Assessing sustainable urban logistics hub impacts in Sweden: A case study of the Mall of Scandinavia using integrated emission and freight network modelling",
+      "doi": "10.1016/j.ubtr.2026.100031",
+      "file": "/workdir/docs/literature/1-s2.0-S3050697226000102-main.pdf",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        15
+      ],
+      "reading_depth": "Selected data, routing/emissions and scenario sections reassessed",
+      "data_and_method": "Mall of Scandinavia operator data, GIS road network and elevation information support an integrated freight/COPERT application.",
+      "preliminary_use": "Explicit local-data configuration and routing/emissions connection.",
+      "limitation": "Operator-specific observational inputs; policy comparisons are scenario outputs, not independent measured pollutant validation",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": null,
+    "retrieval_route": "user-designated local advisor paper",
+    "query_membership": [],
+    "file_name": "1-s2.0-S3050697226000102-main.pdf"
+  },
+  {
+    "id": "M01",
+    "title": "MASS-GT: An empirical model for the simulation of freight policies",
+    "doi": "10.1016/j.simpat.2025.103140",
+    "domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "d3a5110d8f028961a76313f8ea7cccda7bd46657a707a4583efe43b6a801c133",
+    "pages": 21,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "M01",
+      "title": "MASS-GT: An empirical model for the simulation of freight policies",
+      "doi": "10.1016/j.simpat.2025.103140",
+      "file": "/workdir/docs/report-planning/canonical-literature/mass-gt-reference/M01-mass-gt-an-empirical-model-for-the-simulation-of-freight-policies.pdf",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        18,
+        20
+      ],
+      "reading_depth": "Full-system published reference; targeted scope, data, routing/emissions and validation excerpts.",
+      "data_and_method": "Separates base inputs from estimation/calibration/validation data. Uses zonal employment/households, network, commodity matrix, supply-use data and logistics locations; detailed truck diaries support choice estimation.",
+      "preliminary_use": "Table 1 and section 4.1 are unusually useful for the seventh bucket. Network route costs use supplied congested network conditions; emissions use STREAM factors with vehicle/load/road categories.",
+      "limitation": "Road-count comparison and sensitivity tests do not validate every intermediate mechanism or pollutant. Public-input design does not imply shareable calibration data: the data statement says permission to share is absent. Published 2025 configuration must not be assumed identical to the fixed code checkout.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://repository.tudelft.nl/file/File_a8d7a8c7-6b65-4f42-b501-3541833d7325",
+    "retrieval_route": "MASS-GT name search + official bibliography",
+    "query_membership": [
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 2
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 2
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "crossref",
+        "rank": 9
+      }
+    ],
+    "file_name": "M01-mass-gt-an-empirical-model-for-the-simulation-of-freight-policies.pdf"
+  },
+  {
+    "id": "M02",
+    "title": "An empirical agent-based simulation system for urban goods transport (MASS-GT)",
+    "doi": "10.1016/j.procs.2018.04.021",
+    "domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "00d93577fb0fb3dfca1a240851b6642560c062a86c756c5f1aea9adb610ae722",
+    "pages": 9,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "M02",
+      "title": "An empirical agent-based simulation system for urban goods transport (MASS-GT)",
+      "doi": "10.1016/j.procs.2018.04.021",
+      "file": "/workdir/docs/report-planning/canonical-literature/mass-gt-reference/M02-an-empirical-agent-based-simulation-system-for-urban-goods-transport-mass-gt.pdf",
+      "pdf_pages": [
+        2,
+        3,
+        5
+      ],
+      "reading_depth": "Original published prototype; selected conceptual and data-table pages.",
+      "data_and_method": "Commodity matrix, firm attributes, observed shipment/tour statistics and detailed diaries support shipment disaggregation and Monte Carlo simulation.",
+      "preliminary_use": "Documents an early formulation and the rich Dutch data context.",
+      "limitation": "Prototype history, not evidence that all later model components had already been implemented or independently validated.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://repository.tudelft.nl/file/File_533d2fe3-cc5f-4e53-b7fe-45ea3b19b2e1",
+    "retrieval_route": "MASS-GT name search + official bibliography",
+    "query_membership": [
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 54
+      },
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 1
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 1
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "crossref",
+        "rank": 2
+      }
+    ],
+    "file_name": "M02-an-empirical-agent-based-simulation-system-for-urban-goods-transport-mass-gt.pdf"
+  },
+  {
+    "id": "M03",
+    "title": "Application of an empirical multi-agent model for urban goods transport to analyze impacts of zero emission zones in The Netherlands",
+    "doi": "10.1016/j.tranpol.2020.07.010",
+    "domains": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "5e9f65b56874de2e85f2b2e4311fc3dab6498e92419daf92f6c00713ed1dbb71",
+    "pages": 10,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "M03",
+      "title": "Application of an empirical multi-agent model for urban goods transport to analyze impacts of zero emission zones in The Netherlands",
+      "doi": "10.1016/j.tranpol.2020.07.010",
+      "file": "/workdir/docs/report-planning/canonical-literature/mass-gt-reference/M03-application-of-an-empirical-multi-agent-model-for-urban-goods-transport-to-analyze-impacts-of-z.pdf",
+      "pdf_pages": [
+        6,
+        9
+      ],
+      "reading_depth": "Policy application; selected model and conclusions excerpts.",
+      "data_and_method": "Shipment-based tour decisions use Dutch empirical information; scenario changes concern zero-emission zones and consolidation.",
+      "preliminary_use": "Useful for separating scenario-imposed changes from estimated behaviour and tracking model evolution.",
+      "limitation": "PDF is Transport Policy 124 (2022), despite 2020 in DOI/online metadata. Its conclusion explicitly says that implementation lacks emissions calculation; do not attribute the 2025 full model to this earlier version.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://repository.tudelft.nl/file/File_339d2ed2-8f9d-4c96-bd31-008895c5e0c8",
+    "retrieval_route": "MASS-GT name search + official bibliography",
+    "query_membership": [
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 12
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 8
+      }
+    ],
+    "file_name": "M03-application-of-an-empirical-multi-agent-model-for-urban-goods-transport-to-analyze-impacts-of-z.pdf"
+  },
+  {
+    "id": "M11",
+    "title": "Documentation MASS GT v3",
+    "doi": "",
+    "domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cohort": "designated local reference",
+    "pdf_sha256": "dd38b7c630e656983655a6e99e9db1d73c3a79e2a025f778f72c80a42f3a81b6",
+    "pages": 31,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "M11",
+      "title": "Documentation MASS GT v3",
+      "doi": "",
+      "file": "/workdir/docs/reference/sweden/mass-gt/reference-4f727c3/docs/Documentation MASS GT v3.pdf",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reading_depth": "Version/control page, contents, introduction and conceptual model reassessed",
+      "data_and_method": "Documentation held at reference commit 4f727c3633bf5edabc1b0d0fa081a9e232bf169a.",
+      "preliminary_use": "Provides the implementation-side anchor alongside publications.",
+      "limitation": "2023 v3.0 technical manual at fixed checkout; not identical by assumption to the 2025 publication",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": null,
+    "retrieval_route": "local technical documentation at MASS-GT reference commit 4f727c3633bf5edabc1b0d0fa081a9e232bf169a",
+    "query_membership": [],
+    "file_name": "Documentation MASS GT v3.pdf"
+  },
+  {
+    "id": "U02",
+    "title": "Data-driven preference-based routing and scheduling for activity-based freight transport modelling",
+    "doi": "10.1016/j.trc.2023.104413",
+    "domains": [
+      4,
+      5
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "510b9d8aafa338d009a1bdd69e91b93dd7251cea49e575229500765c07ffbee5",
+    "pages": 16,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "U02",
+      "title": "Data-driven preference-based routing and scheduling for activity-based freight transport modelling",
+      "doi": "10.1016/j.trc.2023.104413",
+      "file": "/workdir/docs/report-planning/canonical-literature/04-vehicle-operations/U02-data-driven-preference-based-routing-and-scheduling-for-activity-based-freight-transport-modell.pdf",
+      "pdf_pages": [
+        1,
+        10,
+        14,
+        15
+      ],
+      "reading_depth": "Published paper accessed as TNO copy; targeted empirical setup and limitation excerpts.",
+      "data_and_method": "Parametrized time-dependent routing/scheduling fitted using Bayesian optimization and Dutch carrier information. Detailed CBS data require permission; intermediate tour information is partly missing.",
+      "preliminary_use": "Connects descriptive operations with optimization formulations and illustrates data imputation/identification issues.",
+      "limitation": "Reproducing tour properties or plausible cost responses does not establish causal carrier preferences. DOI is 2023; PDF journal issue is 2024. Distinguish publication dates rather than silently choosing one.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://publications.tno.nl/publication/34641774/N1zFSZ/nadi-2024-data-driven.pdf",
+    "retrieval_route": "MASS-GT search supplementary topical hit",
+    "query_membership": [
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 78
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 26
+      }
+    ],
+    "file_name": "U02-data-driven-preference-based-routing-and-scheduling-for-activity-based-freight-transport-modell.pdf"
+  },
+  {
+    "id": "U03",
+    "title": "Modeling and Calibration of the Supplier Selection Problem in Freight Agent–Based Simulations",
+    "doi": "10.48550/arxiv.2511.17875",
+    "domains": [
+      2,
+      3,
+      7
+    ],
+    "cohort": "16 November additions",
+    "pdf_sha256": "7ab76ea357fa56697a6fc4e5fb2c0522337617ea68b2143d8eacb64521184925",
+    "pages": 26,
+    "decision": "included",
+    "decision_reason": "Inspectable formulation, assessment or data specification within scope",
+    "reading": {
+      "id": "U03",
+      "title": "Modeling and Calibration of the Supplier Selection Problem in Freight Agent–Based Simulations",
+      "doi": "10.1177/03611981261455027",
+      "file": "/workdir/docs/report-planning/canonical-literature/02-spatial-exchange/U03-modeling-and-calibration-of-the-supplier-selection-problem-in-freight-agent-based-simulations.pdf",
+      "pdf_pages": [
+        1,
+        6,
+        7,
+        20,
+        21
+      ],
+      "reading_depth": "Author preprint arXiv:2511.17875v2, May 2026; not the publisher article.",
+      "data_and_method": "Supplier selection and commodity assignment use BEA/FAF/CFS; NAICS-SCTG mapping and commodity aggregation are explicit. Establishment synthesis can additionally rely on proprietary seed data.",
+      "preliminary_use": "Useful example of data classification crosswalks and multi-area calibration.",
+      "limitation": "Matching observed/control flows is not independent validation of actual supplier choices. Public aggregate inputs do not make the entire pipeline public-data-only. Model uses county-centroid costs and notes sensitivity and congestion limitations.",
+      "review_date": "2026-11-16",
+      "synthesis_status": "preliminary; final synthesis deferred until institutional-access attempt"
+    },
+    "source_url": "https://arxiv.org/pdf/2511.17875",
+    "retrieval_route": "MASS-GT search supplementary topical hit",
+    "query_membership": [
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 54
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 6
+      }
+    ],
+    "file_name": "U03-modeling-and-calibration-of-the-supplier-selection-problem-in-freight-agent-based-simulations.pdf",
+    "related_publisher_doi": "10.1177/03611981261455027",
+    "consulted_version": "arXiv:2511.17875v2; author preprint"
+  },
+  {
+    "id": "D06",
+    "received_id": "I02",
+    "title": "Assessing regional transferability and updating of freight generation models to reduce sample size requirements in national freight data collection program",
+    "doi": "10.1016/j.tra.2023.103780",
+    "domains": [
+      7,
+      1
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "474006753c9844e080c5b0484f4d33bad00b4b924a26ec8bc6d6e09a0c71d049",
+    "pages": 17,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        4,
+        5,
+        11,
+        13,
+        15
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Empirical transfer and local updating, manufacturing establishments in four Indian regions",
+      "data_and_method": "Robust-regression production/attraction models; 943 manufacturing shippers, employment/floor area, local freight surveys and geographical covariates.",
+      "finding": "Transfer direction, outcome and updating matter. Clustering is used to suggest sample needs elsewhere.",
+      "limitation": "Manufacturing-only sample; geographical-cluster extrapolation is not independent validation in all suggested cities. Do not adopt the proposed sample percentage as a universal rule.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.tra.2023.103780",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "D06-assessing-regional-transferability-and-updating-of-freight-generation-models-to-reduce-sample-s.pdf",
+    "related_request_id": "D06",
+    "query_membership": [
+      {
+        "query_id": "A1-II-1",
+        "engine": "openalex",
+        "rank": 21
+      },
+      {
+        "query_id": "A4-II-1",
+        "engine": "crossref",
+        "rank": 17
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "openalex",
+        "rank": 82
+      },
+      {
+        "query_id": "A1-III-generation",
+        "engine": "crossref",
+        "rank": 7
+      },
+      {
+        "query_id": "A7-III-availability",
+        "engine": "crossref",
+        "rank": 16
+      },
+      {
+        "query_id": "A7-III-transfer",
+        "engine": "openalex",
+        "rank": 25
+      },
+      {
+        "query_id": "A7-III-transfer",
+        "engine": "crossref",
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "id": "U01",
+    "received_id": "I03",
+    "title": "Aggregate urban truck tour synthesis from public data",
+    "doi": "10.1016/j.tra.2024.104107",
+    "domains": [
+      4,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "dce66f552c5df77bf585d0303b1da65f98eaadf30f9f3b6e26f78dd0f341292f",
+    "pages": 25,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        5,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Aggregate public-data tour synthesis, New York City",
+      "data_and_method": "Transferred generation relationships, aggregate controls and candidate tours with entropy balancing; public networks/restrictions/counts plus travel times, service assumptions and study-specific zoning.",
+      "finding": "Demonstrates an alternative to detailed shipment-based synthesis. Boundary counts and time profiles provide mesoscopic assessment.",
+      "limitation": "Some screenlines calibrate parameters; not all reported comparisons are independent validation. Proprietary tract aggregations, old data, adjusted constants and omitted parcel vans qualify the public-data claim. No endogenous traffic assignment or independent emission validation.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.tra.2024.104107",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "U01-aggregate-urban-truck-tour-synthesis-from-public-data.pdf",
+    "related_request_id": "U01",
+    "query_membership": [
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 24
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 24
+      }
+    ]
+  },
+  {
+    "id": "A05",
+    "received_id": "I04",
+    "title": "Transferability and enhancement of a microsimulation model for estimating urban commercial vehicle movements",
+    "doi": "10.1016/j.jtrangeo.2012.04.013",
+    "domains": [
+      4,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "104b0cbe1682ea9ac6d558d254fc0ec184fa0a99f698010d97a15d19da6cfdeb",
+    "pages": 12,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Transferred commercial-vehicle microsimulation, Greater Toronto/Hamilton",
+      "data_and_method": "Calgary-based tour submodels adapted with local commercial firm data, surveys, fleet allocation/external flows and traffic observations.",
+      "finding": "A framework can be reused while constants, trip-length behaviour and auxiliary components are locally adapted.",
+      "limitation": "Commercial firm data and local recalibration remain necessary; correlations do not establish individual tours or universal parameter transfer. Observation shortcomings are acknowledged.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.jtrangeo.2012.04.013",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "A05-transferability-and-enhancement-of-a-microsimulation-model-for-estimating-urban-commercial-vehi.pdf",
+    "related_request_id": "A05",
+    "query_membership": [
+      {
+        "query_id": "A4-II-1",
+        "engine": "openalex",
+        "rank": 4
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "openalex",
+        "rank": 85
+      }
+    ]
+  },
+  {
+    "id": "A08",
+    "received_id": "I05",
+    "title": "Validation of road vehicle and traffic emission models – A review and meta-analysis",
+    "doi": "10.1016/j.atmosenv.2010.05.022",
+    "domains": [
+      6
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "2dbebfab8bcf6b7288f434c7db23706ed31892f8e41eae8296d16fffcdcb20fd",
+    "pages": 11,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Historical measured-validation review/meta-analysis",
+      "data_and_method": "Fifty validation studies; laboratory, on-board, tunnel, remote-sensing, ambient-concentration and mass-balance designs; different pollutant/model/process definitions.",
+      "finding": "Model comparison is not measured validation. The reviewed historical evidence did not establish systematic improvement with complexity.",
+      "limitation": "Pre-2010 model/fleet evidence cannot rank current COPERT/HBEFA/trajectory models. Sparse and heterogeneous measurements, pollutant boundaries and input errors limit generalization; no historic error bands are assigned to NetSy.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.atmosenv.2010.05.022",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "A08-validation-of-road-vehicle-and-traffic-emission-models-a-review-and-meta-analysis.pdf",
+    "related_request_id": "A08",
+    "query_membership": [
+      {
+        "query_id": "A6-II-1",
+        "engine": "openalex",
+        "rank": 13
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "received_id": "I06",
+    "title": "A velocity and payload dependent emission model for heavy-duty road freight transportation",
+    "doi": "10.1016/j.trd.2012.05.009",
+    "domains": [
+      6
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "5efc578d6e0327d3ec9f3fc1e547e8859ecab2386cd1116783565343ab9bcb68",
+    "pages": 5,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "PEMS-derived heavy-duty emission formulation",
+      "data_and_method": "Seven Euro-V trucks, repeated urban/rural/motorway reference driving and payload variation; emissions represented through speed, gross mass and specific power.",
+      "finding": "Demonstrates why payload/vehicle/operating conditions affect emissions and why engine-test proxies may misrepresent road behaviour.",
+      "limitation": "Small historical fleet, restricted technologies and fitted measurement series. Does not establish the accuracy of current fleets or a universal gradient correction.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.trd.2012.05.009",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "A09-a-velocity-and-payload-dependent-emission-model-for-heavy-duty-road-freight-transportation.pdf",
+    "related_request_id": "A09",
+    "query_membership": [
+      {
+        "query_id": "A6-II-1",
+        "engine": "openalex",
+        "rank": 20
+      },
+      {
+        "query_id": "A6-III-emissions",
+        "engine": "openalex",
+        "rank": 10
+      },
+      {
+        "query_id": "A6-III-emissions",
+        "engine": "crossref",
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "id": "C01",
+    "received_id": "I07",
+    "title": "SimMobility Freight: An agent-based urban freight simulator for evaluating logistics solutions",
+    "doi": "10.1016/j.tre.2020.102017",
+    "domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "fb405ce6899f7acb6cfdd466728cb5c82f2cce0f10c5cfb996bf77db00bed8a4",
+    "pages": 26,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        3,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Integrated urban freight simulator specification and illustrative policy application",
+      "data_and_method": "SimMobility commodity contracts, logistics planning, routing and parking with shared passenger/freight simulation; empirical components drawn from several cities and local Singapore count calibration.",
+      "finding": "Provides an alternative architecture connecting multiple decision scales and traffic feedback, with explicit mixed-source parameter provenance.",
+      "limitation": "Calibrated screenlines are not an independent test of every mechanism. Some parameters are assumed. Demonstration scenarios and multiregion parameter borrowing are not proof of unchanged transferability.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.tre.2020.102017",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "C01-simmobility-freight-an-agent-based-urban-freight-simulator-for-evaluating-logistics-solutions.pdf",
+    "related_request_id": "C01",
+    "query_membership": [
+      {
+        "query_id": "A7-III-data-reviews",
+        "engine": "crossref",
+        "rank": 18
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "received_id": "I08",
+    "title": "A simulation study of the impacts of micro-hub scenarios for city logistics in Rotterdam",
+    "doi": "10.1016/j.rtbm.2024.101186",
+    "domains": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "97de7f729b32edf2cdcb2672b7fb5fff4b03d1402c9f5db532ab8e174a856c73",
+    "pages": 12,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "MASS-GT/TFS microhub scenario application",
+      "data_and_method": "Nine Rotterdam scenarios combine locations, individual/hybrid/full CEP collaboration and robot/bicycle/light-electric-vehicle configurations; hub feeder and last-yard tours.",
+      "finding": "Microhub operations downstream of rerouting exist in the published lineage. Collaboration changes tour/kilometre results under explicit configurations.",
+      "limitation": "Scenario-imposed collaboration/adoption, speeds and capacities; not estimated behavioural uptake, guaranteed profitability or field validation of realized policy effects. Code-checkout correspondence remains a separate issue.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.rtbm.2024.101186",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "M09-a-simulation-study-of-the-impacts-of-micro-hub-scenarios-for-city-logistics-in-rotterdam.pdf",
+    "related_request_id": "M09",
+    "query_membership": []
+  },
+  {
+    "id": "M08",
+    "received_id": "I09",
+    "title": "Learnings from the simulation of use cases in city logistics in the HARMONY project",
+    "doi": "10.1016/j.trpro.2024.03.034",
+    "domains": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "694a829d0ee35a2475bb47c0aac74a816549ae900d839940e5d2cced1722065e",
+    "pages": 8,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "HARMONY cross-use-case synthesis",
+      "data_and_method": "Tactical Freight Simulator applications to microhubs, zero-emission zones, crowdshipping and logistics land-use planning.",
+      "finding": "Policies interact through logistics organization and local network consequences; emissions are one of several outcome types.",
+      "limitation": "Shares lineage and cases with other MASS-GT sources; not independent replication. Potential scenario benefits are not observed implementation effects.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1016/j.trpro.2024.03.034",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "M08-learnings-from-the-simulation-of-use-cases-in-city-logistics-in-the-harmony-project.pdf",
+    "related_request_id": "M08",
+    "query_membership": []
+  },
+  {
+    "id": "M06",
+    "received_id": "I10",
+    "title": "Shipment-based urban freight emission calculation",
+    "doi": "10.1109/FISTS46898.2020.9264858",
+    "domains": [
+      5,
+      6
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "87f92f80f45f2609c49d283bb2a7ebc49230158c9271afb2734360ae6f48015e",
+    "pages": 6,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Shipment-based emissions method and illustrative sensitivity case",
+      "data_and_method": "Vehicle tours assigned to network; emissions linked to vehicle/loading/road conditions and associated with shipments.",
+      "finding": "Explains the route-to-shipment accounting behind the MASS-GT emissions lineage and examines effects of omitting vehicle loading.",
+      "limitation": "Scenario/model sensitivity, not independent measured pollutant validation. OCR used because embedded text extraction is corrupt; visually checked key sections/tables.",
+      "review_date": "2026-11-18",
+      "text_method": "Page-rendered OCR plus visual verification; original embedded text is corrupt"
+    },
+    "source_url": "https://doi.org/10.1109/FISTS46898.2020.9264858",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "M06-shipment-based-urban-freight-emission-calculation.pdf",
+    "related_request_id": "M06",
+    "query_membership": []
+  },
+  {
+    "id": "M07",
+    "received_id": "I11",
+    "title": "Data Fusion Approach to Identify Distribution Chain Segments in Freight Shipment Databases",
+    "doi": "10.1177/03611981221147049",
+    "domains": [
+      2,
+      3,
+      7
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "5691f38106f4ccf80d3656d7e24db1c664465ac45e416876fb8acd319271ac28",
+    "pages": 14,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        10,
+        12,
+        13
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Shipment/firm-registry data fusion",
+      "data_and_method": "Dutch XML shipment diaries enriched using business registries, postal geography, logistics-node records and make/use probabilities; deterministic/probabilistic classifications and certainty flags.",
+      "finding": "Data fusion can supply logistics attributes missing from movement records, with assumption/provenance flags.",
+      "limitation": "Sample favours larger XML-equipped carriers; single-employee units excluded. Classification certainty is not validation of actual counterparty identity. The enriched data are not automatically accessible or representative elsewhere.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1177/03611981221147049",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "M07-data-fusion-approach-to-identify-distribution-chain-segments-in-freight-shipment-databases.pdf",
+    "related_request_id": "M07",
+    "query_membership": [
+      {
+        "query_id": "A3-III-logistics",
+        "engine": "openalex",
+        "rank": 49
+      },
+      {
+        "query_id": "A7-III-availability",
+        "engine": "openalex",
+        "rank": 84
+      },
+      {
+        "query_id": "A7-III-transfer",
+        "engine": "openalex",
+        "rank": 7
+      },
+      {
+        "query_id": "M-III-mass-gt",
+        "engine": "openalex",
+        "rank": 60
+      },
+      {
+        "query_id": "M-III-mass-gt-transport",
+        "engine": "openalex",
+        "rank": 23
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "received_id": "I12",
+    "title": "A Multicommodity Integrated Freight Origin–destination Synthesis Model",
+    "doi": "10.1007/s11067-007-9053-4",
+    "domains": [
+      2,
+      4
+    ],
+    "cohort": "institutional-access retrieval, 18 November 2026",
+    "pdf_sha256": "f8cdcc649e9ee0074ecf2533fc948bae55858a6e9b9da6ba25723e8ddf669720",
+    "pages": 18,
+    "decision": "included",
+    "decision_reason": "Identity/completeness verified; inspectable relevant formulation, data or empirical assessment",
+    "reading": {
+      "pdf_pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        13,
+        16,
+        17
+      ],
+      "reading_depth": "Relevant methods/data/results/limitations sections inspected; single AI-assisted appraisal",
+      "role": "Multicommodity freight OD synthesis with empty movements",
+      "data_and_method": "Gravity-based loaded-demand model coupled to empty-trip model; application against Guatemala OD-survey and traffic data.",
+      "finding": "Explicit empty movements improve count replication in the tested formulations. Commodity/vehicle/count targets are distinct.",
+      "limitation": "More parameters can improve input-data replication; gravity parameters remain poorly recovered even where traffic fit improves. Counts are not unique identification of underlying commodity OD.",
+      "review_date": "2026-11-18"
+    },
+    "source_url": "https://doi.org/10.1007/s11067-007-9053-4",
+    "retrieval_route": "Institutional-access file supplied by user following recorded priority request; no new topical search",
+    "file_name": "A03-a-multicommodity-integrated-freight-origin-destination-synthesis-model.pdf",
+    "related_request_id": "A03",
+    "query_membership": [
+      {
+        "query_id": "A2-I-2",
+        "engine": "openalex",
+        "rank": 1
+      },
+      {
+        "query_id": "A2-I-2",
+        "engine": "crossref",
+        "rank": 23
+      },
+      {
+        "query_id": "A2-II-2",
+        "engine": "openalex",
+        "rank": 2
+      },
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "openalex",
+        "rank": 2
+      },
+      {
+        "query_id": "A2-III-spatial",
+        "engine": "crossref",
+        "rank": 8
+      },
+      {
+        "query_id": "A4-III-tours",
+        "engine": "openalex",
+        "rank": 73
+      }
+    ]
+  }
+]

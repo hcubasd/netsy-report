@@ -1,7 +1,7 @@
 {
-  "id": "template",
-  "title": "NetSy publication template",
+  "id": "netsy-slr",
+  "title": "NetSy: A Network loads and emissions Synthesizer",
   "major": 0,
-  "publish_pdf": false,
+  "publish_pdf": true,
   "parent": null
 }

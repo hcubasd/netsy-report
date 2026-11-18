@@ -1,0 +1,662 @@
+\section{Model scope}\label{sec:scope}
+NetSy synthesizes freight-related network loads and emissions from socioeconomic
+and spatial information. Its scope connects the activities that generate demand
+for goods with the vehicle movements needed to serve that demand and the effects
+of those movements on the road network and the environment.
+
+The model characterizes the study area through its economic actors, locations,
+facilities, vehicles and road network. It represents the production and
+consumption of goods, the exchanges between origins and destinations, and the
+organization of those exchanges into shipments and distribution services.
+Vehicle activity describes how these services are carried out, including
+consolidation, delivery sequences, timing, capacity use and empty movements.
+Network loading locates that activity on roads, while environmental assessment
+relates vehicle use and operating conditions to energy consumption and emissions.
+
+These responsibilities support comparisons between study areas and scenarios,
+including changes to demand, distribution arrangements, vehicle fleets and
+operating conditions. Their interpretation requires attention to data coverage,
+uncertainty and validation at each level: economic quantities, logistics choices,
+vehicle activity, network use and environmental outcomes.
+
+\section{Literature review}\label{sec:slr}
+The review establishes the methodological and data foundations for synthesizing
+freight network loads and emissions across study areas. It addresses seven
+interconnected domains: demand generation and economic representation; spatial
+exchange and origin--destination (OD) inference; logistics decisions and shipment
+formation; vehicle activity, tours and scheduling; network models and route
+choice; energy and emissions; and data availability, representation and
+transferability. These domains organize the evidence; they are not a prescribed
+software architecture. An established foundation means a recognized modelling
+principle, not a universally superior algorithm.
+
+MASS-GT, from which NetSy originated, provides a designated reference throughout
+the review \parencite{massgt2018,massgt2025}. The literature is searched by topic
+independently of this reference. MASS-GT publications and documentation are then
+used to describe a concrete configuration within each domain. This establishes
+an anchor for subsequent NetSy comparisons without treating reproduction of
+MASS-GT as evidence of external validity. The present review does not select or
+assess NetSy's implementation.
+
+\subsection{Methodology}\label{sec:slr-methodology}
+\paragraph{Questions and scope.}
+Three questions guide the synthesis:
+\begin{enumerate}
+\item Which approaches address the seven domains, and what theoretical,
+comparative and validation evidence supports them?
+\item Which data configurations, classifications and resolutions support these
+approaches across study areas, and what adaptations are possible when
+information is missing?
+\item Which formulations, inputs and assessment evidence define the MASS-GT
+reference within each domain?
+\end{enumerate}
+The scope includes urban, metropolitan and regional freight applications,
+with economic, network and environmental foundations where they inform those
+applications. The main search language is English; Swedish official data
+documentation is also examined. A versioned protocol governs the present
+reassessment. It was written after exploratory retrieval, so the earlier
+searches are not represented as prospectively protocol-controlled. The protocol
+and extraction approach draw on \textcite{kitchenham2007}; reporting is organized
+with reference to PRISMA-ScR and PRISMA-S
+\parencite{prismascr2018,prismas2021}. These references describe guidance used,
+not a claim that every recommended safeguard has been completed.
+
+\paragraph{Identification and selection.}
+OpenAlex and Crossref retrieval took place on 11, 12 and 16 November 2026.
+The first two rounds returned at most 25 ranked records per engine and query;
+the third expanded the window to 100. No lower publication-year limit was used.
+The third round added the data domain and separate MASS-GT discovery. Official
+bibliographies, targeted reference tracing, institutional repositories and
+technical guidance supplemented the database searches. Engine-specific strings,
+dates, limits and supplementary routes are reproduced in
+Appendix~\ref{app:search}. OpenAlex search and Crossref bibliographic ranking
+are different retrieval mechanisms; equivalent Boolean behaviour is not assumed.
+
+The initial available-document cohort comprised 52 PDFs, including two one-page
+partial files. Institutional retrieval on 18 November supplied twelve files:
+eleven complete relevant papers and an unrelated course syllabus, excluded at
+eligibility checking. Two complete papers replace the earlier partial files.
+The current cohort therefore contains 61 complete source documents: 59 retained
+as domain evidence and two as background. Sources are eligible when they provide
+an identifiable formulation, assessment or data specification relevant to at
+least one domain. Peer-reviewed studies, author versions, theses, books and
+official guidance are distinguished, as are conceptual proposals and empirical
+findings. Generic shortest-path exposition and a discovery compendium are
+background rather than domain findings.
+
+Selection was originally purposive within bounded ranked results; the remaining
+database records have not all undergone eligibility screening. The reassessment
+applies explicit criteria to the held-document cohort rather than claiming to
+have screened every search hit. Twenty-eight access requests remain unresolved,
+including three of the fourteen institutional priorities. They are not excluded
+on scientific grounds, and abstract-only sources do not support methodological
+performance claims. Appendix~\ref{app:selection} reports the separate retrieval
+and document counts without constructing a fictitious completed selection flow.
+The v0.1.0 release fixes the present evidence snapshot; it does not close the
+review to subsequent evidence.
+
+\paragraph{Extraction and appraisal.}
+For each retained source, extraction records the outcome and formulation, actors
+and boundaries, inputs, classifications and resolution, access conditions,
+estimation or calibration, validation design, findings and limits of inference.
+Targeted relevant sections are inspected and their PDF pages recorded. Matching
+calibration controls, predicting held-out observations, transferring between
+areas and validating against independent measurements are treated as different
+evidence. Optimization performance is distinguished from behavioural prediction;
+model intercomparison from measured accuracy. Official data specifications
+establish definitions and access arrangements, not model performance.
+
+Narrative synthesis separates established principles, alternative formulations
+and unresolved questions. Heterogeneous outcomes are not pooled into a common
+accuracy score, and related publications or shared datasets are not counted as
+independent votes. Retrieval, reassessment and writing are AI-assisted, without
+independent duplicate screening or extraction. Bounded coverage, uneven access,
+English-led searching and the absence of independent checking limit the
+conclusions. This is an available-evidence scoping synthesis, not an exhaustive
+review or a measured consensus of the entire field.
+
+\paragraph{Reference configuration.}
+The principal published anchor is the full-system account of
+\textcite{massgt2025}. Earlier publications document different stages, including
+an initial prototype and a zero-emission-zone application
+\parencite{massgt2018,massgt2022}. Technical documentation version~3.0
+\parencite{massgtmanual2023} is retained at a specified code checkout. The
+published configurations are not assumed to coincide exactly with that commit.
+Data availability is examined both as its own domain and as a condition of use
+within the other six.
+
+\subsection{State of the art by academic domain}\label{sec:slr-synthesis}
+
+\subsubsection{Demand generation and economic representation}\label{sec:a1}
+Searches combined \enquote{freight generation} and \enquote{freight trip
+generation} with establishment modelling, synthetic firms and population
+synthesis. Follow-up searches added model comparison, validation and spatial
+transferability.
+
+A central distinction in this literature is between the amount of goods produced
+or consumed and the vehicle visits associated with moving those goods. Freight
+trip generation depends on logistics decisions as well as economic activity:
+consolidation and larger shipments can accommodate more goods without a
+proportional increase in trips. The NCFRP guidebook therefore treats goods and
+trip generation as separate concepts and emphasizes differences between economic
+activities \parencite{ncfrp2012}. A single trip rate applied uniformly across
+businesses can conceal those differences.
+
+Establishment-level statistical models commonly relate freight activity to
+industry, employment, floor area and other business characteristics. The
+literature supports choosing these relationships according to the outcome and
+the observations, rather than assuming one universal specification.
+\Textcite{oliveira2022} compare delivery-generation models across Brazilian
+municipalities, while \textcite{pani2021} examine geographical transfer and local
+updating in India. The latter find that transferability varies by sector, region
+and whether goods quantities or trips are being estimated. The broader review of
+\textcite{mcleod2019} places generation within changing business strategies,
+land-use patterns and policy contexts, which can affect the usefulness of an
+otherwise satisfactory statistical relationship.
+
+The manufacturing-establishment study of \textcite{balla2023} adds evidence on
+transfer direction and local updating. It uses surveys from four Indian regions
+and geographical covariates to propose reduced sampling in similar areas.
+This supports examining data-saving transfer strategies, but the manufacturing
+sample and extrapolation to unsurveyed cities delimit the claim. A proposed
+sample fraction should not become a universal input requirement.
+
+When individual firms must be represented but are not directly observed,
+synthetic populations provide an additional approach. Statistical reconstruction
+uses aggregate information and available samples to construct establishments
+with relevant attributes, as illustrated by \textcite{wisetjindawat2009}.
+The available evidence does not establish a universal reconstruction winner.
+Firm-specific head-to-head comparisons remain an access gap, and a synthetic
+population matching its construction totals does not independently validate
+firm-level freight behaviour.
+
+The established foundation is thus to distinguish economic demand from vehicle
+activity, account for differences between establishments and sectors, and
+validate the resulting estimates at the scale where they will be used. Firm
+synthesis can support this representation, but matching the totals used to
+construct a population does not by itself validate its freight behaviour.
+
+\paragraph{MASS-GT reference.}
+Conventional goods demand in the published framework is conditioned on an
+aggregate commodity matrix, disaggregated to shipments and economic actors;
+parcel demand is represented separately from households and businesses
+\parencite{massgt2018,massgt2025}. Zonal employment and supply--use information
+support the actor representation. This distinction matters: synthesizing
+shipments consistent with aggregate demand is a different task from independently
+forecasting that demand from socioeconomic attributes alone.
+
+\subsubsection{Spatial exchange and OD inference}\label{sec:a2}
+Searches addressed spatial interaction, gravity models and input--output
+analysis, followed by interregional trade, OD estimation, traffic counts and empty
+trips. This literature covers both the explanation of exchanges and the recovery
+of movements that cannot be observed directly.
+
+Input--output approaches represent economic relationships between sectors and
+regions. They are useful when the research question concerns production,
+consumption or changes in economic structure. Their use in freight modelling
+requires additional information about spatial trade and the conversion of
+monetary values into physical goods. \Textcite{li2023} illustrate this connection
+in an interregional application in China. Its interpretation remains conditional
+on sector coverage, economic assumptions and conversion data.
+
+Spatial-interaction approaches allocate flows according to the activity at
+origins and destinations and the difficulty or attractiveness of exchanging
+between them. Gravity and entropy-based approaches are established references
+when production and attraction totals are available \parencite{sheffi1985}.
+They still require evidence about how distance, cost and competing destinations
+affect exchange. \Textcite{celik2001} examine these influences in commodity
+flows. The interdisciplinary review of \textcite{rong2024} also distinguishes
+spatial-interaction approaches from the construction, estimation and forecasting
+of OD movements. Its largely human-mobility evidence, however, cannot be assumed
+to apply directly to freight.
+
+Estimating OD movements from traffic counts, trajectories or other partial
+observations presents a different challenge. Several movement patterns may
+explain the same observations, and the result depends on assumptions about
+routes, vehicle use and data coverage. \Textcite{raothanachonkun2007} demonstrate
+the importance of trip chains and empty movements when translating commodity
+flows into truck trips. In a Chilean highway application, \textcite{basso2022}
+combine multiple data sources to infer truck origins and destinations, but the
+coverage and destination assumptions remain tied to the available samples.
+
+\Textcite{holguin2008} connect a multicommodity loaded-demand formulation to
+an empty-trip model and assess both against survey-based OD and traffic
+information from Guatemala. Explicit empty movements improve count replication
+in the tested formulations. However, the gravity parameters can remain poorly
+recovered even when network counts fit better. The comparison therefore supports
+representing empty movements while also showing why a count fit cannot uniquely
+identify the underlying commodity relationships.
+
+Classification and calibration also affect supplier-level models.
+\Textcite{ismael2026}, an author preprint, combine aggregate commodity controls,
+shipping-distance information and industry--commodity mappings across four US
+metropolitan areas. Their treatment makes the information lost through commodity
+aggregation explicit. Some establishment-synthesis inputs can be proprietary,
+and matching the flows used as controls is not independent validation of actual
+supplier relationships.
+
+The literature therefore supports distinguishing economic exchange, spatial
+allocation and inference from incomplete observations. Balancing known totals is
+a useful starting point when those totals are credible; it does not establish
+that every OD flow is correct. Validation must also consider flow patterns,
+distances, empty vehicles and the representativeness of the observations.
+
+\paragraph{MASS-GT reference.}
+The 2025 configuration allocates commodity flows over distribution channels and
+assigns shipments to firms or logistics nodes. Industry make/use probabilities,
+actor size and transport costs influence this disaggregation
+\parencite{massgt2025}. The aggregate regional matrix is supplied by BasGoed in
+the Dutch application. MASS-GT therefore anchors a controlled disaggregation
+configuration; it does not establish that equivalent OD controls can be obtained
+or inferred with equal reliability in another study area.
+
+\subsubsection{Logistics decisions and shipment formation}\label{sec:a3}
+Searches combined logistics decisions and services with shipment size, frequency,
+inventory, mode and transport-chain choice. The comparative round added joint
+and sequential decisions, behavioural segmentation and temporal stability.
+
+Logistics research treats shipment size, delivery frequency, inventory and
+transport service as connected decisions. Larger shipments may reduce the
+frequency and cost of transport while increasing storage requirements or
+reducing service flexibility. The review of \textcite{tavasszy2020} organizes
+these choices by actors and functional areas, emphasizing dependencies along the
+supply chain. Inventory theory provides a widely used explanation of the
+trade-off between replenishment, storage and transport, developed empirically
+and in relation to distribution networks by \textcite{combes2012,combes2016}.
+
+One established approach assumes that actors select the arrangement with the
+lowest logistics cost, subject to service and operational requirements. Another
+estimates observed choice behaviour, allowing differences between firms and
+factors not captured by measured costs. \Textcite{abate2019} compare stochastic
+and deterministic logistics modelling in the Swedish national freight context.
+Their different responses to cost changes show why a base-year match alone does
+not settle how a model will respond to an intervention.
+
+The literature does not establish that all connected decisions must be represented
+by the same statistical structure. \Textcite{ahmed2023} compare joint and
+sequential shipment-size and vehicle choices; a shipment-size-first sequential
+structure fits their dataset best, while their results also indicate dependence
+between the choices. \Textcite{piendl2022} investigate segments defined by
+logistics requirements rather than administrative commodity categories. The
+prediction gains are modest overall and differ between shipment classes.
+\Textcite{odolinski2024} further show how missing logistics information and the
+representation of costs affect estimation.
+
+The established position is that shipment formation should reflect the
+interdependence of logistics choices and the circumstances of decision makers.
+Cost-based, behavioural, joint and sequential approaches are alternatives whose
+suitability depends on data and purpose. Stronger evidence requires checks of
+shipment sizes, frequencies, service choices and responses to changing
+conditions, rather than selecting a method solely from its fit to one dataset.
+
+\paragraph{MASS-GT reference.}
+The 2025 specification combines an empirically derived distribution-channel
+split with a simultaneous shipment-size/vehicle-type choice model motivated by
+transport and inventory costs, followed by delivery-time choice
+\parencite{massgt2025}. The earlier zero-emission application used a less developed
+choice configuration \parencite{massgt2022}. These stages must remain distinct.
+Estimated logistics choices and expert-defined responses to new services also
+provide different kinds of evidence; a scenario response is not automatically
+an observed adoption relationship.
+
+The empirical interpretation of this reference depends on the attributes
+available for estimation. \Textcite{mohammed2023} enrich Dutch shipment diaries
+with firm and logistics-node information and explicitly distinguish deterministic
+from probabilistic classifications. These inferred logistics roles support
+analysis of distribution chains, but are not equivalent to directly observing
+every supplier, receiver or decision maker.
+
+\subsubsection{Vehicle activity, tours and scheduling}\label{sec:a4}
+Searches distinguished descriptive tour formation from vehicle-routing methods.
+Follow-up terms focused on validation, transferability, inverse optimization and
+empty movements.
+
+Two broad purposes shape this literature. Descriptive models seek to reproduce
+how vehicles are used; optimization models seek efficient plans for serving a
+given demand. Vehicle-routing research provides established approaches to
+planning deliveries under capacity, timing and fleet restrictions.
+\Textcite{vidal2013} review how these requirements shape routing problems and
+the methods used to solve them. A routing heuristic is a way of finding a plan;
+it is not, by itself, an explanation of observed delivery behaviour.
+
+Descriptive tour models represent decisions such as grouping shipments, adding
+stops and ending a tour. \Textcite{thoen2020} estimate shipment-based tour
+formation with operational constraints and assess its reproduction of observed
+tour characteristics. Their definition excludes empty movements, illustrating
+why tour definitions must be reconciled before results are compared. A model
+can reproduce recorded delivery tours while leaving other vehicle activity
+unexplained.
+
+Detailed operational simulation provides another perspective. In the
+pickup-and-delivery study of \textcite{lyu2021}, GPS and operator information
+support comparisons between network and process representations. Additional
+detail improves the reproduction of aspects of that case, but a known service
+sequence is different from predicting the sequence of a new operator. Aggregate
+trip-chain models and inverse optimization are further approaches, particularly
+where observed activity must be reconciled with operational constraints.
+
+A further approach estimates the parameters of an optimization-based tour model
+from observed activity. \Textcite{nadi2024} use Bayesian optimization with
+partially observed Dutch carrier tours to reproduce spatial and temporal
+properties. This makes optimization a calibrated descriptive tool, rather than
+assuming that a shortest plan explains behaviour. Its required carrier records
+are permission-controlled, and the authors distinguish reproduced patterns from
+knowledge of the causal reasons behind planners' choices.
+
+A different information regime is demonstrated by \textcite{davis2024}.
+Their New York framework generates candidate truck tours and balances flows to
+aggregate controls, using transferred generation relationships and local network
+and count information. It can represent truck agents without reconstructing
+individual shipper relationships. The assessment is at boundary-flow and temporal
+scales; parcel vans are omitted, service times are assumed, and some constants
+are locally adjusted. It consequently supports a mesoscopic alternative, not an
+interchangeable reconstruction of observed shipment-level operations.
+
+Transfer of a descriptive framework also requires local work.
+\Textcite{ferguson2012} adapt Calgary submodels to Greater Toronto and Hamilton,
+combining local commercial firm data, auxiliary movements and recalibrated
+constants. Their traffic comparisons support a particular transferred
+configuration; they do not demonstrate universal coefficient portability or
+accurate reproduction of each individual tour.
+
+Across these approaches, the recurring requirements are feasible service,
+consistent vehicle loads, appropriate timing and explicit treatment of empty
+movements. Predictive models are assessed against observed activity, whereas
+planning methods are also assessed by feasibility, cost and computational
+performance. A shorter optimized route does not automatically provide a better
+prediction of what carriers will do. The suitable approach depends on which of
+these questions the study addresses.
+
+\paragraph{MASS-GT reference.}
+The published shipment scheduler combines estimated tour-ending decisions with
+feasible shipment selection, proximity-based insertion and local improvement
+of stop order. Parcel scheduling instead groups delivery zones under vehicle
+capacity and improves the stop sequence \parencite{massgt2025}. This is a hybrid
+of behavioural estimation and heuristics. The tour-formation evidence of
+\textcite{thoen2020} supports a particular activity definition, so the coverage
+of empty and service movements still needs reconciliation when assessing a
+complete vehicle inventory. The versioned manual additionally documents service
+trip simulation \parencite{massgtmanual2023}.
+
+Microhub operations are part of the published MASS-GT/TFS lineage.
+\Textcite{microhubs2024} model feeder and last-yard tours under nine Rotterdam
+configurations combining hub locations, vehicle types and carrier collaboration.
+The HARMONY synthesis places these alongside zero-emission zones, crowdshipping
+and land-use scenarios \parencite{harmony2024}. Their results show how assumptions
+about organization alter operations, but collaboration and adoption are imposed
+scenario conditions rather than estimated responses. These publications are
+related applications, not independent replications of the same policy effect.
+
+\subsubsection{Network models and route choice}\label{sec:a5}
+Searches combined traffic assignment and route choice with equilibrium,
+stochastic loading and truck-specific evidence. The extension emphasized
+validation and comparisons between modelling approaches.
+
+Network-assignment research explains how a given set of vehicle movements is
+distributed across roads. The simplest established reference assigns movements
+to the least-cost paths at supplied travel times and costs. Other approaches
+represent variation in route preferences or allow congestion to change travel
+costs as vehicles enter the network. Equilibrium methods describe route choices
+under those interactions, while dynamic approaches also represent how traffic
+conditions evolve over time \parencite{sheffi1985,wang2018}.
+
+The appropriate level of detail depends on the question. Supplied speeds may be
+adequate for estimating loads under specified operating conditions. An
+intervention intended to change congestion requires attention to the surrounding
+traffic and how travel conditions respond. \Textcite{hwang2021} illustrate a
+freight-assignment application that incorporates background traffic. Where
+queues, departure timing or spillback are material, dynamic traffic models
+address phenomena that a static allocation cannot fully describe
+\parencite{wang2018}.
+
+Behavioural evidence also matters. The truck-driver study of \textcite{feng2013}
+shows that route preferences can vary with vehicle and context.
+\Textcite{tahlyan2017} evaluate alternative route sets and route-choice
+predictions against truck GPS observations. The choice of plausible alternatives,
+including the avoidance of irrelevant routes, affects predictive performance.
+Adding random variation to path costs does not by itself establish a calibrated
+representation of those preferences.
+
+\Textcite{sakai2020} provide a contrasting integrated configuration:
+SimMobility Freight connects commodity contracts, daily logistics, route choice
+and parking to a shared passenger--freight traffic simulation. Its illustrative
+policies can change both freight and passenger movements. Model components use
+observations from several cities, some assumed parameters and local Singapore
+count calibration. This makes traffic feedback available for different questions
+from supplied-cost loading, while leaving the empirical support for each
+component and its transfer to be assessed separately.
+
+The state of the art therefore offers a range of approaches rather than a single
+required assignment method. Selection depends on the importance of congestion,
+route diversity and temporal effects, alongside the evidence available to model
+them. Counts, travel times and observed paths provide complementary validation
+targets. Agreement in total traffic or successful numerical convergence cannot
+alone establish that the distribution of vehicles across the network is
+realistic.
+
+\paragraph{MASS-GT reference.}
+The published network component performs all-or-nothing loading using
+least-cost routes on a supplied congested network \parencite{massgt2025}.
+Congested travel conditions therefore enter from a transport-model configuration;
+this is not evidence of an endogenous freight--background-traffic equilibrium.
+The paper assesses network flows using loop detectors and camera counts and
+reports limitations in the comparability of these observations. Network-level
+agreement should consequently not be extended to every route or logistics
+mechanism.
+
+\subsubsection{Energy and emissions}\label{sec:a6}
+Searches addressed emission inventories and factors alongside fuel and energy
+models, payload, gradient and driving behaviour. Follow-up searches targeted
+comparisons and validation across modelling approaches and scales.
+
+Inventory approaches combine vehicle activity with emission factors appropriate
+to the fleet and operating conditions. The EMEP/EEA guidance provides an
+established basis for this accounting and distinguishes hot exhaust,
+cold-start effects and non-exhaust sources
+\parencite{eeaRoad2026,eeaWear2026}. The consulted sources are updated chapters of
+the 2023 guidebook. Their applicability depends on vehicle technology, activity
+and the processes covered; tyre and brake wear, for example, cannot be inferred
+from an exhaust-only estimate.
+
+The literature offers different ways to describe operating conditions.
+Average-speed approaches use representative driving conditions, traffic-situation
+approaches distinguish road and service conditions, and more detailed models
+represent operating modes, power demand or vehicle trajectories. Physical,
+data-driven and hybrid energy models also differ in required inputs and intended
+use \parencite{hua2025}. Greater detail is useful when it captures a relevant
+phenomenon and can be supported by credible data, rather than simply because it
+produces a more elaborate calculation.
+
+Comparative studies demonstrate the importance of the whole modelling chain.
+\Textcite{tirico2025} compare traffic and emission models at several spatial
+scales. Because differences in traffic representation and assignment are
+retained, their results cannot be attributed entirely to the choice of emission
+factors; experimental validation of the chain remains future work. In a
+heavy-truck fuel study, \textcite{wang2026} assess prediction on vehicles excluded
+from fitting. Their outcome is reconstructed from on-board diagnostics, and some
+predictors would not necessarily be available before a scenario is simulated.
+These are different kinds of evidence from direct pollutant measurements.
+
+Measured-validation evidence clarifies the interpretation of such comparisons.
+\Textcite{smit2010} synthesize fifty historical studies using laboratory,
+on-board, tunnel, remote-sensing, ambient-concentration and mass-balance
+methods. They find no evidence in that sample that greater model complexity
+systematically improves prediction errors. Validation designs observe different
+processes and scales, and concentration-based assessments also depend on
+dispersion and background assumptions. These pre-2010 findings motivate matching
+the validation design to the claim; they do not rank current model versions or
+provide error bounds for a new implementation.
+
+\Textcite{ligterink2012} demonstrate an empirical payload-sensitive formulation
+using on-road measurements from seven Euro-V trucks. Speed, gross mass and
+specific power connect vehicle operation to emissions. The work supports
+explicit consideration of loading and technology, but its small historical fleet
+and fitted driving data limit transfer. It does not establish the accuracy of
+current fleets or a universal grade adjustment.
+
+The Swedish case of \textcite{dias2026} illustrates the coupling of logistics,
+routing and emissions at an operational scale. It combines operator shipment
+data with road-network and elevation information, slope-aware routing and
+COPERT-based factors, and considers exhaust and non-exhaust particulate matter.
+Its local fleet and logistics configurations delimit interpretation: it is an
+application example, not evidence that comparable operator data are generally
+available or that its scenario effects transfer unchanged to other cities.
+
+The established requirement is consistency between activity, fleet, operating
+conditions and the environmental outcome being estimated. Fuel consumption,
+greenhouse gases and regulated pollutants are related but distinct targets.
+Non-exhaust emissions, upstream energy production and atmospheric exposure add
+further boundaries. A suitable assessment must state which processes it covers
+and validate them with corresponding observations, rather than interpreting
+model differences as proof that one approach is more accurate.
+
+\paragraph{MASS-GT reference.}
+The shipment-based method of \textcite{thoen2020emissions} associates vehicle
+and link emissions with transported shipments and compares road/load
+segmentation with coarser averages. Its results show sensitivity of spatial
+estimates to aggregation, not validation against measured pollutants.
+The 2025 account uses STREAM-based emission factors by vehicle category,
+road category and loading rate, interpolating between empty and full loads
+\parencite{massgt2025}. Its traffic-count assessment does not independently
+validate pollutant totals. The earlier Transport Policy application explicitly
+identified emissions calculation as further work \parencite{massgt2022}.
+Thus the emissions anchor must specify its version and factors; changing those
+factors later establishes a methodological difference, whose accuracy requires
+separate evidence.
+
+\subsubsection{Data availability, representation and transferability}\label{sec:a7}
+Searches addressed freight-model data requirements, availability and scarcity,
+data sources and collection, commodity-flow surveys, synthetic populations,
+data fusion and geographical transfer. Official survey documentation was added
+to distinguish information collected by institutions from information actually
+available to model users. The question concerns viable input configurations,
+not simply whether a method has a list of required variables.
+
+\Textcite{chow2010} relate aggregate commodity, regional logistics and urban
+touring approaches to different data requirements and agency objectives.
+The FHWA synthesis provides an explicit inventory of sources by spatial and
+temporal detail, industry and commodity classifications, public/private access,
+and use for running, estimating, calibrating or validating models
+\parencite{fhwa2018}. Its companion handbook emphasizes that national data can
+support broad analyses while local questions may require finer and more costly
+information \parencite{fhwa2017}. These are documented US configurations, not a
+current worldwide catalogue. The European corridor application of
+\textcite{petri2016} offers an aggregate-data example with a different forecasting
+target from urban tour reconstruction.
+
+The new full texts distinguish three practical adaptation strategies.
+A detailed framework can borrow empirical components and calibrate locally, as
+in SimMobility Freight \parencite{sakai2020}. A transferred tour framework can
+re-estimate constants and auxiliary components using local observations
+\parencite{ferguson2012}. Alternatively, aggregate-data synthesis can change the
+representation itself, as in \textcite{davis2024}. These strategies trade different
+information requirements against the questions they can answer. The latter
+paper's public-data objective is qualified by old input vintages, assumed service
+parameters, adjusted coefficients and study-specific tract aggregations; it is
+not proof of a universally obtainable, assumption-free input package.
+
+Useful stratification must be supported by the source data. Industry employment,
+commodity flows and vehicle classes describe different objects; a crosswalk can
+require many-to-many mappings, aggregation or assumptions about mixed production.
+The supplier-selection preprint of \textcite{ismael2026} illustrates both a
+mapping between US industry and commodity codes and a deliberate reduction of
+commodity detail. Synthetic detail should therefore remain distinguishable from
+observed detail. The representation may be operationally useful without being
+identified by the available observations.
+
+Public statistics and underlying survey records also differ. Eurostat's road
+freight manual specifies vehicle, journey and goods information, but collection,
+confidentiality and dissemination are separate processes
+\parencite{eurostat2025}. Sweden's commodity-flow surveys combine selected-sector
+sampling with administrative sources; establishment stratification uses industry
+and employment size \parencite{trafa2022,trafa2026method}. The 2025 quality
+declaration states that detailed geography can be limited by coverage and
+confidentiality, and that research access to microdata requires assessment
+\parencite{trafa2026quality}. A published survey consequently does not imply that
+an arbitrary local model can obtain precise establishment-level records.
+
+New data sources broaden opportunities without removing access and
+representativeness problems. \Textcite{shoman2023} distinguish freight data types,
+resolutions and sharing barriers. GPS traces can reveal movements but may omit
+commodities, shipment quantities or activity purposes. Conversely, a commodity
+survey can describe goods without identifying complete vehicle sequences.
+The development proposal of \textcite{moore2017} illustrates this distinction:
+planned carrier GPS access coexists with confidentiality of shipment information;
+the proposed data collection is not evidence of a completed, validated model.
+The UK FAME peer review specifically distinguishes inputs assumed by a modelling
+framework from data available in adequate form \parencite{williams2024}.
+The Swedish operational case uses carrier-provided records
+\parencite{dias2026}, while the Dutch preference-based tour study requires
+permission-controlled diaries \parencite{nadi2024}. Neither is evidence of
+unrestricted availability to prospective users.
+
+Data enrichment is another conditional strategy. The Dutch fusion study of
+\textcite{mohammed2023} classifies logistics nodes using business registries,
+postal geography and make/use information, with certainty indicators for inferred
+attributes. Its authors restrict interpretation because the XML sample favours
+larger, technologically equipped carriers; single-employee units are also
+excluded from their firm classification. Fusion can increase usable information
+without removing selection bias or granting access to the underlying records.
+Together with the sample-specific transfer results of \textcite{balla2023}, this
+shows why availability, representativeness and transferability require separate
+assessment.
+
+The established foundation is to state an input's meaning, granularity,
+coverage, vintage, access and modelling role. Feasible configurations can combine
+public aggregates, locally obtained observations and explicitly estimated or
+synthetic information. Borrowed coefficients, proxy variables and finer
+synthetic detail require their own justification and uncertainty assessment;
+they do not automatically replace independent calibration or validation.
+The reviewed cases do not support a claim that one minimum data package is
+available in most study areas. They support a conditional account of what can
+be modelled under specified information conditions.
+
+\paragraph{MASS-GT reference.}
+Table~1 and Section~4.1 of \textcite{massgt2025} distinguish base inputs from
+calibration and validation sources. The Dutch configuration includes a transport
+network and zonal socioeconomic information, logistics locations, an aggregate
+commodity matrix and supply--use tables. Truck diaries and household survey
+information support empirical choice estimation; traffic observations support
+network assessment. The authors aim to use standard public inputs where possible,
+but the paper states that they lack permission to share the data. MASS-GT thus
+provides a concrete mixed-access configuration. Reusing estimated parameters,
+re-estimating them locally and independently validating a transferred model are
+separate application strategies, not interchangeable claims of generality.
+
+\subsection{Cross-domain findings and evidence limits}\label{sec:discussion}
+Across the seven domains, the strongest common ground concerns the objects
+being modelled and the consistency required between them: goods and vehicle
+visits are distinct; logistics choices connect demand to activity; vehicle
+movements must be feasible; and environmental estimates depend on the fleet,
+operating conditions and processes covered. These principles constrain a model
+without prescribing one estimator, routing heuristic or assignment method.
+
+The inspected evidence supports conditional alternatives rather than a universal
+ladder of sophistication. A joint choice structure is not always the best-fitting
+one; an optimized route need not predict observed behaviour; and detailed
+emissions calculations cannot compensate for unsupported fleet or traffic
+inputs. Data feasibility is therefore part of methodological suitability, not
+only an implementation concern. The appropriate comparison depends on the
+question, available information and validation target.
+
+MASS-GT makes these dependencies concrete, but its publications document an
+evolving model. The fixed implementation reference and the full-system paper
+must be reconciled before numerical comparisons. Agreement with that reference
+can test implementation correspondence; divergence can identify a changed
+assumption or formulation. Neither establishes accuracy without observations
+appropriate to the outcome being claimed.
+
+The institutional retrieval strengthens the evidence on aggregate-data touring,
+framework transfer, loaded/empty OD consistency, shipment-data enrichment and
+measured emissions validation. It also makes the limitations more specific:
+calibration can reuse the reported comparison targets; useful spatial detail can
+be assumed or synthesized; and scenario benefits depend on imposed operating
+and organizational conditions. These distinctions matter more than counting
+papers as votes for a single canonical implementation.
+
+Three priority full texts remain unavailable: the data-availability/model-form
+book chapter, the urban-logistics/e-commerce data review, and the firm-population
+synthesis comparison. Other access requests and incomplete search coverage also
+remain explicit. The release is therefore a documented evidence snapshot, not a
+claim of exhaustive field consensus. Positioning NetSy's implemented
+formulations and numerical results within this landscape is a subsequent task.

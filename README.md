@@ -1,7 +1,14 @@
 # NetSy publications
 
-Shared starting point for publications derived from NetSy. This `v0` branch is
-infrastructure and a minimal compiling template, not a research report.
+NetSy: **A Network loads and emissions Synthesizer**.
+
+Publication infrastructure and the NetSy literature review on `v0`.
+The current available-evidence review covers seven academic domains, with MASS-GT
+as a designated reference in each and data availability as the seventh domain.
+A search/selection appendix prints all 33 retained query pairs, including
+model-name refinement, and records the limits of the current evidence base.
+Model positioning and implementation choices are deliberately deferred.
+The v0 line explicitly opts in to tagged PDF releases.
 
 ## Build
 
@@ -35,10 +42,12 @@ the same ref are cancelled. Successful builds upload checked PDFs and provenance
 logs are retained even on failure. These CI artifacts are not GitHub releases.
 
 Only a tag push matching `v*.*.*` can trigger CD. The exact tag must satisfy the
-three-number format and the major in publication.json. Template releases are blocked.
+three-number format and the major in publication.json. Publication lines without explicit opt-in are blocked.
 An eligible tag rebuilds/checks the manuscript, then publishes the PDF, source archive,
 provenance and SHA-256 checksums. Release jobs have write permission; checks do not.
 See `docs/branches.md` before enabling publication on a paper branch.
 
-No generated PDF, release, source from an old report, or previous Git history is
-included in this initial repository. Legacy material remains outside this checkout.
+The checked local review is `dist/netsy-slr.pdf`. Build outputs are ignored and
+are not source-controlled. Tagged releases are enabled for this review line. Reference PDFs and the full
+review audit remain outside this checkout; portable query/reading metadata are
+versioned in `results/` and `references/`. See `docs/draft.md` for scope and provenance.

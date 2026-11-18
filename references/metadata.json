@@ -1,0 +1,2385 @@
+{
+  "ryan2009": {
+    "DOI": "10.1111/j.1538-4632.2009.00750.x",
+    "title": [
+      "Population Synthesis: Comparing the Major Techniques Using a Small, Complete Population of Firms"
+    ],
+    "author": [
+      {
+        "given": "Justin",
+        "family": "Ryan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanna",
+        "family": "Maoh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pavlos",
+        "family": "Kanaroglou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Geographical Analysis"
+    ],
+    "volume": "41",
+    "issue": "2",
+    "page": "181-203",
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          4
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          4,
+          17
+        ]
+      ]
+    },
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "pani2021": {
+    "DOI": "10.1007/s11067-021-09530-z",
+    "title": [
+      "Assessing the Spatial Transferability of Freight (Trip) Generation Models across and within States of India: Empirical Evidence and Implications for Benefit Transfer"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0136-8224",
+        "authenticated-orcid": false,
+        "given": "Agnivesh",
+        "family": "Pani",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4309-5631",
+        "authenticated-orcid": false,
+        "given": "Prasanta K.",
+        "family": "Sahu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Furqan A.",
+        "family": "Bhat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Networks and Spatial Economics"
+    ],
+    "volume": "21",
+    "issue": "2",
+    "page": "465-493",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          12
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          12
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "tavasszy2020": {
+    "DOI": "10.18757/jscms.2020.1992",
+    "title": [
+      "Logistics decisions in descriptive freight transportation models: A review"
+    ],
+    "author": [
+      {
+        "given": "Lorant",
+        "family": "Tavasszy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michiel",
+        "family": "de Bok",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zahra",
+        "family": "Alimoradi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jafar",
+        "family": "Rezaei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Supply Chain Management Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "TU Delft OPEN Publishing",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response",
+    "volume": "1",
+    "issue": "3-4",
+    "page": "74-86"
+  },
+  "combes2012": {
+    "DOI": "10.3141/2269-11",
+    "title": [
+      "Empirical Evaluation of Economic Order Quantity Model for Choice of Shipment Size in Freight Transport"
+    ],
+    "author": [
+      {
+        "given": "François",
+        "family": "Combes",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Université Paris-Est, LVMT, UMR T9403 IFSTTAR ENPC UMLV, 6–8 av. Blaise Pascal, Cité Descartes, Champs-sur-Marne, F-77455 CEDEX 2, Marne-La-Vallée, France."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Transportation Research Record: Journal of the Transportation Research Board"
+    ],
+    "volume": "2269",
+    "issue": "1",
+    "page": "92-98",
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "SAGE Publications",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "combes2016": {
+    "DOI": "10.18757/ejtir.2016.16.1.3112",
+    "title": [
+      "Inventory theory, mode choice and network structure in freight transport"
+    ],
+    "author": [
+      {
+        "given": "François",
+        "family": "Combes",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lóránt A.",
+        "family": "Tavasszy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "European Journal of Transport and Infrastructure Research"
+    ],
+    "volume": "16",
+    "issue": "1",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "TU Delft OPEN Publishing",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response",
+    "page": "38-52"
+  },
+  "ahmed2023": {
+    "DOI": "10.1007/s11116-022-10289-6",
+    "title": [
+      "Joint and sequential models for freight vehicle type and shipment size choice"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4101-6650",
+        "authenticated-orcid": false,
+        "given": "Usman",
+        "family": "Ahmed",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6724-0154",
+        "authenticated-orcid": false,
+        "given": "Matthew J.",
+        "family": "Roorda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Transportation"
+    ],
+    "volume": "50",
+    "issue": "5",
+    "page": "1613-1629",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          14
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          14
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "thoen2020": {
+    "DOI": "10.1016/j.tre.2020.101989",
+    "title": [
+      "Descriptive modeling of freight tour formation: A shipment-based approach"
+    ],
+    "author": [
+      {
+        "given": "Sebastiaan",
+        "family": "Thoen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lóránt",
+        "family": "Tavasszy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Michiel",
+        "family": "de Bok",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Goncalo",
+        "family": "Correia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ron",
+        "family": "van Duin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part E: Logistics and Transportation Review"
+    ],
+    "volume": "140",
+    "article-number": "101989",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "feng2013": {
+    "DOI": "10.18757/ejtir.2013.13.4.3004",
+    "title": [
+      "Capturing preference heterogeneity of truck drivers’ route choice behavior with context effects using a latent class model"
+    ],
+    "author": [
+      {
+        "given": "Tao",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Theo",
+        "family": "Arentze",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harry",
+        "family": "Timmermans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "European Journal of Transport and Infrastructure Research"
+    ],
+    "volume": "13",
+    "issue": "4",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          1
+        ]
+      ]
+    },
+    "publisher": "TU Delft OPEN Publishing",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response",
+    "page": "259-273"
+  },
+  "hwang2021": {
+    "DOI": "10.3390/su13116369",
+    "title": [
+      "Assignment of Freight Truck Shipment on the U.S. Highway Network"
+    ],
+    "author": [
+      {
+        "given": "Taesung",
+        "family": "Hwang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Asia Pacific School of Logistics, Inha University, Incheon 22212, Korea"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Sustainability"
+    ],
+    "volume": "13",
+    "issue": "11",
+    "page": "6369",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          3
+        ]
+      ]
+    },
+    "publisher": "MDPI AG",
+    "type": "journal-article",
+    "metadata_source": "Previously captured Crossref search response"
+  },
+  "oliveira2022": {
+    "DOI": "10.3390/su141610300",
+    "title": [
+      "Modelling Freight Trip Generation Based on Deliveries for Brazilian Municipalities"
+    ],
+    "author": [
+      {
+        "family": "Oliveira",
+        "given": "Leise Kelli de"
+      },
+      {
+        "family": "Araújo",
+        "given": "Gracielle Gonçalves Ferreira de"
+      },
+      {
+        "family": "Bertoncini",
+        "given": "Bruno Vieira"
+      },
+      {
+        "family": "Pedrosa",
+        "given": "Carlos David"
+      },
+      {
+        "family": "Silva",
+        "given": "Francisco Gildemir Ferreira da"
+      }
+    ],
+    "container-title": [
+      "Sustainability"
+    ],
+    "volume": "14",
+    "issue": "16",
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "10300"
+  },
+  "wisetjindawat2009": {
+    "DOI": "10.11175/eastpro.2009.0.154.0",
+    "title": [
+      "Methods and Techniques to Create Synthetic Firm’s Attribution as Input to Microscopic Freight Simulation"
+    ],
+    "author": [
+      {
+        "family": "Wisetjindawat",
+        "given": "Wisinee"
+      },
+      {
+        "family": "Marchal",
+        "given": "François"
+      },
+      {
+        "family": "YAMAMOTO",
+        "given": "Koshi"
+      }
+    ],
+    "container-title": [
+      "Proceedings of the Eastern Asia Society for Transportation Studies"
+    ],
+    "volume": "7",
+    "issue": null,
+    "page": "",
+    "published": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "154"
+  },
+  "mcleod2019": {
+    "DOI": "10.1016/j.tranpol.2018.11.007",
+    "title": [
+      "Conceptualizing freight generation for transport and land use planning: A review and synthesis of the literature"
+    ],
+    "author": [
+      {
+        "family": "McLeod",
+        "given": "Sam"
+      },
+      {
+        "family": "Schapper",
+        "given": "Jake H.M."
+      },
+      {
+        "family": "Curtis",
+        "given": "Carey"
+      },
+      {
+        "family": "Graham",
+        "given": "Giles"
+      }
+    ],
+    "container-title": [
+      "Transport Policy"
+    ],
+    "volume": "74",
+    "issue": null,
+    "page": "24--34",
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review"
+  },
+  "li2023": {
+    "DOI": "10.3390/su15129808",
+    "title": [
+      "Estimating Inter-Regional Freight Demand in China Based on the Input–Output Model"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Wenjie"
+      },
+      {
+        "family": "Luo",
+        "given": "Chun"
+      },
+      {
+        "family": "He",
+        "given": "Yiwei"
+      },
+      {
+        "family": "Wan",
+        "given": "Yu"
+      },
+      {
+        "family": "Du",
+        "given": "Hongbo"
+      }
+    ],
+    "container-title": [
+      "Sustainability"
+    ],
+    "volume": "15",
+    "issue": "12",
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "9808"
+  },
+  "raothanachonkun2007": {
+    "DOI": "10.11175/eastpro.2007.0.147.0",
+    "title": [
+      "ESTIMATION OF TRUCK ORIGIN-DESTINATION BASED ON COMMODITY FLOWS"
+    ],
+    "author": [
+      {
+        "family": "Raothanachonkun",
+        "given": "Pairoj"
+      },
+      {
+        "family": "Sano",
+        "given": "Kazushi"
+      },
+      {
+        "family": "Matsumoto",
+        "given": "Shoji"
+      }
+    ],
+    "container-title": [
+      "Proceedings of the Eastern Asia Society for Transportation Studies"
+    ],
+    "volume": "6",
+    "issue": null,
+    "page": "",
+    "published": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "147"
+  },
+  "rong2024": {
+    "DOI": "10.1145/3682058",
+    "title": [
+      "An Interdisciplinary Survey on Origin-destination Flows Modeling: Theory and Techniques"
+    ],
+    "author": [
+      {
+        "family": "Rong",
+        "given": "Can"
+      },
+      {
+        "family": "Ding",
+        "given": "Jingtao"
+      },
+      {
+        "family": "Li",
+        "given": "Yong"
+      }
+    ],
+    "container-title": [
+      "ACM Computing Surveys"
+    ],
+    "volume": "57",
+    "issue": "1",
+    "page": "1--49",
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review"
+  },
+  "basso2022": {
+    "DOI": "10.3390/su14052645",
+    "title": [
+      "Estimation of the Origin-Destination Matrix for Trucks That Use Highways: A Case Study in Chile"
+    ],
+    "author": [
+      {
+        "family": "Basso",
+        "given": "Franco"
+      },
+      {
+        "family": "Pezoa",
+        "given": "Raúl"
+      },
+      {
+        "family": "Tapia",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Varas",
+        "given": "Mauricio"
+      }
+    ],
+    "container-title": [
+      "Sustainability"
+    ],
+    "volume": "14",
+    "issue": "5",
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "2645"
+  },
+  "abate2019": {
+    "DOI": "10.1007/s11116-018-9856-9",
+    "title": [
+      "A disaggregate stochastic freight transport model for Sweden"
+    ],
+    "author": [
+      {
+        "family": "Abate",
+        "given": "Megersa"
+      },
+      {
+        "family": "Vierth",
+        "given": "Inge"
+      },
+      {
+        "family": "Karlsson",
+        "given": "Rune"
+      },
+      {
+        "family": "Jong",
+        "given": "Gerard de"
+      },
+      {
+        "family": "Baak",
+        "given": "Jaap"
+      }
+    ],
+    "container-title": [
+      "Transportation"
+    ],
+    "volume": "46",
+    "issue": "3",
+    "page": "671--696",
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review"
+  },
+  "piendl2022": {
+    "DOI": "10.18757/ejtir.2022.22.2.5662",
+    "title": [
+      "Building latent segments of goods to improve shipment size modelling: Confirmatory evidence from France"
+    ],
+    "author": [
+      {
+        "family": "Piendl",
+        "given": "Raphael"
+      },
+      {
+        "family": "Koning",
+        "given": "Martin"
+      },
+      {
+        "family": "Combes",
+        "given": "Francois"
+      },
+      {
+        "family": "Liedtke",
+        "given": "Gernot"
+      }
+    ],
+    "container-title": [
+      "European journal of transport and infrastructure research"
+    ],
+    "volume": "22",
+    "issue": "2",
+    "page": "22--52",
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review"
+  },
+  "vidal2013": {
+    "DOI": "10.1016/j.ejor.2013.02.053",
+    "title": [
+      "Heuristics for multi-attribute vehicle routing problems: A survey and synthesis"
+    ],
+    "author": [
+      {
+        "family": "Vidal",
+        "given": "Thibaut"
+      },
+      {
+        "family": "Crainic",
+        "given": "Teodor Gabriel"
+      },
+      {
+        "family": "Gendreau",
+        "given": "Michel"
+      },
+      {
+        "family": "Prins",
+        "given": "Christian"
+      }
+    ],
+    "container-title": [
+      "European Journal of Operational Research"
+    ],
+    "volume": "231",
+    "issue": "1",
+    "page": "1--21",
+    "published": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review"
+  },
+  "lyu2021": {
+    "DOI": "10.3390/infrastructures6120180",
+    "title": [
+      "Freight Operations Modelling for Urban Delivery and Pickup with Flexible Routing: Cluster Transport Modelling Incorporating Discrete-Event Simulation and GIS"
+    ],
+    "author": [
+      {
+        "family": "Lyu",
+        "given": "Zichong"
+      },
+      {
+        "family": "Pons",
+        "given": "Dirk"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yilei"
+      },
+      {
+        "family": "Ji",
+        "given": "Zuzhen"
+      }
+    ],
+    "container-title": [
+      "Infrastructures"
+    ],
+    "volume": "6",
+    "issue": "12",
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "180"
+  },
+  "hua2025": {
+    "DOI": "10.3390/act14010010",
+    "title": [
+      "A Survey of Vehicle System and Energy Models"
+    ],
+    "author": [
+      {
+        "family": "Hua",
+        "given": "Lingyun"
+      },
+      {
+        "family": "Tang",
+        "given": "Jian"
+      },
+      {
+        "family": "Zhu",
+        "given": "Guoming"
+      }
+    ],
+    "container-title": [
+      "Actuators"
+    ],
+    "volume": "14",
+    "issue": "1",
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "10"
+  },
+  "wang2026": {
+    "DOI": "10.3390/en19215260",
+    "title": [
+      "Fuel Consumption Modeling and Condition-Corrected Benchmarking of Heavy-Duty Trucks Using Longitudinal OBD Data"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Xin"
+      },
+      {
+        "family": "Li",
+        "given": "Shubin"
+      },
+      {
+        "family": "Huang",
+        "given": "Jianchang"
+      },
+      {
+        "family": "Yue",
+        "given": "Xianfei"
+      },
+      {
+        "family": "Zhang",
+        "given": "Jianwei"
+      },
+      {
+        "family": "Song",
+        "given": "Guohua"
+      },
+      {
+        "family": "Zhang",
+        "given": "Leqi"
+      }
+    ],
+    "container-title": [
+      "Energies"
+    ],
+    "volume": "19",
+    "issue": "21",
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "5260"
+  },
+  "tirico2025": {
+    "DOI": "10.1016/j.scs.2025.106354",
+    "title": [
+      "Multi-scale comparison of modeling chains for traffic-related air pollutant emission assessment"
+    ],
+    "author": [
+      {
+        "family": "Tirico",
+        "given": "Michele"
+      },
+      {
+        "family": "Bescond",
+        "given": "Valentin Le"
+      },
+      {
+        "family": "Sengelin",
+        "given": "Delphine"
+      },
+      {
+        "family": "Gastineau",
+        "given": "Pascal"
+      },
+      {
+        "family": "Can",
+        "given": "Arnaud"
+      }
+    ],
+    "container-title": [
+      "Sustainable Cities and Society"
+    ],
+    "volume": "129",
+    "issue": null,
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "metadata_source": "Dated OpenAlex record; manifestation separately verified in review",
+    "article-number": "106354"
+  },
+  "wang2018": {
+    "DOI": "10.1016/j.trb.2018.03.011",
+    "title": [
+      "Dynamic traffic assignment: A review of the methodological advances for environmentally sustainable road transportation applications"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Yi"
+      },
+      {
+        "family": "Szeto",
+        "given": "Wai Y."
+      },
+      {
+        "family": "Han",
+        "given": "Ke"
+      },
+      {
+        "family": "Friesz",
+        "given": "Terry L."
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part B: Methodological"
+    ],
+    "volume": "111",
+    "page": "370-394",
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "metadata_source": "Consulted ETH-repository PDF cover and article header"
+  },
+  "prisma2020": {
+    "DOI": "10.1136/bmj.n71",
+    "title": [
+      "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews"
+    ],
+    "author": [
+      {
+        "family": "Page",
+        "given": "Matthew J."
+      },
+      {
+        "family": "McKenzie",
+        "given": "Joanne E."
+      },
+      {
+        "family": "Bossuyt",
+        "given": "Patrick M."
+      },
+      {
+        "family": "Boutron",
+        "given": "Isabelle"
+      },
+      {
+        "family": "Hoffmann",
+        "given": "Tammy C."
+      },
+      {
+        "family": "Mulrow",
+        "given": "Cynthia D."
+      }
+    ],
+    "container-title": [
+      "BMJ"
+    ],
+    "volume": "372",
+    "article-number": "n71",
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "metadata_source": "Official PRISMA statement-paper citation; author list abbreviated with others in BibTeX"
+  },
+  "massgt2025": {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.simpat.2025.103140",
+    "type": "journal-article",
+    "page": "103140",
+    "title": [
+      "MASS-GT: An empirical model for the simulation of freight policies"
+    ],
+    "volume": "142",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5391-0652",
+        "authenticated-orcid": false,
+        "given": "Michiel",
+        "family": "de Bok",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lóránt",
+        "family": "Tavasszy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1240-0023",
+        "authenticated-orcid": false,
+        "given": "Sebastiaan",
+        "family": "Thoen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Larissa",
+        "family": "Eggers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ioanna",
+        "family": "Kourounioti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Simulation Modelling Practice and Theory"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "article-number": "103140"
+  },
+  "massgt2022": {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.tranpol.2020.07.010",
+    "type": "journal-article",
+    "page": "119-127",
+    "title": [
+      "Application of an empirical multi-agent model for urban goods transport to analyze impacts of zero emission zones in The Netherlands"
+    ],
+    "volume": "124",
+    "author": [
+      {
+        "given": "Michiel",
+        "family": "de Bok",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lóránt",
+        "family": "Tavasszy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Sebastiaan Thoen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Transport Policy"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    }
+  },
+  "shoman2023": {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1007/s42421-023-00065-y",
+    "type": "journal-article",
+    "title": [
+      "A Review of Big Data in Road Freight Transport Modeling: Gaps and Potentials"
+    ],
+    "volume": "5",
+    "author": [
+      {
+        "given": "Wasim",
+        "family": "Shoman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sonia",
+        "family": "Yeh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frances",
+        "family": "Sprei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Köhler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Plötz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yancho",
+        "family": "Todorov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seppo",
+        "family": "Rantala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Speth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          21
+        ]
+      ]
+    },
+    "container-title": [
+      "Data Science for Transportation"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          21
+        ]
+      ]
+    },
+    "article-number": "2"
+  },
+  "chow2010": {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11116-010-9281-1",
+    "type": "journal-article",
+    "page": "1011-1030",
+    "title": [
+      "State-of-the art of freight forecast modeling: lessons learned and the road ahead"
+    ],
+    "volume": "37",
+    "author": [
+      {
+        "given": "Joseph Y. J.",
+        "family": "Chow",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Choon Heon",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amelia C.",
+        "family": "Regan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          6,
+          17
+        ]
+      ]
+    },
+    "container-title": [
+      "Transportation"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          6,
+          17
+        ]
+      ]
+    }
+  },
+  "petri2016": {
+    "publisher": "University of Split, Faculty of Maritime Studies",
+    "issue": "2",
+    "DOI": "10.7225/toms.v05.n02.001",
+    "type": "journal-article",
+    "page": "99-110",
+    "title": [
+      "Data Mining and Big Freight Transport Database Analysis and Forecasting Capabilities"
+    ],
+    "volume": "5",
+    "author": [
+      {
+        "given": "Massimiliano",
+        "family": "Petri",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Antonio",
+        "family": "Pratelli",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Giovanni",
+        "family": "Fusco",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          21
+        ]
+      ]
+    },
+    "container-title": [
+      "Transactions on Maritime Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          21
+        ]
+      ]
+    }
+  },
+  "nadi2024": {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.trc.2023.104413",
+    "type": "journal-article",
+    "page": "104413",
+    "title": [
+      "Data-driven preference-based routing and scheduling for activity-based freight transport modelling"
+    ],
+    "volume": "158",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1447-080X",
+        "authenticated-orcid": false,
+        "given": "Ali",
+        "family": "Nadi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Neil",
+        "family": "Yorke-Smith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maaike",
+        "family": "Snelder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.W.C.",
+        "family": "Van Lint",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lóránt",
+        "family": "Tavasszy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part C: Emerging Technologies"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "article-number": "104413"
+  },
+  "massgt2018": {
+    "DOI": "10.1016/j.procs.2018.04.021",
+    "title": [
+      "An empirical agent-based simulation system for urban goods transport (MASS-GT)"
+    ],
+    "author": [
+      {
+        "given": "Michiel",
+        "family": "de Bok"
+      },
+      {
+        "given": "Lóránt",
+        "family": "Tavasszy"
+      }
+    ],
+    "container-title": [
+      "Procedia Computer Science"
+    ],
+    "volume": "130",
+    "page": "126--133",
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "type": "journal-article"
+  },
+  "dias2026": {
+    "DOI": "10.1016/j.ubtr.2026.100031",
+    "title": [
+      "Assessing sustainable urban logistics hub impacts in Sweden: A case study of the Mall of Scandinavia using integrated emission and freight network modelling"
+    ],
+    "author": [
+      {
+        "given": "Helry Luvillany Fontenele",
+        "family": "Dias"
+      },
+      {
+        "given": "Erik",
+        "family": "Jenelius"
+      }
+    ],
+    "container-title": [
+      "Urban Transitions"
+    ],
+    "volume": "5",
+    "article-number": "100031",
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "type": "journal-article"
+  },
+  "prismascr2018": {
+    "DOI": "10.7326/M18-0850",
+    "title": [
+      "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation"
+    ],
+    "author": [
+      {
+        "given": "Andrea C.",
+        "family": "Tricco"
+      },
+      {
+        "given": "Erin",
+        "family": "Lillie"
+      },
+      {
+        "given": "Wendy",
+        "family": "Zarin"
+      },
+      {
+        "family": "others"
+      }
+    ],
+    "container-title": [
+      "Annals of Internal Medicine"
+    ],
+    "volume": "169",
+    "issue": "7",
+    "page": "467--473",
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "type": "journal-article"
+  },
+  "prismas2021": {
+    "DOI": "10.1186/s13643-020-01542-z",
+    "title": [
+      "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews"
+    ],
+    "author": [
+      {
+        "given": "Melissa L.",
+        "family": "Rethlefsen"
+      },
+      {
+        "given": "Shona",
+        "family": "Kirtley"
+      },
+      {
+        "given": "Siw",
+        "family": "Waffenschmidt"
+      },
+      {
+        "family": "others"
+      }
+    ],
+    "container-title": [
+      "Systematic Reviews"
+    ],
+    "volume": "10",
+    "article-number": "39",
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "type": "journal-article"
+  },
+  "balla2023": {
+    "DOI": "10.1016/j.tra.2023.103780",
+    "title": [
+      "Assessing regional transferability and updating of freight generation models to reduce sample size requirements in national freight data collection program"
+    ],
+    "author": [
+      {
+        "family": "Balla",
+        "given": "Bhavani Shankar"
+      },
+      {
+        "family": "Sahu",
+        "given": "Prasanta K."
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part A: Policy and Practice"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "175",
+    "article-number": "103780"
+  },
+  "davis2024": {
+    "DOI": "10.1016/j.tra.2024.104107",
+    "title": [
+      "Aggregate urban truck tour synthesis from public data"
+    ],
+    "author": [
+      {
+        "family": "Davis",
+        "given": "Haggai"
+      },
+      {
+        "family": "Landes",
+        "given": "Hector"
+      },
+      {
+        "family": "Namdarpour",
+        "given": "Farnoosh"
+      },
+      {
+        "family": "Yang",
+        "given": "Hai"
+      },
+      {
+        "family": "Chow",
+        "given": "Joseph Y. J."
+      },
+      {
+        "family": "Ozbay",
+        "given": "Kaan"
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part A: Policy and Practice"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "185",
+    "article-number": "104107"
+  },
+  "ferguson2012": {
+    "DOI": "10.1016/j.jtrangeo.2012.04.013",
+    "title": [
+      "Transferability and enhancement of a microsimulation model for estimating urban commercial vehicle movements"
+    ],
+    "author": [
+      {
+        "family": "Ferguson",
+        "given": "Mark"
+      },
+      {
+        "family": "Maoh",
+        "given": "Hanna"
+      },
+      {
+        "family": "Ryan",
+        "given": "Justin"
+      },
+      {
+        "family": "Kanaroglou",
+        "given": "Pavlos"
+      },
+      {
+        "family": "Rashidi",
+        "given": "Taha Hossein"
+      }
+    ],
+    "container-title": [
+      "Journal of Transport Geography"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "24",
+    "page": "358--369"
+  },
+  "smit2010": {
+    "DOI": "10.1016/j.atmosenv.2010.05.022",
+    "title": [
+      "Validation of road vehicle and traffic emission models – A review and meta-analysis"
+    ],
+    "author": [
+      {
+        "family": "Smit",
+        "given": "Robin"
+      },
+      {
+        "family": "Ntziachristos",
+        "given": "Leonidas"
+      },
+      {
+        "family": "Boulter",
+        "given": "Paul"
+      }
+    ],
+    "container-title": [
+      "Atmospheric Environment"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "44",
+    "page": "2943--2953",
+    "issue": "25"
+  },
+  "ligterink2012": {
+    "DOI": "10.1016/j.trd.2012.05.009",
+    "title": [
+      "A velocity and payload dependent emission model for heavy-duty road freight transportation"
+    ],
+    "author": [
+      {
+        "family": "Ligterink",
+        "given": "Norbert E."
+      },
+      {
+        "family": "Tavasszy",
+        "given": "Lóránt A."
+      },
+      {
+        "family": "de Lange",
+        "given": "Ronald"
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part D: Transport and Environment"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "17",
+    "page": "487--491",
+    "issue": "6"
+  },
+  "sakai2020": {
+    "DOI": "10.1016/j.tre.2020.102017",
+    "title": [
+      "SimMobility Freight: An agent-based urban freight simulator for evaluating logistics solutions"
+    ],
+    "author": [
+      {
+        "family": "Sakai",
+        "given": "Takanori"
+      },
+      {
+        "family": "Alho",
+        "given": "André Romano"
+      },
+      {
+        "family": "Bhavathrathan",
+        "given": "B. K."
+      },
+      {
+        "family": "Dalla Chiara",
+        "given": "Giacomo"
+      },
+      {
+        "family": "Gopalakrishnan",
+        "given": "Raja"
+      },
+      {
+        "family": "Jing",
+        "given": "Peiyu"
+      },
+      {
+        "family": "Hyodo",
+        "given": "Tetsuro"
+      },
+      {
+        "family": "Cheah",
+        "given": "Lynette"
+      },
+      {
+        "family": "Ben-Akiva",
+        "given": "Moshe"
+      }
+    ],
+    "container-title": [
+      "Transportation Research Part E: Logistics and Transportation Review"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "141",
+    "article-number": "102017"
+  },
+  "microhubs2024": {
+    "DOI": "10.1016/j.rtbm.2024.101186",
+    "title": [
+      "A simulation study of the impacts of micro-hub scenarios for city logistics in Rotterdam"
+    ],
+    "author": [
+      {
+        "family": "de Bok",
+        "given": "Michiel"
+      },
+      {
+        "family": "Giasoumi",
+        "given": "Sofia"
+      },
+      {
+        "family": "Tavasszy",
+        "given": "Lori"
+      },
+      {
+        "family": "Thoen",
+        "given": "Sebastiaan"
+      },
+      {
+        "family": "Nadi",
+        "given": "Ali"
+      },
+      {
+        "family": "Streng",
+        "given": "Jos"
+      }
+    ],
+    "container-title": [
+      "Research in Transportation Business & Management"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "56",
+    "article-number": "101186"
+  },
+  "harmony2024": {
+    "DOI": "10.1016/j.trpro.2024.03.034",
+    "title": [
+      "Learnings from the simulation of use cases in city logistics in the HARMONY project"
+    ],
+    "author": [
+      {
+        "family": "de Bok",
+        "given": "Michiel"
+      },
+      {
+        "family": "Tavasszy",
+        "given": "Lori"
+      },
+      {
+        "family": "Nadi",
+        "given": "Ali"
+      },
+      {
+        "family": "Thoen",
+        "given": "Sebastiaan"
+      },
+      {
+        "family": "Giasoumi",
+        "given": "Sofia"
+      },
+      {
+        "family": "Streng",
+        "given": "Jos"
+      }
+    ],
+    "container-title": [
+      "Transportation Research Procedia"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "79",
+    "page": "249--256"
+  },
+  "thoen2020emissions": {
+    "DOI": "10.1109/FISTS46898.2020.9264858",
+    "title": [
+      "Shipment-based urban freight emission calculation"
+    ],
+    "author": [
+      {
+        "family": "Thoen",
+        "given": "Sebastiaan"
+      },
+      {
+        "family": "de Bok",
+        "given": "Michiel"
+      },
+      {
+        "family": "Tavasszy",
+        "given": "Lorant"
+      }
+    ],
+    "container-title": [
+      "2020 Forum on Integrated and Sustainable Transportation Systems (FISTS)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "type": "proceedings-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "page": "372--377"
+  },
+  "mohammed2023": {
+    "DOI": "10.1177/03611981221147049",
+    "title": [
+      "Data Fusion Approach to Identify Distribution Chain Segments in Freight Shipment Databases"
+    ],
+    "author": [
+      {
+        "family": "Mohammed",
+        "given": "Raeed Ali"
+      },
+      {
+        "family": "Nadi",
+        "given": "Ali"
+      },
+      {
+        "family": "Tavasszy",
+        "given": "Lórant"
+      },
+      {
+        "family": "de Bok",
+        "given": "Michiel"
+      }
+    ],
+    "container-title": [
+      "Transportation Research Record"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "2677",
+    "page": "310--323",
+    "issue": "6"
+  },
+  "holguin2008": {
+    "DOI": "10.1007/s11067-007-9053-4",
+    "title": [
+      "A Multicommodity Integrated Freight Origin–destination Synthesis Model"
+    ],
+    "author": [
+      {
+        "family": "Holguín-Veras",
+        "given": "José"
+      },
+      {
+        "family": "Patil",
+        "given": "Gopal R."
+      }
+    ],
+    "container-title": [
+      "Networks and Spatial Economics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "metadata_source": "Identity and bibliographic fields verified against institutionally supplied complete PDF, 18 November 2026",
+    "volume": "8",
+    "page": "309--326"
+  }
+}
