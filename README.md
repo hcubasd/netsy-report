@@ -2,7 +2,7 @@
 
 NetSy: **A Network loads and emissions Synthesizer**.
 
-Publication infrastructure and the NetSy literature review on `v0`.
+Publication infrastructure and the NetSy literature review on `slr`.
 The current available-evidence review uses eight search strands: six subject
 areas, data availability/transferability, and MASS-GT reference discovery.
 Findings follow seven functional responsibilities, with data requirements and
@@ -59,3 +59,7 @@ versioned in `results/` and `references/`. See `docs/draft.md` for scope and pro
 `results/source-function-map.csv` indexes citations by functional section.
 The historical `domains` fields in imported evidence retain search-strand
 identifiers A1–A7; they are not the new functional section numbers.
+
+Publication branches are now `slr` and `trd`; historical tags stay unchanged.
+New SLR releases use `slr/vMAJOR.MINOR.PATCH`. See [publication graph](docs/branches.md)
+and [collaborator handoff](docs/handoff.md).
