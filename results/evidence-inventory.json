@@ -1,0 +1,91 @@
+{
+  "inventoried_at_utc": "2026-11-19T00:17:17.714472+00:00",
+  "status": "planning evidence inventory, not new model runs or validation",
+  "proposed_netsy_freeze": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+  "massgt_reference": "4f727c3633bf5edabc1b0d0fa081a9e232bf169a",
+  "historical_run_revisions": "See audit and its per-run records; do not relabel as the proposed freeze.",
+  "complete_case_input_manifest": false,
+  "audit_records": [
+    {
+      "path": "/workdir/docs/validation/README.md",
+      "sha256": "9307144b87dee26c044048fd9f2baa752213bb83053cfd0a6e69677c13c03bce",
+      "bytes": 14072,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/metrics.json",
+      "sha256": "07893b576a671640182cf53c69b6dffbdcc1dc61d7e587b12be31e3f2dab9045",
+      "bytes": 9662,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/assignment_control.json",
+      "sha256": "1ee83559663d48d44f2f81fc473be844ce375f117ea4166fd0b6ad08ca0df641",
+      "bytes": 1397,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/assignment_residuals.json",
+      "sha256": "ec38d1e250c4d36c96f44dd30cf184485bd18c20f3fa0054b923b6c87a82cef7",
+      "bytes": 1050,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/vans.json",
+      "sha256": "4257d5ee2b4b44bb2fe8e2ec5d21d22dd3ea777832784de8c002ca36ebd98823",
+      "bytes": 294,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/microhub_control.json",
+      "sha256": "60da43aa42b129f19f8340568248985e3831dd6c28d63f959eefcd7be3e1bba3",
+      "bytes": 566,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/copert_coverage.json",
+      "sha256": "2723cbda37c338e4d1e4ab7f4065c52dbfdb34612b19371fbdec5230ffbed70e",
+      "bytes": 2496,
+      "role": "historical audit; not rerun"
+    },
+    {
+      "path": "/workdir/docs/validation/results/tour_regression.json",
+      "sha256": "97d7e30bf8986a954fb214e1cf3f0a835a2e78282ef8490a5e72236b183614e3",
+      "bytes": 166,
+      "role": "historical audit; not rerun"
+    }
+  ],
+  "selected_case_checks": {
+    "network_path": "/workdir/docs/validation/copert/network.gpkg",
+    "network_layer": "network",
+    "grade_column_present": false,
+    "meaning_of_missing_grade": "Existing COPERT implementation assumes flat grade; terrain is not observed.",
+    "inputs": {
+      "copert_vehicles.csv": {
+        "path": "/workdir/docs/validation/copert/copert_vehicles.csv",
+        "rows": 8,
+        "sha256": "ad5137c0f9b6b60a0d26511aecaf5d932c382b017e141f07a00f5e7748d4622f",
+        "declared_types": [
+          "Heavy Duty Trucks Articulated 14 - 20 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Articulated 34 - 40 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Articulated 40 - 50 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Rigid 26 - 28 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Rigid 28 - 32 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Rigid 7,5 - 12 t Diesel Euro VI D/E",
+          "Heavy Duty Trucks Rigid >32 t Diesel Euro VI D/E",
+          "Light Commercial Vehicles N1-III Diesel Euro 6 d/e"
+        ]
+      },
+      "non_exhaust_factors.csv": {
+        "path": "/workdir/docs/validation/copert/non_exhaust_factors.csv",
+        "rows": 0,
+        "sha256": "74cf0cbe4446bb06a00e0f4692848a628b26ca96d597556dd64dbad62f0c0a0b"
+      },
+      "time_intervals.csv": {
+        "path": "/workdir/docs/validation/copert/time_intervals.csv",
+        "rows": 24,
+        "sha256": "782f38f6dd48d465e6007954c44676a14ca4c1b0747c3aedb147e231caf400a9"
+      }
+    }
+  }
+}

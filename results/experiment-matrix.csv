@@ -1,0 +1,10 @@
+id,role,parcel_scheduling,emissions,activity_control,status
+M-RAW,source correspondence,source,source,source outputs,historical records retained; provenance refresh needed
+M-EXEC,execution control,source,source,documented execution repairs,available where audit records them; not a new run
+M-CORR,correction control,corrected where documented,corrected where documented,specific source corrections or analytic expectations,partial controls; no complete corrected source run asserted
+FIXED-TRIPS,downstream correspondence,source trips,inherited factors,identical imported tours parcel schedule and matrices,historical control; refresh at proposed freeze
+N00,core factorial,inherited corrected,inherited factors,frozen upstream realization,historical full chain seed 1; refresh at proposed freeze
+N10,core factorial,Clarke-Wright,inherited factors,same upstream demand as N00,historical parcel schedules; full downstream comparison planned
+N01,core factorial,same as N00,declared COPERT fleet/factors,identical saved link activity as N00,historical seed 1 example; comparability gates unresolved
+N11,core factorial,same as N10,same COPERT fleet/factors,identical saved link activity as N10,planned
+G-OPTION,optional terrain extension,to be specified,fixed within path contrast,directional grades and justified route costs,excluded from core; data and scientific question required

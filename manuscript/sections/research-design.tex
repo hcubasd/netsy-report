@@ -1,0 +1,73 @@
+\noindent{\Large\bfseries Freight network environmental assessment}\par
+\noindent{\large Research-design brief: proposed TR-D article}\par
+\noindent\small 19 November 2026 --- Working plan, not manuscript findings\par
+\medskip
+
+\noindent\textbf{Question and contribution.}
+How do parcel-tour construction and emissions formulations affect freight
+network environmental estimates in a controlled Dutch application?
+The proposed contribution is a reproducible framework and controlled evidence
+on those sensitivities. MASS-GT supplies a reference configuration; the SLR
+supplies background. Established algorithms are not claimed as new theory.
+
+\smallskip
+\noindent\textbf{Three questions.}
+(1) Where does NetSy reproduce the reference, and why do residuals remain?
+(2) How does Clarke--Wright change parcel operations and emissions under fixed
+demand and constraints? (3) How do factor/fleet choices change estimates on
+fixed activity and the apparent effect of the scheduling alternative?
+
+\smallskip
+\noindent\textbf{Core experiment.}
+First distinguish raw source outputs, documented repairs and fixed-trip
+assignment controls. Then use four NetSy configurations:
+\begin{center}\small
+\begin{tabular}{@{}lll@{}}
+\toprule Configuration & Parcel scheduling & Emissions configuration \\
+\midrule
+N00 & Corrected inherited method & Inherited factors \\
+N10 & Clarke--Wright savings & Same inherited factors \\
+N01 & Same saved activity as N00 & Declared COPERT fleet/factors \\
+N11 & Same saved activity as N10 & Same COPERT fleet/factors \\
+\bottomrule
+\end{tabular}
+\end{center}
+Hold demand, capacities, service rules, network and supplied speeds fixed.
+Reuse identical link activity for factor contrasts. Harmonize fleet and
+environmental boundaries where possible; otherwise identify a combined
+factor/fleet sensitivity or omit incomparable endpoints. Report scheduling
+effects under each factor configuration and their interaction.
+
+\smallskip
+\noindent\textbf{Outcomes and randomness.}
+Primary: change in network CO\textsubscript{2} over a common modelled period and
+carbon boundary, for parcels and the whole freight network. Secondary:
+compatible NOx/exhaust PM, spatial patterns, VKT, empty travel, tour counts,
+utilization and service feasibility. Pair configurations by saved upstream
+realization. A five-replicate pilot will inform a documented precision target
+and fixed final replication count; it is not a sufficient-sample claim.
+Do not treat links or hours as independent replicates.
+
+\smallskip
+\noindent\textbf{Evidence and limits.}
+The existing audit contains source comparisons, three upstream NetSy seeds and
+one complete seed-level assignment/emissions chain. These are preliminary
+records, not new runs at the proposed freeze. The inspected COPERT case uses
+assumed fleet technologies, lacks network gradients and has no non-exhaust
+input. Grade-informed paths remain an optional extension requiring defensible
+data and costs. Source agreement and lower modelled emissions do not establish
+measured accuracy, policy effects or geographical transfer.
+
+\smallskip
+\noindent\textbf{Next work.}
+Freeze versions and inputs; reconcile periods, fleet/factor boundaries and
+coverage; refresh controls; lock pilot-informed replication; run the planned
+contrasts. Draft Methods and experimental design before Results and Introduction.
+Detailed controls, metrics and gates: \texttt{docs/experiment-plan.md}.
+The current journal-specific author guide still requires verification.
+
+\smallskip
+\noindent\footnotesize
+Background: SLR v0.2.0. Proposed model freeze: NetSy v0.5.0
+(\texttt{491b1d5}); MASS-GT checkout: \texttt{4f727c3}, with repairs versioned
+separately. This is an AI-assisted planning document, not a submitted paper.
