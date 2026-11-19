@@ -44,6 +44,16 @@ class PublicationChecks(unittest.TestCase):
                 project.release_tag(tag, config)
         self.assertEqual(project.release_tag('v1.2.3', config), 'v1.2.3')
 
+    def test_namespaced_release_versions_are_independent(self):
+        config = {'release_namespace': 'trd', 'publish_pdf': True}
+        for tag in ('trd/v0.1.0', 'trd/v1.0.0', 'trd/v2.3.4'):
+            self.assertEqual(project.release_tag(tag, config), tag)
+        for tag in ('v1.0.0', 'slr/v1.0.0', 'trd/v01.0.0', 'trd/v1.0', 'trd/v1.0.0/extra'):
+            with self.assertRaises(ValueError):
+                project.release_tag(tag, config)
+        with self.assertRaises(ValueError):
+            project.release_tag('trd/v0.1.0', {'release_namespace': 'trd', 'publish_pdf': False})
+
 
 if __name__ == '__main__':
     unittest.main()
