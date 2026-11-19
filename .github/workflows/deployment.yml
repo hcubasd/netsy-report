@@ -1,7 +1,7 @@
 name: Publication release
 on:
   push:
-    tags: ['v*.*.*']
+    tags: ['slr/v*.*.*', 'trd/v*.*.*']
 permissions:
   contents: read
 concurrency:

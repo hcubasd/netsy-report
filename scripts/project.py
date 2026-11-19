@@ -15,8 +15,12 @@ def configuration(root=ROOT):
     data = json.loads((root / 'publication.json').read_text())
     if not re.fullmatch(r'[a-z][a-z0-9-]*', data['id']):
         raise ValueError('publication id must be a lowercase filename-safe slug')
-    if type(data['major']) is not int or data['major'] < 0:
-        raise ValueError('major must be a nonnegative integer')
+    namespace = data.get('release_namespace')
+    if namespace is not None:
+        if not isinstance(namespace, str) or not re.fullmatch(r'[a-z][a-z0-9-]*', namespace):
+            raise ValueError('release_namespace must be a lowercase filename-safe slug')
+    elif type(data.get('major')) is not int or data['major'] < 0:
+        raise ValueError('legacy major must be a nonnegative integer')
     if type(data['publish_pdf']) is not bool:
         raise ValueError('publish_pdf must be a boolean')
     if not isinstance(data['title'], str) or not data['title'].strip():
@@ -25,10 +29,17 @@ def configuration(root=ROOT):
 
 
 def release_tag(tag, config):
-    match = re.fullmatch(r'v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)', tag)
+    namespace = config.get('release_namespace')
+    version = tag
+    if namespace:
+        prefix = namespace + '/'
+        if not tag.startswith(prefix):
+            raise ValueError('release tag must start with ' + prefix)
+        version = tag[len(prefix):]
+    match = re.fullmatch(r'v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)', version)
     if not match:
-        raise ValueError('release tags must be vMAJOR.MINOR.PATCH without leading zeros')
-    if int(match[1]) != config['major']:
+        raise ValueError('release version must be vMAJOR.MINOR.PATCH without leading zeros')
+    if not namespace and int(match[1]) != config['major']:
         raise ValueError('tag major does not match publication.json')
     if not config['publish_pdf']:
         raise ValueError('PDF publication is disabled for this publication line')
@@ -101,8 +112,9 @@ def package(tag, root=ROOT):
     meta = json.loads((dist / 'provenance.json').read_text())
     if meta['commit'] != output('git', 'rev-parse', 'HEAD') or meta['working_tree_dirty']:
         raise ValueError('artifact must come from the same clean source commit')
-    archive = dist / f'{config["id"]}-{tag}-sources.tar.gz'
-    subprocess.run(['git', 'archive', '--format=tar.gz', f'--prefix={config["id"]}-{tag}/',
+    safe_tag = tag.replace('/', '-')
+    archive = dist / f'{config["id"]}-{safe_tag}-sources.tar.gz'
+    subprocess.run(['git', 'archive', '--format=tar.gz', f'--prefix={config["id"]}-{safe_tag}/',
                     '-o', str(archive), 'HEAD'], cwd=root, check=True)
     paths = sorted(p for p in dist.iterdir() if p.is_file() and p.name != 'SHA256SUMS')
     sums = []
