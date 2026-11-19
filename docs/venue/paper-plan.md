@@ -1,7 +1,7 @@
 # Proposed first-paper architecture and evidence decisions
 
 This venue-oriented outline is planning, not manuscript text or an approved title.
-The working research design is now in [the experiment protocol](../experiment-plan.md). The background source is SLR v0.2.0, branch `v0`, commit `bc28fd1fea954fa772c9b4378b42684b8f4135f6`.
+The working research design is now in [the experiment protocol](../experiment-plan.md). The background source is SLR v0.2.0, branch `slr`, commit `bc28fd1fea954fa772c9b4378b42684b8f4135f6`.
 
 ## Article rather than SLR
 
@@ -48,4 +48,4 @@ Version code, settings, source repairs, seeds and shareable outputs. Verify perm
 
 ## Branch setup
 
-Reserve `v1` for this research article, with `publication.json.major = 1`, a parent link to the exact `v0` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `v1.0.0`. The active manuscript now develops Methods and exploratory Results from the frozen Dutch experiments; the original design brief is retained in `docs/history/`. Authorship and the final article remain to be developed.
+Reserve `trd` for this research article, with `publication.json.major = 1`, a parent link to the exact `slr` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `trd/v1.0.0`. The active manuscript now develops Methods and exploratory Results from the frozen Dutch experiments; the original design brief is retained in `docs/history/`. Authorship and the final article remain to be developed.

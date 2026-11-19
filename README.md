@@ -1,10 +1,10 @@
 # NetSy — proposed Transportation Research Part D article
 
-`v1` is the first original-research publication line. Target venue:
+`trd` is the first original-research publication line. Target venue:
 **Transportation Research Part D: Transport and Environment**. The title in
 `publication.json` is a working identifier, not an approved article title.
 
-The reusable SLR remains on `v0`, with [v0.2.0](https://github.com/hcubasd/netsy-report/releases/tag/v0.2.0)
+The reusable SLR remains on `slr`, with [v0.2.0](https://github.com/hcubasd/netsy-report/releases/tag/v0.2.0)
 as this branch's background baseline. Git ancestry and `publication.json.parent`
 record the exact relationship. The SLR manuscript/search machinery is not
 carried as this article's active content; it remains available on its own branch.
@@ -32,8 +32,8 @@ checks layout/references, and writes `dist/netsy-trd.pdf` plus provenance.
 The manuscript remains incomplete and does not certify journal formatting. `make container`
 uses the inherited pinned TeX image; CI does not run live package updates.
 
-Branch pushes run CI. PDF publication is explicitly disabled for `v1`.
-Future approved milestones on this line use `v1.MINOR.PATCH` tags; no `v1.0.0`
+Branch pushes run CI. PDF publication is explicitly disabled for `trd`.
+Future approved milestones on this line use `trd/vMAJOR.MINOR.PATCH` tags; no `trd/v1.0.0`
 research release has been created. The source archive made for GitHub releases
 is not an Editorial Manager submission bundle: a flattened source exporter and
 journal-compatible bibliography workflow still need to be prepared.

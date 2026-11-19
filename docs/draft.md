@@ -1,6 +1,6 @@
 # First research-paper status
 
-Branch: `v1`. Target: Transportation Research Part D: Transport and Environment.
+Branch: `trd`. Target: Transportation Research Part D: Transport and Environment.
 Active title: **NetSy: A Network loads and emissions Synthesizer**.
 Publication ID: `netsy-trd`; PDF releases remain disabled.
 
@@ -12,7 +12,7 @@ or policy conclusion is implied. The original one-page design brief is preserved
 in `docs/history/`.
 
 Background baseline: NetSy SLR v0.2.0 / `bc28fd1fea954fa772c9b4378b42684b8f4135f6`.
-The reusable SLR manuscript and its search records stay on `v0`; selected
+The reusable SLR manuscript and its search records stay on `slr`; selected
 scientific references support this original-research manuscript.
 
 The frozen experiment uses NetSy v0.5.0, five paired upstream realizations,
