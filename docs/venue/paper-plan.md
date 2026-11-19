@@ -48,4 +48,4 @@ Version code, settings, source repairs, seeds and shareable outputs. Verify perm
 
 ## Branch setup
 
-Reserve `trd` for this research article, with `publication.json.major = 1`, a parent link to the exact `slr` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `trd/v1.0.0`. The active manuscript now develops Methods and exploratory Results from the frozen Dutch experiments; the original design brief is retained in `docs/history/`. Authorship and the final article remain to be developed.
+Reserve `trd` for this research article, with `publication.json.release_namespace = "trd"`, a parent link to the exact `slr` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `trd/v1.0.0`. The active manuscript now develops Methods and exploratory Results from the frozen Dutch experiments; the original design brief is retained in `docs/history/`. Authorship and the final article remain to be developed.
