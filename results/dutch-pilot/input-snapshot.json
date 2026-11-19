@@ -1,0 +1,278 @@
+[
+  {
+    "name": "assignment_vehicles.csv",
+    "source": "/workdir/netherlands/assignment_vehicles.csv",
+    "sha256": "894f22400add54e2e67c064e9aa0ea9cbe2d50f0540c2a63f62907c42130839a",
+    "bytes": 320
+  },
+  {
+    "name": "attractions.csv",
+    "source": "/workdir/netherlands/attractions.csv",
+    "sha256": "d62119cf0a804235ad941dbb8e0a12fe51da1e90e8bd276785e0ca03f31699f6",
+    "bytes": 18594
+  },
+  {
+    "name": "consumption_rates.csv",
+    "source": "/workdir/netherlands/consumption_rates.csv",
+    "sha256": "e367045ada361f70f2835edc16ed3582f78fbbc3cdb13b64489e5922cc0c4e04",
+    "bytes": 2419
+  },
+  {
+    "name": "copert_v_coefficients.csv",
+    "source": "/workdir/netherlands/copert_v_coefficients.csv",
+    "sha256": "002762aa1e7587c0d0914bdb180457df0d320fd73a620058ef69b596c2e1b1f5",
+    "bytes": 134972
+  },
+  {
+    "name": "copert_vehicles.csv",
+    "source": "/workdir/netherlands/copert_vehicles.csv",
+    "sha256": "ad5137c0f9b6b60a0d26511aecaf5d932c382b017e141f07a00f5e7748d4622f",
+    "bytes": 573
+  },
+  {
+    "name": "delivery_choice.csv",
+    "source": "/workdir/netherlands/delivery_choice.csv",
+    "sha256": "703609b817e45fff4c1bb7d52a905bcfe197b08206cc2d8da1d8dc2194cd1bce",
+    "bytes": 11222
+  },
+  {
+    "name": "delivery_departures.csv",
+    "source": "/workdir/netherlands/delivery_departures.csv",
+    "sha256": "62c02c24235565339cc45c17dd24c05475d3fd143e0815c45ee0301ca724c7d0",
+    "bytes": 204
+  },
+  {
+    "name": "delivery_settings.csv",
+    "source": "/workdir/netherlands/delivery_settings.csv",
+    "sha256": "d8eb72af1d5a9ec57ec95299ff9186e540b192500a9c330b384d4c4ff4ae265a",
+    "bytes": 111
+  },
+  {
+    "name": "delivery_windows.csv",
+    "source": "/workdir/netherlands/delivery_windows.csv",
+    "sha256": "fc2e8114174eaf501f368d3821b18969f6ac25005290a35b415c462001920a34",
+    "bytes": 957
+  },
+  {
+    "name": "distance_decay.csv",
+    "source": "/workdir/netherlands/distance_decay.csv",
+    "sha256": "3e8c3d344082c7788be4977ebcf0732628a703b1094553d00b43505b7cf0b84d",
+    "bytes": 61
+  },
+  {
+    "name": "emission_factors.csv",
+    "source": "/workdir/netherlands/emission_factors.csv",
+    "sha256": "00caa4d900003439c29192bb88336cca2d64c807edebae6d68386f8b8d363326",
+    "bytes": 25613
+  },
+  {
+    "name": "end_tour_first.csv",
+    "source": "/workdir/netherlands/end_tour_first.csv",
+    "sha256": "92c98d2619f4568553002b98c65c1065ec50d7edbff9effb0d2569b568d6e687",
+    "bytes": 540
+  },
+  {
+    "name": "end_tour_later.csv",
+    "source": "/workdir/netherlands/end_tour_later.csv",
+    "sha256": "c59db6f2f80624f376aea7d9aa8b083ccb948a781232c1c2f57077d71aa54169",
+    "bytes": 427
+  },
+  {
+    "name": "facilities.gpkg",
+    "source": "/workdir/netherlands/facilities.gpkg",
+    "sha256": "432b08130cf84e2199e21a5cfdfe77060cb3edad25778ea33632e649df233ad1",
+    "bytes": 155648
+  },
+  {
+    "name": "flow_types.csv",
+    "source": "/workdir/netherlands/flow_types.csv",
+    "sha256": "c1f0566dac6a5d7d70ed7629bfec4957d0e74240dff83920641cf677b4a29ee5",
+    "bytes": 1175
+  },
+  {
+    "name": "link_speeds.csv",
+    "source": "/workdir/netherlands/link_speeds.csv",
+    "sha256": "754f3a75f75d45d4d9605c363160eb76fa588f80e23b769aa700776f51c8814f",
+    "bytes": 5951199
+  },
+  {
+    "name": "location_attributes.csv",
+    "source": "/workdir/netherlands/location_attributes.csv",
+    "sha256": "786dcbf68fbbc3363976758ad3145c2bc5a8c0ff26ec9a55c84b7f44b79ea4f9",
+    "bytes": 3379
+  },
+  {
+    "name": "marginal_coefficients.csv",
+    "source": "/workdir/netherlands/marginal_coefficients.csv",
+    "sha256": "9fa0a27db2a15975aa129c5316cdf3af989e3b5fd86368c55031827645df7776",
+    "bytes": 2971
+  },
+  {
+    "name": "matrix_assignment.csv",
+    "source": "/workdir/netherlands/matrix_assignment.csv",
+    "sha256": "d5f912fba4c0c69b0072ef9aac67edcb58a65377a67c230d7219e84cf1333361",
+    "bytes": 117
+  },
+  {
+    "name": "network.gpkg",
+    "source": "/workdir/netherlands/network.gpkg",
+    "sha256": "34568e7792305e8ab94e8c89a8120d947ceb93d4a92e80926419e9f81d12793f",
+    "bytes": 60215296
+  },
+  {
+    "name": "non_exhaust_factors.csv",
+    "source": "/workdir/netherlands/non_exhaust_factors.csv",
+    "sha256": "74cf0cbe4446bb06a00e0f4692848a628b26ca96d597556dd64dbad62f0c0a0b",
+    "bytes": 39
+  },
+  {
+    "name": "od_flows.csv",
+    "source": "/workdir/netherlands/od_flows.csv",
+    "sha256": "0364b3cc04a614d53d393ed3c34f468601a2b5d964b673de396cce95963e67a1",
+    "bytes": 497811
+  },
+  {
+    "name": "od_prior.csv",
+    "source": "/workdir/netherlands/od_prior.csv",
+    "sha256": "27738b447c5a20f9b1d81d0b52fdf7f7ccd5525e84c7dabac45bf48b455a17a1",
+    "bytes": 944710
+  },
+  {
+    "name": "operator_shares.csv",
+    "source": "/workdir/netherlands/operator_shares.csv",
+    "sha256": "eb7139294391dee7bce8a721ea701453c4de3602884c08bfcc84e3b190405d9f",
+    "bytes": 113
+  },
+  {
+    "name": "order_levels.csv",
+    "source": "/workdir/netherlands/order_levels.csv",
+    "sha256": "9bbeae116a418d1e8fce93131084b800a4c1b0b4e80f0baa6e67bdeebfd1c3dd",
+    "bytes": 131
+  },
+  {
+    "name": "order_utility.csv",
+    "source": "/workdir/netherlands/order_utility.csv",
+    "sha256": "6cf79d37db5241dcb88672cb9a0c74a41bf3662d34702a1fb7e2d68d50d4bcf6",
+    "bytes": 238
+  },
+  {
+    "name": "parcel_attributes.csv",
+    "source": "/workdir/netherlands/parcel_attributes.csv",
+    "sha256": "3ad13a11683bea5abec4b9e85ebf99a10d30fb722636fe2f39cf888dc7bffa42",
+    "bytes": 67029
+  },
+  {
+    "name": "parcel_rates.csv",
+    "source": "/workdir/netherlands/parcel_rates.csv",
+    "sha256": "ae703fda3dcc1aceb9695dafe275cbda93f302b73fdb5eab1392695fe4305d3f",
+    "bytes": 40
+  },
+  {
+    "name": "parcel_settings.csv",
+    "source": "/workdir/netherlands/parcel_settings.csv",
+    "sha256": "40c83cb3a4d6af1c93d3b46ea57a01587262fa6a0e3ae15ef4f6c1c6e42f4715",
+    "bytes": 92
+  },
+  {
+    "name": "population.csv",
+    "source": "/workdir/netherlands/population.csv",
+    "sha256": "fe946d1c576de60742dbfb6e7eeaf482242f3a26750d51f1a33895e3eba59253",
+    "bytes": 9639876
+  },
+  {
+    "name": "production_rates.csv",
+    "source": "/workdir/netherlands/production_rates.csv",
+    "sha256": "b9d7ea7fc66f7e7162de490b2c72b0924281c1bf4bbabcd79a250e639836ea06",
+    "bytes": 1391
+  },
+  {
+    "name": "productions.csv",
+    "source": "/workdir/netherlands/productions.csv",
+    "sha256": "3cd484e9e33e0938bb7a42bab764b44d0aa86c7a61749e5439d05edbf4af4b97",
+    "bytes": 18592
+  },
+  {
+    "name": "road_costs.csv",
+    "source": "/workdir/netherlands/road_costs.csv",
+    "sha256": "6fb9bea0e6d9e182d29c5d1146b0c27467b8342ff21a1e15db9123cca636041d",
+    "bytes": 101
+  },
+  {
+    "name": "shipment_sizes.csv",
+    "source": "/workdir/netherlands/shipment_sizes.csv",
+    "sha256": "2c3157192481a78d5837d9fbe28c197183b8f2d5c2e4c271396c6a7da736fcd8",
+    "bytes": 102
+  },
+  {
+    "name": "shipment_totals.csv",
+    "source": "/workdir/netherlands/shipment_totals.csv",
+    "sha256": "5e54d46d201ebcd65e579c357b015bf74a4a11464148ec785ec4f4343b06742a",
+    "bytes": 1017577
+  },
+  {
+    "name": "shipment_vehicles.csv",
+    "source": "/workdir/netherlands/shipment_vehicles.csv",
+    "sha256": "1adbe818ae776ba0c7ffdb13b21a4f992854ff7677b66e2f07116141c7aa17d3",
+    "bytes": 307
+  },
+  {
+    "name": "size_classes.csv",
+    "source": "/workdir/netherlands/size_classes.csv",
+    "sha256": "5038b925fc18de624c1891dfc40029f2a744a29bb730677b3a3ea31bb39e71fd",
+    "bytes": 1349
+  },
+  {
+    "name": "size_totals.csv",
+    "source": "/workdir/netherlands/size_totals.csv",
+    "sha256": "54316555f6cb017c8a5a1497752f72c0a53da89bdad651c4c8e0b4a1028092d7",
+    "bytes": 446810
+  },
+  {
+    "name": "skims.omx",
+    "source": "/workdir/netherlands/skims.omx",
+    "sha256": "57b424dbef30b5dede448484c15039ec62419abb99978b9050b390009fa86c40",
+    "bytes": 187181095
+  },
+  {
+    "name": "time_intervals.csv",
+    "source": "/workdir/netherlands/time_intervals.csv",
+    "sha256": "782f38f6dd48d465e6007954c44676a14ca4c1b0747c3aedb147e231caf400a9",
+    "bytes": 211
+  },
+  {
+    "name": "tour_settings.csv",
+    "source": "/workdir/netherlands/tour_settings.csv",
+    "sha256": "14fa5bdd3d9a12d810cee5bf2988af2a83917b7e2b879399edbf821991264c85",
+    "bytes": 192
+  },
+  {
+    "name": "trip_attributes.csv",
+    "source": "/workdir/netherlands/trip_attributes.csv",
+    "sha256": "90c4ec2e6fb6c746435b02314d3bb58140e4ffe005c4dafe827ce8cecf703e07",
+    "bytes": 395697
+  },
+  {
+    "name": "trip_decay.csv",
+    "source": "/workdir/netherlands/trip_decay.csv",
+    "sha256": "3335aa6f75b81783b38b8429d91350a4ced2a957580009e9c7b6fefcfc2da7e8",
+    "bytes": 130
+  },
+  {
+    "name": "trip_rates.csv",
+    "source": "/workdir/netherlands/trip_rates.csv",
+    "sha256": "45d75595aa4ed78e021b5beda9fea4cbf8e6bbf942127249b35eeee1e532c1ec",
+    "bytes": 464
+  },
+  {
+    "name": "vehicle_choice.csv",
+    "source": "/workdir/netherlands/vehicle_choice.csv",
+    "sha256": "b92b982e5fa254b8413fb642ba221f4972b579a502d4a9b5722cde1e7c99bc74",
+    "bytes": 11632
+  },
+  {
+    "name": "zones.gpkg",
+    "source": "/workdir/netherlands/zones.gpkg",
+    "sha256": "4ea4c56395abd062bc8975f1733192c4a1bd74c0bc07725af7981631caecd583",
+    "bytes": 23547904
+  }
+]

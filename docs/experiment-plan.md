@@ -1,8 +1,11 @@
 # First-paper research design — working protocol
 
 19 November 2026. Branch `v1`; target: Transportation Research Part D.
-Status: initial design, not a preregistration, completed experiment or approved
-claim of improvement. The one-page brief is built from `manuscript/main.tex`.
+Status: initial protocol retained with dated execution amendments; the
+subsequent five-realization experiment is exploratory, not a preregistration
+or approved claim of improvement. The original brief is retained in `docs/history/`; `manuscript/main.tex` now
+builds partial Methods and exploratory Results. Read the execution amendment
+at the end for changes to this initial protocol.
 
 ## Question, contribution and scope
 
@@ -147,9 +150,9 @@ provide a distributional-equivalence test. Formal source-model equivalence would
 additionally require repeated source runs and justified equivalence margins;
 otherwise restrict the claim to fixed-reference correspondence.
 
-## Grade-informed paths and other extensions
+## Initial terrain-extension design (superseded by execution amendment)
 
-Grade routing is **not a core experiment yet**. The inspected historical COPERT
+Grade routing was initially outside the core experiment. The inspected historical COPERT
 network has no `grade` field; default-flat emissions are not measured terrain.
 NetSy's new grade coefficients express route preferences, not calibrated energy
 consumption, payload-dependent route costs or regenerative braking.
@@ -183,3 +186,76 @@ exist. The live TR-D guide remains unverified; its formatting restrictions do
 not settle this scientific design. AI-assisted planning and subsequent research
 assistance must be documented under the collected publisher policy, with author
 review before submission.
+
+## Execution amendment — 19 November 2026
+
+The user authorized running the experiments and complementing missing grades.
+The implementation freeze is now actual (NetSy v0.5.0); original case files
+and historical runs remain preserved. The executed design extends the original
+2×2 scheduler/emissions pilot with three uphill preference coefficients
+(0, 0.05, 0.20; downhill zero), giving 12 cells per realization. These are
+uncalibrated preference sensitivities in existing case cost units, not estimated
+energy-optimal coefficients. The grade question is whether and how such
+preferences alter paths and their environmental accounting under an explicitly
+partial terrain proxy. This amendment precedes completed factorial analysis;
+the entire exercise remains exploratory rather than a preregistration.
+
+AHN4 native 5 m terrain and surface rasters were retrieved from the official
+national portal and checked against provider ZIP checksums. The adapter uses
+source node identities to avoid shared reverse-geometry direction errors.
+Median 3×3 node heights, a minimum of five valid cells, a ≤3 m DTM/DSM screen,
+minimum link length 50 m, maximum absolute grade 10%, and explicit nonroad/named
+structure fallbacks define the retained proxy. Parameters are screening choices,
+not fitted road-grade measurements. The final Methods records coverage and
+limitations. Initial slow WCS retrievals were abandoned and are not final inputs.
+
+The source-trip control is refreshed using existing imported MASS-GT trips,
+not a new source run. Five complete upstream realizations (stage seeds 1–5)
+are shared by all treatments. Service matrices are computed once. Link speeds
+have no time-interval column in this case; departure changes therefore do not
+add time-varying speed treatments. Fixed parcel demand and deterministic spatial
+scheduling can yield identical parcel outcomes across seeds, apart from output
+rounding; those outcomes must not be treated as five independent confirmations.
+
+Inherited-factor support is intersected over all assignment vehicles for CO2,
+excluding connectors and ferries, before primary factor/fleet comparisons.
+Modern assumed COPERT fleet technology is not harmonized to the inherited
+fleet: effects remain combined configuration sensitivities. PM boundaries are
+not reconciled; PM values are retained in machine-readable diagnostics but do
+not become a cross-method accuracy claim. No non-exhaust factors are supplied.
+Parcel emission utilization remains the supplied constant 0.5, although parcel
+quantity on board decreases. Zero-utilization VKT is consequently not a complete
+empty-parcel-travel measure. No dynamic-payload improvement is claimed.
+
+Commands, environment, input/output hashes, completion records and per-cell
+summaries are stored outside Git under `/workdir/docs/validation/paper-v1/`.
+Compact portable evidence and execution scripts are versioned here. Cached
+Dijkstra predecessor arrays use exact graph/version hashes; emissions batching
+calls the frozen functions with the CLI's output precision. Controlled tests
+check numerical identity. The five runs remain a pilot, with no statistical
+stopping or sufficient-precision claim. A final manuscript can decide on further
+replications after reviewing their relevance to stochastic versus deterministic
+outcomes; this partial draft does not silently promote the pilot to confirmation.
+
+The amended main question includes terrain explicitly: **How do parcel-tour
+construction, terrain-informed network paths and emission factor/fleet
+configurations affect freight-network environmental estimates in this controlled
+Dutch application?** The additional question is whether uphill preferences alter
+activity and emissions when all other formulations remain fixed, and how partial
+terrain coverage limits interpretation. Original network attributes and geometry
+are checked for exact preservation in the supplement. Zero-cost assignments made
+before supplementation are reused because their cost graph is unchanged; every
+emission assessment uses the same supplemented network.
+
+Execution resource amendment: an overlapping-assignment attempt encountered a
+process kill with an out-of-memory event reported by the container. Assignment
+subprocesses now acquire a shared exclusive file lock; completed artifacts are
+reused and the failed case is resumed. Emission assessment may overlap one
+assignment. Runtime records are not controlled performance comparisons.
+
+Feasibility boundary clarification: the current parcel scheduler constrains
+parcel capacity and applies supplied service times, but does not enforce a
+finite fleet size or explicit customer time windows. Report tour counts rather
+than identifying them with simultaneous fleet requirements. Capacity and
+carrier/customer quantity conservation are checked; broader service feasibility
+is not established by those checks.

@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 1,
+    "delivered": 228707,
+    "inherited_tours": 1283,
+    "savings_tours": 1332,
+    "maximum_parcels_onboard_inherited": 180.0,
+    "maximum_parcels_onboard_savings": 180.0,
+    "customer_carrier_quantities_identical": true
+  },
+  {
+    "seed": 2,
+    "delivered": 228707,
+    "inherited_tours": 1283,
+    "savings_tours": 1332,
+    "maximum_parcels_onboard_inherited": 180.0,
+    "maximum_parcels_onboard_savings": 180.0,
+    "customer_carrier_quantities_identical": true
+  },
+  {
+    "seed": 3,
+    "delivered": 228707,
+    "inherited_tours": 1283,
+    "savings_tours": 1332,
+    "maximum_parcels_onboard_inherited": 180.0,
+    "maximum_parcels_onboard_savings": 180.0,
+    "customer_carrier_quantities_identical": true
+  },
+  {
+    "seed": 4,
+    "delivered": 228707,
+    "inherited_tours": 1283,
+    "savings_tours": 1332,
+    "maximum_parcels_onboard_inherited": 180.0,
+    "maximum_parcels_onboard_savings": 180.0,
+    "customer_carrier_quantities_identical": true
+  },
+  {
+    "seed": 5,
+    "delivered": 228707,
+    "inherited_tours": 1283,
+    "savings_tours": 1332,
+    "maximum_parcels_onboard_inherited": 180.0,
+    "maximum_parcels_onboard_savings": 180.0,
+    "customer_carrier_quantities_identical": true
+  }
+]

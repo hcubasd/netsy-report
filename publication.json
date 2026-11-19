@@ -1,6 +1,6 @@
 {
   "id": "netsy-trd",
-  "title": "NetSy transport and environment study",
+  "title": "NetSy: A Network loads and emissions Synthesizer",
   "major": 1,
   "publish_pdf": false,
   "parent": {

@@ -48,4 +48,4 @@ Version code, settings, source repairs, seeds and shareable outputs. Verify perm
 
 ## Branch setup
 
-Reserve `v1` for this research article, with `publication.json.major = 1`, a parent link to the exact `v0` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `v1.0.0`. The active manuscript builds the research-design brief; the first article's title, authorship and scientific text remain to be developed.
+Reserve `v1` for this research article, with `publication.json.major = 1`, a parent link to the exact `v0` source commit, and `publish_pdf = false` until an actual manuscript milestone is approved. Do not release the inherited SLR as `v1.0.0`. The active manuscript now develops Methods and exploratory Results from the frozen Dutch experiments; the original design brief is retained in `docs/history/`. Authorship and the final article remain to be developed.

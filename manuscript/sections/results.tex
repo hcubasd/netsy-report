@@ -1,0 +1,44 @@
+\section{Exploratory results}
+\subsection{Fixed-reference correspondence}
+The refreshed control assigns the existing MASS-GT reference tours, parcel
+schedule and service matrices using NetSy v0.5.0, rather than comparing
+independently synthesized trip sets. Across 158,806 directed links, mean
+absolute load difference is 0.00107 trips, root mean squared difference is
+0.0649 trips and maximum absolute difference is 8.467 trips. These are
+conditional correspondence measures, not traffic-count validation.
+
+Inherited-factor CO$_2$ totals are 16,792.874\,t for the source and
+16,795.387\,t for NetSy on those same source trips. The 2.513\,t difference
+is accounted for by the documented source urban-parcel accumulation correction;
+the remaining aggregate residual is 0.248\,g. This accounting isolates the implementation repair from the scheduling and
+emissions alternatives considered next.
+
+\subsection{Terrain coverage}
+Table~\ref{tab:terrain} reports the retained terrain grades and explicit
+fallbacks. Accepted links span 53,866 directed kilometres, compared with
+86,402 directed physical-road kilometres in the input network, including
+external connections. Among accepted links, the 1st and 99th grade percentiles
+are $-1.993$\% and $+2.006$\%; the median is effectively zero. Coverage counts
+are not a substitute for vehicle-kilometre-weighted exposure.
+
+\begin{table}[htbp]
+\centering
+\caption{Terrain supplement: directed-link status. Fallback zero is a modelling
+assumption, not an observed flat road.}
+\label{tab:terrain}
+\begin{tabular}{@{}lr@{}}
+\toprule Status & Directed links \\
+\midrule
+Accepted terrain proxy & 98,162 \\
+Short link fallback & 28,359 \\
+Connector or ferry fallback & 16,126 \\
+Unresolved elevation or surface & 15,321 \\
+Named structure fallback & 799 \\
+Rejected steep proxy & 39 \\
+\midrule
+Total & 158,806 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\input{sections/pilot-results}

@@ -1,0 +1,39 @@
+{
+  "role": "fresh NetSy fixed-trip control against existing MASS-GT reference, not a new source run",
+  "source_sha256": "5e1dadaf4a24ed930895eeb4ce4ab18480880a8fa9b9a93516a3ed31b1dd7199",
+  "links": 158806,
+  "max_abs_link_trips": 8.467001691043379,
+  "mae_link_trips": 0.0010678963728286723,
+  "rmse_link_trips": 0.06491634928869496,
+  "sum_link_trip_difference": 5.817721465173094,
+  "emissions": {
+    "co2": {
+      "massgt_g": 16792874264.064695,
+      "netsy_g": 16795387299.104614,
+      "difference_g": 2513035.0399188995,
+      "predicted_source_parcel_accumulation_fix_g": 2513034.79202087,
+      "residual_g": 0.2478980296291411
+    },
+    "so2": {
+      "massgt_g": 100232.73510662523,
+      "netsy_g": 100247.996454926,
+      "difference_g": 15.261348300773534,
+      "predicted_source_parcel_accumulation_fix_g": 15.261344890815,
+      "residual_g": 3.4099585342062255e-06
+    },
+    "pm": {
+      "massgt_g": 1755983.2146764058,
+      "netsy_g": 1756695.410632173,
+      "difference_g": 712.1959557672963,
+      "predicted_source_parcel_accumulation_fix_g": 712.1960949047,
+      "residual_g": -0.000139137403721179
+    },
+    "nox": {
+      "massgt_g": 106577642.15704255,
+      "netsy_g": 106589596.90855712,
+      "difference_g": 11954.751514568925,
+      "predicted_source_parcel_accumulation_fix_g": 11954.720164471748,
+      "residual_g": 0.03135009717698267
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "original_network_attributes_and_geometry_unchanged": true,
+  "files": {
+    "augmented_network": {
+      "path": "/workdir/docs/validation/paper-v1/elevation/network.gpkg",
+      "sha256": "423b3de5ea4eb71392effc090d2fd2b0bbaff81e0f764990a69bbbf818421961",
+      "bytes": 67031040
+    },
+    "provider_tile_retrieval": {
+      "path": "/workdir/docs/validation/paper-v1/elevation/retrieval.json",
+      "sha256": "8d9020843839bbaadec4fbfe6d54569e5157c567376fe36ea7acbddb87e085ed",
+      "bytes": 757679
+    },
+    "source_nodes": {
+      "path": "/workdir/docs/reference/sweden/mass-gt/data/NL_main/data/nodes_v5.shp",
+      "sha256": "45f4dec4487e23071ed98986067796919e05f0798fd65ed2fd2fc46ea338ecb3",
+      "bytes": 2042756
+    },
+    "dtm_index": {
+      "path": "/workdir/docs/validation/paper-v1/elevation/AHN4_DTM5.json",
+      "sha256": "ebf9b266912d4f2b242c2787c5acb768f57a714e3be8cd34fda7d8c22bd2034a",
+      "bytes": 599647
+    },
+    "dsm_index": {
+      "path": "/workdir/docs/validation/paper-v1/elevation/AHN4_DSM5.json",
+      "sha256": "182ce4c42c1b8d2766de421028ae3be9318434f7c937bde7a78fa15d1d1fd6bc",
+      "bytes": 599638
+    }
+  },
+  "zero_penalty_control": "Zero-penalty assignments were computed on the original network before supplementation. Additional grade columns leave their cost graph unchanged; the supplemented network is used for all emissions assessments. Nonzero-penalty assignments use the supplemented network.",
+  "source_node_components": [
+    {
+      "path": "/workdir/docs/reference/sweden/mass-gt/data/NL_main/data/nodes_v5.dbf",
+      "sha256": "5f3a5d8156faf5d5f8db7b1776f108f39f2c575311119c5775780b6a5812961f",
+      "bytes": 13788153
+    },
+    {
+      "path": "/workdir/docs/reference/sweden/mass-gt/data/NL_main/data/nodes_v5.shp",
+      "sha256": "45f4dec4487e23071ed98986067796919e05f0798fd65ed2fd2fc46ea338ecb3",
+      "bytes": 2042756
+    },
+    {
+      "path": "/workdir/docs/reference/sweden/mass-gt/data/NL_main/data/nodes_v5.shx",
+      "sha256": "8e8467aab67e6f5aae939b749f2ad3f51b5f187325204402fc38439009cc2cef",
+      "bytes": 583716
+    }
+  ]
+}

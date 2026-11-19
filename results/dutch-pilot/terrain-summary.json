@@ -1,0 +1,33 @@
+{
+  "source": "AHN4 official national download portal; acquisition 2020\u20132022",
+  "native_resolution_m": 5,
+  "sampling_resolution_m": 5,
+  "node_height": "median of 3x3 numeric raster samples; at least five valid",
+  "surface_screen": "DTM/DSM median difference <=3 m; incomplete structure screening",
+  "minimum_link_m": 50,
+  "maximum_abs_grade_percent": 10,
+  "crs": "EPSG:28992",
+  "vertical_datum": "NAP",
+  "direction": "source from_node/to_node coordinates; shared reverse geometry not used for sign",
+  "status_counts": {
+    "terrain_proxy": 98162,
+    "short_link_fallback": 28359,
+    "nonroad_fallback": 16126,
+    "unresolved_elevation_or_surface": 15321,
+    "named_structure_fallback": 799,
+    "steep_proxy_rejected": 39
+  },
+  "accepted_length_km": 53866.07294666,
+  "road_length_km": 86401.90393366001,
+  "grade_quantiles": {
+    "0.0": -9.826688462684562,
+    "0.01": -1.9927284696691736,
+    "0.1": -0.4116704844302,
+    "0.5": -1.0066352248318167e-05,
+    "0.9": 0.41041659797775093,
+    "0.99": 2.0063376890488875,
+    "1.0": 9.230432170532888
+  },
+  "limitation": "terrain-informed proxy, not validated road-deck slope; structures and external/short links have explicit zero modelling fallback",
+  "download_portal": "https://basisdata.nl/hwh-portal/download/index.html"
+}

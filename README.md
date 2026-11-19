@@ -27,9 +27,9 @@ a historical 2022 guide is labelled as historical, not current authority.
 
 ## Build and publication
 
-`make check` builds the **one-page research-design brief**, runs infrastructure tests,
+`make check` builds the **partial research manuscript (Methods and exploratory Results)**, runs infrastructure tests,
 checks layout/references, and writes `dist/netsy-trd.pdf` plus provenance.
-It does not build an actual article or certify journal formatting. `make container`
+The manuscript remains incomplete and does not certify journal formatting. `make container`
 uses the inherited pinned TeX image; CI does not run live package updates.
 
 Branch pushes run CI. PDF publication is explicitly disabled for `v1`.
@@ -40,11 +40,13 @@ journal-compatible bibliography workflow still need to be prepared.
 
 Large source PDFs and retrieval snapshots stay outside Git, in the local recon
 collection at `/workdir/docs/report-planning/trd-recon/`. The portable findings
-are versioned in `docs/venue/`. No results, authors, funding statements or
-journal submission have been fabricated or initiated.
+are versioned in `docs/venue/`. Compact experimental evidence is versioned in `results/dutch-pilot/`; national
+inputs, rasters and row-level outputs remain outside Git. Authorship and funding
+statements are not invented, and no journal submission has been initiated.
 
 The working experiment compares inherited versus Clarke–Wright parcel
 scheduling under inherited versus declared COPERT factor/fleet configurations,
-with separate source-correspondence controls. `results/experiment-matrix.csv`
+with grade-informed path sensitivities and separate source-correspondence
+controls. See [execution instructions](analysis/README.md). `results/experiment-matrix.csv`
 records planned roles; `results/evidence-inventory.json` inventories historical
 audit evidence without relabelling it as new runs at the proposed model freeze.

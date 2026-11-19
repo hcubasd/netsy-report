@@ -1,0 +1,29 @@
+{
+  "role": "Exact emission input derivation provenance; scenario fleet, not observed Dutch fleet",
+  "files": [
+    {
+      "path": "/workdir/netherlands/build/build_nl_copert.py",
+      "sha256": "3986095e2f71411cd64c2e6a8af65799ae0eca55a5477bb3ab33ca1d925dd87b",
+      "bytes": 4147
+    },
+    {
+      "path": "/workdir/netherlands/sources/1.A.3.b.i-iv Road Transport Appendix 4 Emission Factors July 2026.xlsx",
+      "sha256": "ce06c1e67cedf243a23d4d730dc61b1886616e4f7d524c6b2f07ed9b4bbb502a",
+      "bytes": 10983605
+    },
+    {
+      "path": "/workdir/netherlands/build/build_nl_network.py",
+      "sha256": "5b29397d6d31a6499585691a835176eca7fc7961400d864645556b8b4d4a9a63",
+      "bytes": 5004
+    },
+    {
+      "path": "/workdir/docs/reference/sweden/mass-gt/data/NL_main/data/EmissionFactors.txt",
+      "sha256": "704e80feddac8e84609a7b506d97eb25bb4a1e862702400faceac750a67f8408",
+      "bytes": 3769
+    }
+  ],
+  "copert_version": "5.10; July 2026 EMEP/EEA Appendix 4 workbook as identified by the case builder",
+  "carbon_conversion_g_co2_per_MJ_diesel": 74.1,
+  "inherited_factors": "Original source table imported without reconstructing its implied fleet/fuel-carbon conventions; published MASS-GT describes STREAM factors. These conventions are not harmonized.",
+  "ipcc_source": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_3_Ch3_Mobile_Combustion.pdf"
+}

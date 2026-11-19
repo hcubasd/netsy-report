@@ -1,0 +1,18 @@
+{
+  "audit_sha256": "07893b576a671640182cf53c69b6dffbdcc1dc61d7e587b12be31e3f2dab9045",
+  "role": "fresh seed-1 regression against historical NetSy audit, not source validation",
+  "old_rows": 6089837,
+  "new_rows": 7703969,
+  "row_count_explanation": "Payload-stratified assignment increases row count; aggregate activity and linear inherited factors are conserved.",
+  "vkt_difference": 0.0,
+  "emissions_difference_g": {
+    "co2": -0.27843284606933594,
+    "nox": -0.008710965514183044,
+    "pm": -0.00016755703836679459,
+    "so2": 1.0201620170846581e-05
+  },
+  "tolerances": {
+    "vkt": 1e-06,
+    "pollutant_g": 1
+  }
+}

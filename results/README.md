@@ -1,13 +1,14 @@
-# Article results
+# Article evidence
 
-No article results are claimed yet. The inherited palette file is a figure
-resource, not experimental evidence. The SLR's search and synthesis records
-remain at v0.2.0, rather than being presented as this paper's results.
+`dutch-pilot/` contains compact evidence from the frozen NetSy v0.5.0 Dutch
+experiments: input/provenance records, a refreshed fixed-source-trip control,
+terrain quality, paired configuration summaries and derived contrasts. Read its
+README for the exploratory scope, units and fleet/coverage limitations. Large
+inputs, AHN rasters and row-level outputs remain outside Git.
 
-Store small reproducible result tables here once the experiment is defined.
-Keep large case inputs, source-paper PDFs and restricted records outside Git.
+`experiment-matrix.csv` tracks comparison roles. `evidence-inventory.json`
+retains the initial historical-audit inventory from before these experiments;
+it is deliberately not relabelled as newly executed evidence.
 
-`experiment-matrix.csv` is the working design, not results.
-`evidence-inventory.json` records eight existing audit documents and selected
-case checks as inspected on 19 November 2026. It is not a complete input-data
-freeze; the proposed NetSy version is distinct from historical run revisions.
+The reusable SLR and its retrieval/synthesis records remain on `v0` (v0.2.0).
+The inherited palette file is a figure resource, not experimental evidence.

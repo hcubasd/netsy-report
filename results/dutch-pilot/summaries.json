@@ -1,0 +1,3042 @@
+[
+  {
+    "seed": 1,
+    "routing": "massgt",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7703969,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43747092.70416852,
+      "physical_vkt": 43616041.112154506,
+      "common_vkt": 43614439.97330756,
+      "parcel_network_vkt": 71298.26843296997,
+      "parcel_common_vkt": 64551.05968076,
+      "terrain_proxy_physical_vkt": 32034187.681883477,
+      "physical_grade_weighted_km_percent": 5611172.877934398,
+      "empty_network_vkt": 3990290.6204766305
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16768237649.02371,
+          "nox": 106550090.39776997,
+          "pm": 1757874.499156412,
+          "so2": 100084.11128854792
+        },
+        "common_g": {
+          "co2": 16768237649.02371,
+          "nox": 106550090.39776997,
+          "pm": 1757874.499156412,
+          "so2": 100084.11128854792
+        },
+        "parcel_common_g": {
+          "co2": 13700271.278293146,
+          "nox": 67254.6743231885,
+          "pm": 3412.9175176822187,
+          "so2": 82.32204721405627
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008001.4381425286,
+          "co2": 18141378592.70627,
+          "nox": 4959130.708882897,
+          "pm": 79801.11777452612
+        },
+        "common_g": {
+          "co": 1004291.4840746805,
+          "co2": 18042165662.59167,
+          "nox": 4915822.470778259,
+          "pm": 79329.03146341098
+        },
+        "parcel_common_g": {
+          "co": 16.65174403224358,
+          "co2": 14314604.921308048,
+          "nox": 8695.328976833927,
+          "pm": 9.180595153043093
+        }
+      },
+      "copert-flat": {
+        "all_g": {
+          "co": 1007986.5919068747,
+          "co2": 18140256328.27431,
+          "nox": 4959116.23366942,
+          "pm": 79800.88581719511
+        },
+        "common_g": {
+          "co": 1004276.6387586494,
+          "co2": 18041043427.685474,
+          "nox": 4915807.850284786,
+          "pm": 79328.79953419858
+        },
+        "parcel_common_g": {
+          "co": 16.65174403224358,
+          "co2": 14314604.921308048,
+          "nox": 8695.328976833927,
+          "pm": 9.180595153043093
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7344588565365345,
+    "common_vkt_share": 0.9999632901380748,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 49.20582148300036,
+    "loads_sha256": "6b4c112453d7887150d8b49eae7c97e93884435cf08de61972302eb962fbc7e1"
+  },
+  {
+    "seed": 1,
+    "routing": "massgt",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7670134,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43744072.48136184,
+      "physical_vkt": 43613014.3650052,
+      "common_vkt": 43611412.56357552,
+      "parcel_network_vkt": 71298.8418626,
+      "parcel_common_vkt": 64551.814782949994,
+      "terrain_proxy_physical_vkt": 32007069.887069494,
+      "physical_grade_weighted_km_percent": 5505736.042754566,
+      "empty_network_vkt": 3992491.9756284105
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16767471948.34845,
+          "nox": 106548210.21874827,
+          "pm": 1757819.7530671332,
+          "so2": 100079.88719222789
+        },
+        "common_g": {
+          "co2": 16767471948.34845,
+          "nox": 106548210.21874827,
+          "pm": 1757819.7530671332,
+          "so2": 100079.88719222789
+        },
+        "parcel_common_g": {
+          "co2": 13699728.5120237,
+          "nox": 67252.49481063338,
+          "pm": 3414.27532451817,
+          "so2": 82.32150746126312
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008015.4137243651,
+          "co2": 18140930865.7709,
+          "nox": 4958139.54095975,
+          "pm": 79802.13030249102
+        },
+        "common_g": {
+          "co": 1004304.8324171397,
+          "co2": 18041700628.331806,
+          "nox": 4914818.160648804,
+          "pm": 79329.92448963273
+        },
+        "parcel_common_g": {
+          "co": 16.65234973796907,
+          "co2": 14314687.693053488,
+          "nox": 8694.96928891633,
+          "pm": 9.18070254480481
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7338880458754018,
+    "common_vkt_share": 0.9999632723980902,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 30.84699724299935,
+    "loads_sha256": "8a55be95885fdd48b0efcc67973b37a89663211704619acafa7611802645a9c2"
+  },
+  {
+    "seed": 1,
+    "routing": "massgt",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7672053,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43736726.14239563,
+      "physical_vkt": 43605639.85374998,
+      "common_vkt": 43603889.96574193,
+      "parcel_network_vkt": 71328.07653438002,
+      "parcel_common_vkt": 64580.91989472999,
+      "terrain_proxy_physical_vkt": 31969105.05258564,
+      "physical_grade_weighted_km_percent": 5417120.68103431,
+      "empty_network_vkt": 3994967.806410591
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16768630456.039927,
+          "nox": 106561939.97635253,
+          "pm": 1758425.1651567922,
+          "so2": 100088.16751314387
+        },
+        "common_g": {
+          "co2": 16768630456.039927,
+          "nox": 106561939.97635253,
+          "pm": 1758425.1651567922,
+          "so2": 100088.16751314387
+        },
+        "parcel_common_g": {
+          "co2": 13702242.146815224,
+          "nox": 67268.67598279439,
+          "pm": 3414.6958483709745,
+          "so2": 82.33619855190231
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008003.3283133882,
+          "co2": 18138670625.387936,
+          "nox": 4954775.644141177,
+          "pm": 79804.7308131572
+        },
+        "common_g": {
+          "co": 1004291.8552540195,
+          "co2": 18039367966.167477,
+          "nox": 4911410.013330741,
+          "pm": 79332.33326660498
+        },
+        "parcel_common_g": {
+          "co": 16.659893431732225,
+          "co2": 14317413.823139872,
+          "nox": 8691.934844934858,
+          "pm": 9.184841938326528
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7331415193036405,
+    "common_vkt_share": 0.9999598701449188,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 30.767882115000248,
+    "loads_sha256": "7e6c10cea3e42c2286251637793011b04e92a7e0090b18f94849103a41c1079b"
+  },
+  {
+    "seed": 1,
+    "routing": "savings",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7681558,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43740335.0706647,
+      "physical_vkt": 43609502.477688305,
+      "common_vkt": 43607914.236343,
+      "parcel_network_vkt": 64540.63492915001,
+      "parcel_common_vkt": 58025.322716209994,
+      "terrain_proxy_physical_vkt": 32028438.708734937,
+      "physical_grade_weighted_km_percent": 5609920.974220577,
+      "empty_network_vkt": 3990290.62047663
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16766846202.833092,
+          "nox": 106543266.13603169,
+          "pm": 1757529.8736086956,
+          "so2": 100075.75397524086
+        },
+        "common_g": {
+          "co2": 16766846202.833092,
+          "nox": 106543266.13603169,
+          "pm": 1757529.8736086956,
+          "so2": 100075.75397524086
+        },
+        "parcel_common_g": {
+          "co2": 12308825.087676974,
+          "nox": 60430.41258488105,
+          "pm": 3068.2919699651998,
+          "so2": 73.9647339070243
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1007999.7272354757,
+          "co2": 18139873531.216312,
+          "nox": 4958228.238296684,
+          "pm": 79800.15668886944
+        },
+        "common_g": {
+          "co": 1004289.9257941642,
+          "co2": 18040754280.914883,
+          "nox": 4914959.8763269745,
+          "pm": 79328.10335859601
+        },
+        "parcel_common_g": {
+          "co": 15.09346351609398,
+          "co2": 12903223.244526397,
+          "nox": 7832.734525550025,
+          "pm": 8.252490338057541
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7344371499106525,
+    "common_vkt_share": 0.999963580383745,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.07919712600051,
+    "loads_sha256": "39e56832545d57e9a3c2acf2576e0572e7a34c8bec39bbb6b6adf187cfb8b2ec"
+  },
+  {
+    "seed": 1,
+    "routing": "savings",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7647946,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43737310.81894212,
+      "physical_vkt": 43606471.7016231,
+      "common_vkt": 43604882.6160225,
+      "parcel_network_vkt": 64537.17944287,
+      "parcel_common_vkt": 58021.867229929994,
+      "terrain_proxy_physical_vkt": 32001319.894609466,
+      "physical_grade_weighted_km_percent": 5504522.040493304,
+      "empty_network_vkt": 3992491.9756284095
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16766082320.941612,
+          "nox": 106541392.10902941,
+          "pm": 1757475.320300378,
+          "so2": 100071.54035922421
+        },
+        "common_g": {
+          "co2": 16766082320.941612,
+          "nox": 106541392.10902941,
+          "pm": 1757475.320300378,
+          "so2": 100071.54035922421
+        },
+        "parcel_common_g": {
+          "co2": 12310101.105187716,
+          "nox": 60434.385091748074,
+          "pm": 3069.8425577624243,
+          "so2": 73.9746744576032
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008013.7037204113,
+          "co2": 18139425084.99833,
+          "nox": 4957237.026664917,
+          "pm": 79801.16864383311
+        },
+        "common_g": {
+          "co": 1004303.2749138175,
+          "co2": 18040288443.435276,
+          "nox": 4913955.487661655,
+          "pm": 79328.99578597867
+        },
+        "parcel_common_g": {
+          "co": 15.094846415904247,
+          "co2": 12902502.796519946,
+          "nox": 7832.296301767287,
+          "pm": 8.251998890723499
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.73386629658043,
+    "common_vkt_share": 0.9999635584916965,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.48172786000032,
+    "loads_sha256": "4cdb7532c93e2a8a2d329fa58585cb1df862aa7182a00663b3555f72aa44d668"
+  },
+  {
+    "seed": 1,
+    "routing": "savings",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7649920,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43729930.27125584,
+      "physical_vkt": 43599062.30812637,
+      "common_vkt": 43597325.217830464,
+      "parcel_network_vkt": 64532.20539457999,
+      "parcel_common_vkt": 58016.17198326,
+      "terrain_proxy_physical_vkt": 31963302.86723191,
+      "physical_grade_weighted_km_percent": 5415922.238265617,
+      "empty_network_vkt": 3994967.8064105907
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16767235360.578232,
+          "nox": 106555092.84139962,
+          "pm": 1758080.5187017734,
+          "so2": 100079.78994210425
+        },
+        "common_g": {
+          "co2": 16767235360.578232,
+          "nox": 106555092.84139962,
+          "pm": 1758080.5187017734,
+          "so2": 100079.78994210425
+        },
+        "parcel_common_g": {
+          "co2": 12307146.68512042,
+          "nox": 60421.541029937725,
+          "pm": 3070.049393352147,
+          "so2": 73.95862751230844
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008001.6156628656,
+          "co2": 18137158594.71429,
+          "nox": 4953870.092738121,
+          "pm": 79803.76428925959
+        },
+        "common_g": {
+          "co": 1004290.2946668774,
+          "co2": 18037949185.80894,
+          "nox": 4910544.159268601,
+          "pm": 79331.3996135671
+        },
+        "parcel_common_g": {
+          "co": 15.0993062896889,
+          "co2": 12898633.464605365,
+          "nox": 7826.080782796637,
+          "pm": 8.251188900429195
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7331190437385694,
+    "common_vkt_share": 0.999960157622574,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.679416396000306,
+    "loads_sha256": "809c54a55d6d5b3c4a2d52e72899a5e2726a01e7e55767072d0d77ec811516d1"
+  },
+  {
+    "seed": 2,
+    "routing": "massgt",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7747748,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43888398.68843796,
+      "physical_vkt": 43757252.189394645,
+      "common_vkt": 43755643.96202159,
+      "parcel_network_vkt": 71298.26843297,
+      "parcel_common_vkt": 64551.05968076,
+      "terrain_proxy_physical_vkt": 32066568.98323946,
+      "physical_grade_weighted_km_percent": 5618360.409128839,
+      "empty_network_vkt": 4021943.4647056805
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16856608091.6403,
+          "nox": 107128988.2644625,
+          "pm": 1763613.307190146,
+          "so2": 100607.54054695962
+        },
+        "common_g": {
+          "co2": 16856608091.6403,
+          "nox": 107128988.2644625,
+          "pm": 1763613.307190146,
+          "so2": 100607.54054695962
+        },
+        "parcel_common_g": {
+          "co2": 13700271.281828014,
+          "nox": 67254.67431442103,
+          "pm": 3412.9175173944836,
+          "so2": 82.32204722103585
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013194.2407446062,
+          "co2": 18212290559.754005,
+          "nox": 4959091.537967774,
+          "pm": 80305.29804374861
+        },
+        "common_g": {
+          "co": 1009479.1868464001,
+          "co2": 18112909612.04471,
+          "nox": 4915591.163776075,
+          "pm": 79831.77798344183
+        },
+        "parcel_common_g": {
+          "co": 16.651744030377014,
+          "co2": 14314604.921823226,
+          "nox": 8695.328974327702,
+          "pm": 9.180595149519625
+        }
+      },
+      "copert-flat": {
+        "all_g": {
+          "co": 1013179.4836533964,
+          "co2": 18211152558.457516,
+          "nox": 4959076.53006429,
+          "pm": 80305.0663416218
+        },
+        "common_g": {
+          "co": 1009464.4304042568,
+          "co2": 18111771616.101074,
+          "nox": 4915576.153998252,
+          "pm": 79831.54628708912
+        },
+        "parcel_common_g": {
+          "co": 16.651744030377014,
+          "co2": 14314604.921823226,
+          "nox": 8695.328974327702,
+          "pm": 9.180595149519625
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7328286713353397,
+    "common_vkt_share": 0.9999632466095884,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 49.80042276400036,
+    "loads_sha256": "31d273d42179be9ddad2e085f36b9f961ca18edf32b9e196e849607b0ec75365"
+  },
+  {
+    "seed": 2,
+    "routing": "massgt",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7713135,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43885611.62466333,
+      "physical_vkt": 43754460.64043348,
+      "common_vkt": 43752852.290431924,
+      "parcel_network_vkt": 71298.8418626,
+      "parcel_common_vkt": 64551.81478295,
+      "terrain_proxy_physical_vkt": 32040424.9056368,
+      "physical_grade_weighted_km_percent": 5512520.803085222,
+      "empty_network_vkt": 4023623.067363681
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16855884860.926085,
+          "nox": 107127316.08015701,
+          "pm": 1763560.561301691,
+          "so2": 100603.57305524839
+        },
+        "common_g": {
+          "co2": 16855884860.926085,
+          "nox": 107127316.08015701,
+          "pm": 1763560.561301691,
+          "so2": 100603.57305524839
+        },
+        "parcel_common_g": {
+          "co2": 13699728.514475403,
+          "nox": 67252.494800095,
+          "pm": 3414.275324319027,
+          "so2": 82.32150747152461
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013218.2286949195,
+          "co2": 18211943303.461727,
+          "nox": 4958081.077475344,
+          "pm": 80306.87814770828
+        },
+        "common_g": {
+          "co": 1009502.8001870399,
+          "co2": 18112552133.647038,
+          "nox": 4914573.446386524,
+          "pm": 79833.29087964093
+        },
+        "parcel_common_g": {
+          "co": 16.652349735689594,
+          "co2": 14314687.693973798,
+          "nox": 8694.969287120632,
+          "pm": 9.18070254115424
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7322779080500939,
+    "common_vkt_share": 0.9999632414620585,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.307483568999487,
+    "loads_sha256": "48ffe588258e02c681eddce32b9a1ae1052efcce194c290a9bd4cbe8ddf92081"
+  },
+  {
+    "seed": 2,
+    "routing": "massgt",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7714001,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43878197.37258951,
+      "physical_vkt": 43747018.817208715,
+      "common_vkt": 43745262.62074866,
+      "parcel_network_vkt": 71328.07653438,
+      "parcel_common_vkt": 64580.919894729996,
+      "terrain_proxy_physical_vkt": 32002716.072195675,
+      "physical_grade_weighted_km_percent": 5423889.620466845,
+      "empty_network_vkt": 4027722.2444025204
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16857119089.669146,
+          "nox": 107141054.23849358,
+          "pm": 1764156.2006647582,
+          "so2": 100612.27475167628
+        },
+        "common_g": {
+          "co2": 16857119089.669146,
+          "nox": 107141054.23849358,
+          "pm": 1764156.2006647582,
+          "so2": 100612.27475167628
+        },
+        "parcel_common_g": {
+          "co2": 13702242.149046747,
+          "nox": 67268.67597755593,
+          "pm": 3414.695848318202,
+          "so2": 82.3361985633391
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013191.6876238395,
+          "co2": 18209659238.20078,
+          "nox": 4954766.681940459,
+          "pm": 80309.47856556946
+        },
+        "common_g": {
+          "co": 1009475.4045644935,
+          "co2": 18110197671.880783,
+          "nox": 4911215.621119714,
+          "pm": 79835.71238163747
+        },
+        "parcel_common_g": {
+          "co": 16.65989343028991,
+          "co2": 14317413.824908834,
+          "nox": 8691.93484377064,
+          "pm": 9.184841935480634
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7315405012148348,
+    "common_vkt_share": 0.999959855631137,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.020116599000175,
+    "loads_sha256": "dc075de75f9aa1129fc1c5bb0125b581a43fd048b63a1866a900b730ea37235a"
+  },
+  {
+    "seed": 2,
+    "routing": "savings",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7725563,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43881641.054934144,
+      "physical_vkt": 43750713.55492846,
+      "common_vkt": 43749118.22505704,
+      "parcel_network_vkt": 64540.63492915002,
+      "parcel_common_vkt": 58025.32271621001,
+      "terrain_proxy_physical_vkt": 32060820.01009092,
+      "physical_grade_weighted_km_percent": 5617108.505415018,
+      "empty_network_vkt": 4021943.4647056796
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16855216645.444271,
+          "nox": 107122164.00271833,
+          "pm": 1763268.6816434432,
+          "so2": 100599.18323365993
+        },
+        "common_g": {
+          "co2": 16855216645.444271,
+          "nox": 107122164.00271833,
+          "pm": 1763268.6816434432,
+          "so2": 100599.18323365993
+        },
+        "parcel_common_g": {
+          "co2": 12308825.085799025,
+          "nox": 60430.41257027125,
+          "pm": 3068.2919706916623,
+          "so2": 73.9647339213408
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013192.5298375554,
+          "co2": 18210785498.26666,
+          "nox": 4958189.067381033,
+          "pm": 80304.33695809645
+        },
+        "common_g": {
+          "co": 1009477.6285658883,
+          "co2": 18111498230.37056,
+          "nox": 4914728.569324206,
+          "pm": 79830.84987863128
+        },
+        "parcel_common_g": {
+          "co": 15.093463518504525,
+          "co2": 12903223.247678492,
+          "nox": 7832.734522457339,
+          "pm": 8.252490338960428
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7328067911358513,
+    "common_vkt_share": 0.9999635359119478,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 32.20251283499965,
+    "loads_sha256": "97a814da682856dc847adae85a070317e66d8122bb5ee5baa6f834e16aea3fe9"
+  },
+  {
+    "seed": 2,
+    "routing": "savings",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7691142,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43878849.96224359,
+      "physical_vkt": 43747917.97705137,
+      "common_vkt": 43746322.3428789,
+      "parcel_network_vkt": 64537.179442870016,
+      "parcel_common_vkt": 58021.86722992999,
+      "terrain_proxy_physical_vkt": 32034674.91317677,
+      "physical_grade_weighted_km_percent": 5511306.8008239595,
+      "empty_network_vkt": 4023623.06736368
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16854495233.513792,
+          "nox": 107120497.9704313,
+          "pm": 1763216.1285359764,
+          "so2": 100595.22622224774
+        },
+        "common_g": {
+          "co2": 16854495233.513792,
+          "nox": 107120497.9704313,
+          "pm": 1763216.1285359764,
+          "so2": 100595.22622224774
+        },
+        "parcel_common_g": {
+          "co2": 12310101.1021833,
+          "nox": 60434.385074394944,
+          "pm": 3069.8425586050694,
+          "so2": 73.97467447088265
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013216.5186909685,
+          "co2": 18210437522.690804,
+          "nox": 4957178.563178817,
+          "pm": 80305.91648905509
+        },
+        "common_g": {
+          "co": 1009501.2426837222,
+          "co2": 18111139948.752193,
+          "nox": 4913710.773397645,
+          "pm": 79832.36217599147
+        },
+        "parcel_common_g": {
+          "co": 15.094846418058996,
+          "co2": 12902502.799122158,
+          "nox": 7832.2962982413765,
+          "pm": 8.251998891717378
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7322559882731114,
+    "common_vkt_share": 0.9999635266260373,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.73124105700026,
+    "loads_sha256": "f87e7f2005b14d5b97b310e7a6a5055b1043ac9e813146c02ea8db4916e6777c"
+  },
+  {
+    "seed": 2,
+    "routing": "savings",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7692038,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43871401.5014497,
+      "physical_vkt": 43740441.271585084,
+      "common_vkt": 43738697.872837186,
+      "parcel_network_vkt": 64532.20539458001,
+      "parcel_common_vkt": 58016.17198326,
+      "terrain_proxy_physical_vkt": 31996913.88684195,
+      "physical_grade_weighted_km_percent": 5422691.177698153,
+      "empty_network_vkt": 4027722.2444025194
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16855723994.203884,
+          "nox": 107134207.10353215,
+          "pm": 1763811.5542103557,
+          "so2": 100603.89718064269
+        },
+        "common_g": {
+          "co2": 16855723994.203884,
+          "nox": 107134207.10353215,
+          "pm": 1763811.5542103557,
+          "so2": 100603.89718064269
+        },
+        "parcel_common_g": {
+          "co2": 12307146.683788778,
+          "nox": 60421.54101614539,
+          "pm": 3070.0493939160065,
+          "so2": 73.95862752977997
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1013189.974973319,
+          "co2": 18208147207.52754,
+          "nox": 4953861.130535387,
+          "pm": 80308.51204167597
+        },
+        "common_g": {
+          "co": 1009473.8439773553,
+          "co2": 18108778891.522697,
+          "nox": 4910349.767055529,
+          "pm": 79834.77872860365
+        },
+        "parcel_common_g": {
+          "co": 15.099306291896543,
+          "co2": 12898633.466826733,
+          "nox": 7826.080779585237,
+          "pm": 8.25118890164671
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7315178575399505,
+    "common_vkt_share": 0.9999601421774171,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.43249365199972,
+    "loads_sha256": "eb03ae2603f2d827d951fe591dadd918619db3c10b5308f2984f2dc2bb9b79fe"
+  },
+  {
+    "seed": 3,
+    "routing": "massgt",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7722712,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43675742.54099804,
+      "physical_vkt": 43544826.7195538,
+      "common_vkt": 43543184.95449868,
+      "parcel_network_vkt": 71298.26843296998,
+      "parcel_common_vkt": 64551.05968076001,
+      "terrain_proxy_physical_vkt": 32013722.566682417,
+      "physical_grade_weighted_km_percent": 5608616.027993793,
+      "empty_network_vkt": 3686176.2111831796
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16736425336.96305,
+          "nox": 106324425.53100829,
+          "pm": 1755822.888521056,
+          "so2": 99889.49693729883
+        },
+        "common_g": {
+          "co2": 16736425336.96305,
+          "nox": 106324425.53100829,
+          "pm": 1755822.888521056,
+          "so2": 99889.49693729883
+        },
+        "parcel_common_g": {
+          "co2": 13700271.282577233,
+          "nox": 67254.67429695059,
+          "pm": 3412.91751756256,
+          "so2": 82.3220472256548
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004769.2818240304,
+          "co2": 18091075255.284576,
+          "nox": 4952944.80303169,
+          "pm": 79563.2119118771
+        },
+        "common_g": {
+          "co": 1001067.7184043877,
+          "co2": 17992022510.541393,
+          "nox": 4909642.976645138,
+          "pm": 79091.93952265807
+        },
+        "parcel_common_g": {
+          "co": 16.65174403287313,
+          "co2": 14314604.923076924,
+          "nox": 8695.328975930883,
+          "pm": 9.180595150672264
+        }
+      },
+      "copert-flat": {
+        "all_g": {
+          "co": 1004754.5856170034,
+          "co2": 18089932581.881947,
+          "nox": 4952930.060520827,
+          "pm": 79562.9768743079
+        },
+        "common_g": {
+          "co": 1001053.0231614027,
+          "co2": 17990879840.694492,
+          "nox": 4909627.818369221,
+          "pm": 79091.70451323975
+        },
+        "parcel_common_g": {
+          "co": 16.65174403287313,
+          "co2": 14314604.923076924,
+          "nox": 8695.328975930883,
+          "pm": 9.180595150672264
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7351900323972734,
+    "common_vkt_share": 0.9999622971273788,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 52.01694477000001,
+    "loads_sha256": "51c894f6453adbbd08b7baa2b03e0d9b51db37bd6f692e5e496dbf383ba7a69e"
+  },
+  {
+    "seed": 3,
+    "routing": "massgt",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7687824,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43672753.83780402,
+      "physical_vkt": 43541834.47972283,
+      "common_vkt": 43540193.628986396,
+      "parcel_network_vkt": 71298.84186259998,
+      "parcel_common_vkt": 64551.814782949994,
+      "terrain_proxy_physical_vkt": 31986990.226165053,
+      "physical_grade_weighted_km_percent": 5502796.003166093,
+      "empty_network_vkt": 3687018.8831365206
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16735766817.530823,
+          "nox": 106323400.1704557,
+          "pm": 1755774.7372303118,
+          "so2": 99885.91865205044
+        },
+        "common_g": {
+          "co2": 16735766817.530823,
+          "nox": 106323400.1704557,
+          "pm": 1755774.7372303118,
+          "so2": 99885.91865205044
+        },
+        "parcel_common_g": {
+          "co2": 13699728.514877485,
+          "nox": 67252.49478827057,
+          "pm": 3414.2753244175306,
+          "so2": 82.32150747439847
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004783.7336351129,
+          "co2": 18090694611.846996,
+          "nox": 4951974.307610061,
+          "pm": 79564.62528149274
+        },
+        "common_g": {
+          "co": 1001081.9500443753,
+          "co2": 17991635350.498367,
+          "nox": 4908667.14419221,
+          "pm": 79093.30875313091
+        },
+        "parcel_common_g": {
+          "co": 16.652349738818092,
+          "co2": 14314687.694925986,
+          "nox": 8694.969288522952,
+          "pm": 9.180702542807655
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7346266092913748,
+    "common_vkt_share": 0.9999623155350242,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.9156566620004,
+    "loads_sha256": "1de768882f8a1234fa9b3c15dbf7887af0819b089c9e45b2212e0f29e2a1584f"
+  },
+  {
+    "seed": 3,
+    "routing": "massgt",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7686756,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43665428.50981668,
+      "physical_vkt": 43534479.312996656,
+      "common_vkt": 43532690.0033835,
+      "parcel_network_vkt": 71328.07653437997,
+      "parcel_common_vkt": 64580.919894729996,
+      "terrain_proxy_physical_vkt": 31950665.33237036,
+      "physical_grade_weighted_km_percent": 5414953.37489424,
+      "empty_network_vkt": 3688719.9230597103
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16736840097.856161,
+          "nox": 106335923.01777281,
+          "pm": 1756361.377563126,
+          "so2": 99893.61441485102
+        },
+        "common_g": {
+          "co2": 16736840097.856161,
+          "nox": 106335923.01777281,
+          "pm": 1756361.377563126,
+          "so2": 99893.61441485102
+        },
+        "parcel_common_g": {
+          "co2": 13702242.148921655,
+          "nox": 67268.67597038754,
+          "pm": 3414.6958483961002,
+          "so2": 82.33619856419206
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004756.7652261307,
+          "co2": 18088405847.965485,
+          "nox": 4948638.201090427,
+          "pm": 79567.22701607151
+        },
+        "common_g": {
+          "co": 1001053.9285215954,
+          "co2": 17989270864.868576,
+          "nox": 4905285.00383733,
+          "pm": 79095.69890522397
+        },
+        "parcel_common_g": {
+          "co": 16.659893431403535,
+          "co2": 14317413.825260207,
+          "nox": 8691.934844591568,
+          "pm": 9.184841936705947
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7339163310684619,
+    "common_vkt_share": 0.9999588990234547,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.792220707000524,
+    "loads_sha256": "67c633d09e789be91e2fc9b16be0b68193df194a9ee8546399ee07735611591d"
+  },
+  {
+    "seed": 3,
+    "routing": "savings",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7699744,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43668984.90749422,
+      "physical_vkt": 43538288.08508762,
+      "common_vkt": 43536659.21753412,
+      "parcel_network_vkt": 64540.63492915,
+      "parcel_common_vkt": 58025.322716209994,
+      "terrain_proxy_physical_vkt": 32007973.593533855,
+      "physical_grade_weighted_km_percent": 5607364.12427997,
+      "empty_network_vkt": 3686176.21118318
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16735033890.764734,
+          "nox": 106317601.26928465,
+          "pm": 1755478.2629736993,
+          "so2": 99881.13962398538
+        },
+        "common_g": {
+          "co2": 16735033890.764734,
+          "nox": 106317601.26928465,
+          "pm": 1755478.262973699,
+          "so2": 99881.13962398538
+        },
+        "parcel_common_g": {
+          "co2": 12308825.084257396,
+          "nox": 60430.41257335675,
+          "pm": 3068.291970205583,
+          "so2": 73.96473391220887
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004767.570916976,
+          "co2": 18089570193.796276,
+          "nox": 4952042.332443855,
+          "pm": 79562.25082622333
+        },
+        "common_g": {
+          "co": 1001066.1601238712,
+          "co2": 17990611128.86643,
+          "nox": 4908780.38219204,
+          "pm": 79091.0114178459
+        },
+        "parcel_common_g": {
+          "co": 15.093463516260332,
+          "co2": 12903223.248112988,
+          "nox": 7832.734522831276,
+          "pm": 8.252490338523316
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7351684000753572,
+    "common_vkt_share": 0.9999625876986638,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.14030316499975,
+    "loads_sha256": "f0dcdcf3e1f61af9f3ba8e33857cbc9f5026e4a2d1d086ba258d383f9b8e1773"
+  },
+  {
+    "seed": 3,
+    "routing": "savings",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7665190,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43665992.1753843,
+      "physical_vkt": 43535291.81634074,
+      "common_vkt": 43533663.68143338,
+      "parcel_network_vkt": 64537.179442869994,
+      "parcel_common_vkt": 58021.86722992998,
+      "terrain_proxy_physical_vkt": 31981240.23370503,
+      "physical_grade_weighted_km_percent": 5501582.00090483,
+      "empty_network_vkt": 3687018.8831365206
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16734377190.117353,
+          "nox": 106316582.06074962,
+          "pm": 1755430.3044639435,
+          "so2": 99877.57181904049
+        },
+        "common_g": {
+          "co2": 16734377190.117353,
+          "nox": 106316582.06074962,
+          "pm": 1755430.3044639435,
+          "so2": 99877.57181904049
+        },
+        "parcel_common_g": {
+          "co2": 12310101.10140613,
+          "nox": 60434.38508222111,
+          "pm": 3069.8425580491844,
+          "so2": 73.97467446441327
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004782.0236311585,
+          "co2": 18089188831.07565,
+          "nox": 4951071.793312625,
+          "pm": 79563.66362283732
+        },
+        "common_g": {
+          "co": 1001080.3925410531,
+          "co2": 17990223165.603172,
+          "nox": 4907804.471202262,
+          "pm": 79092.38004947928
+        },
+        "parcel_common_g": {
+          "co": 15.09484641676028,
+          "co2": 12902502.799733024,
+          "nox": 7832.296298576314,
+          "pm": 8.251998891155637
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7346049354308231,
+    "common_vkt_share": 0.99996260195259,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.30876649000038,
+    "loads_sha256": "84e99f56f086b1dba85ee3a8324c0d255d66860d82539e51106d9999e104f68c"
+  },
+  {
+    "seed": 3,
+    "routing": "savings",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7664263,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43658632.63867687,
+      "physical_vkt": 43527901.76737302,
+      "common_vkt": 43526125.25547202,
+      "parcel_network_vkt": 64532.20539457999,
+      "parcel_common_vkt": 58016.17198326,
+      "terrain_proxy_physical_vkt": 31944863.147016633,
+      "physical_grade_weighted_km_percent": 5413754.932125547,
+      "empty_network_vkt": 3688719.9230597103
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16735445002.389576,
+          "nox": 106329075.88282648,
+          "pm": 1756016.7311081295,
+          "so2": 99885.23684380658
+        },
+        "common_g": {
+          "co2": 16735445002.389576,
+          "nox": 106329075.88282648,
+          "pm": 1756016.7311081295,
+          "so2": 99885.23684380658
+        },
+        "parcel_common_g": {
+          "co2": 12307146.682334082,
+          "nox": 60421.541024074235,
+          "pm": 3070.049393399317,
+          "so2": 73.95862751971059
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1004755.0525756087,
+          "co2": 18086893817.29123,
+          "nox": 4947732.649684394,
+          "pm": 79566.26049217605
+        },
+        "common_g": {
+          "co": 1001052.3679344546,
+          "co2": 17987852084.50954,
+          "nox": 4904419.14977202,
+          "pm": 79094.76525218812
+        },
+        "parcel_common_g": {
+          "co": 15.099306290508952,
+          "co2": 12898633.466229264,
+          "nox": 7826.0807792808655,
+          "pm": 8.251188900894771
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7338939358423515,
+    "common_vkt_share": 0.9999591868243387,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 32.75950481400014,
+    "loads_sha256": "59f99c6f7a2fa17c7c413ded79204bd8a2502c41a626fe5f036e6b226fe0abc1"
+  },
+  {
+    "seed": 4,
+    "routing": "massgt",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7700064,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43787147.69463985,
+      "physical_vkt": 43656125.907998905,
+      "common_vkt": 43654557.49939296,
+      "parcel_network_vkt": 71298.26843297,
+      "parcel_common_vkt": 64551.05968075999,
+      "terrain_proxy_physical_vkt": 32038930.20434739,
+      "physical_grade_weighted_km_percent": 5611992.82186073,
+      "empty_network_vkt": 3994136.1081278706
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16782110681.990625,
+          "nox": 106646162.47828874,
+          "pm": 1759471.2555895105,
+          "so2": 100161.50760579463
+        },
+        "common_g": {
+          "co2": 16782110681.990625,
+          "nox": 106646162.47828874,
+          "pm": 1759471.2555895105,
+          "so2": 100161.50760579463
+        },
+        "parcel_common_g": {
+          "co2": 13700271.279386653,
+          "nox": 67254.67430248427,
+          "pm": 3412.9175179385506,
+          "so2": 82.32204721386528
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008549.3885548635,
+          "co2": 18139130316.151337,
+          "nox": 4958017.731419499,
+          "pm": 79832.70926050672
+        },
+        "common_g": {
+          "co": 1004844.3494968606,
+          "co2": 18040029698.756786,
+          "nox": 4914650.779255528,
+          "pm": 79361.01953180086
+        },
+        "parcel_common_g": {
+          "co": 16.651744031460137,
+          "co2": 14314604.921396174,
+          "nox": 8695.328975083201,
+          "pm": 9.180595151335716
+        }
+      },
+      "copert-flat": {
+        "all_g": {
+          "co": 1008534.593583895,
+          "co2": 18137974550.12531,
+          "nox": 4958002.7343901,
+          "pm": 79832.4692656974
+        },
+        "common_g": {
+          "co": 1004829.5550725117,
+          "co2": 18038873943.314465,
+          "nox": 4914635.576860527,
+          "pm": 79360.77954512383
+        },
+        "parcel_common_g": {
+          "co": 16.651744031460137,
+          "co2": 14314604.921396174,
+          "nox": 8695.328975083201,
+          "pm": 9.180595151335716
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7338931143790991,
+    "common_vkt_share": 0.9999640735733342,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 52.546108542000184,
+    "loads_sha256": "f63746185047bfe7f91651c3b8f61906a94da50a0b3877e79b39b1311e42d1df"
+  },
+  {
+    "seed": 4,
+    "routing": "massgt",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7665533,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43784232.88000695,
+      "physical_vkt": 43653205.64466062,
+      "common_vkt": 43651637.2155053,
+      "parcel_network_vkt": 71298.8418626,
+      "parcel_common_vkt": 64551.814782950016,
+      "terrain_proxy_physical_vkt": 32012222.862646833,
+      "physical_grade_weighted_km_percent": 5505818.304393581,
+      "empty_network_vkt": 3995391.9167056605
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16781509464.297167,
+          "nox": 106645444.88533717,
+          "pm": 1759427.82362218,
+          "so2": 100158.26415518741
+        },
+        "common_g": {
+          "co2": 16781509464.297167,
+          "nox": 106645444.88533717,
+          "pm": 1759427.82362218,
+          "so2": 100158.26415518741
+        },
+        "parcel_common_g": {
+          "co2": 13699728.512576235,
+          "nox": 67252.49479141833,
+          "pm": 3414.2753250302662,
+          "so2": 82.32150746494794
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008566.9613169442,
+          "co2": 18138764473.0573,
+          "nox": 4957031.3037318215,
+          "pm": 79834.12755634596
+        },
+        "common_g": {
+          "co": 1004861.4228440621,
+          "co2": 18039650259.529446,
+          "nox": 4913653.149481637,
+          "pm": 79362.34372695017
+        },
+        "parcel_common_g": {
+          "co": 16.652349737109343,
+          "co2": 14314687.694211457,
+          "nox": 8694.969288426964,
+          "pm": 9.180702543297294
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7333304024274414,
+    "common_vkt_share": 0.9999640706992269,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 32.70862055700036,
+    "loads_sha256": "9c54bf25f847f200b9d622ad7e991c421c9031977ae6509ad2da907718f23ff9"
+  },
+  {
+    "seed": 4,
+    "routing": "massgt",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7668951,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43776687.79130902,
+      "physical_vkt": 43645636.92011061,
+      "common_vkt": 43643920.83784812,
+      "parcel_network_vkt": 71328.07653438,
+      "parcel_common_vkt": 64580.91989473,
+      "terrain_proxy_physical_vkt": 31974941.210697647,
+      "physical_grade_weighted_km_percent": 5417428.138687289,
+      "empty_network_vkt": 4001177.8933027512
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16782767584.321026,
+          "nox": 106659899.81838809,
+          "pm": 1760039.8619096538,
+          "so2": 100167.13541115542
+        },
+        "common_g": {
+          "co2": 16782767584.321026,
+          "nox": 106659899.81838809,
+          "pm": 1760039.8619096538,
+          "so2": 100167.13541115542
+        },
+        "parcel_common_g": {
+          "co2": 13702242.147546722,
+          "nox": 67268.67597054727,
+          "pm": 3414.695848900046,
+          "so2": 82.33619855720569
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008562.7939987091,
+          "co2": 18136432848.249485,
+          "nox": 4953677.477111021,
+          "pm": 79836.2552209266
+        },
+        "common_g": {
+          "co": 1004856.8589465659,
+          "co2": 18037260891.964195,
+          "nox": 4910269.4736750275,
+          "pm": 79364.39125870449
+        },
+        "parcel_common_g": {
+          "co": 16.659893430237215,
+          "co2": 14317413.824344214,
+          "nox": 8691.934845272768,
+          "pm": 9.184841937294408
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7326033818506277,
+    "common_vkt_share": 0.9999606814705068,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.364425840999502,
+    "loads_sha256": "56c73220deb73319a895a67ad3413d8254c749e6142f4cafef930d7995be3229"
+  },
+  {
+    "seed": 4,
+    "routing": "savings",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7677986,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43780390.06113604,
+      "physical_vkt": 43649587.27353274,
+      "common_vkt": 43648031.7624284,
+      "parcel_network_vkt": 64540.63492914999,
+      "parcel_common_vkt": 58025.322716209994,
+      "terrain_proxy_physical_vkt": 32033181.23119884,
+      "physical_grade_weighted_km_percent": 5610740.918146909,
+      "empty_network_vkt": 3994136.108127872
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16780719235.799278,
+          "nox": 106639338.21656133,
+          "pm": 1759126.6300415448,
+          "so2": 100153.15029250254
+        },
+        "common_g": {
+          "co2": 16780719235.799278,
+          "nox": 106639338.21656133,
+          "pm": 1759126.6300415448,
+          "so2": 100153.15029250254
+        },
+        "parcel_common_g": {
+          "co2": 12308825.088042947,
+          "nox": 60430.41257504023,
+          "pm": 3068.291969973065,
+          "so2": 73.96473392177425
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008547.6776478122,
+          "co2": 18137625254.66226,
+          "nox": 4957115.26083269,
+          "pm": 79831.74817485196
+        },
+        "common_g": {
+          "co": 1004842.791216346,
+          "co2": 18038618317.081127,
+          "nox": 4913788.184803551,
+          "pm": 79360.09142698787
+        },
+        "parcel_common_g": {
+          "co": 15.093463516396984,
+          "co2": 12903223.245741587,
+          "nox": 7832.734523106758,
+          "pm": 8.252490338350384
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7338713429398771,
+    "common_vkt_share": 0.9999643636698191,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.25886329199966,
+    "loads_sha256": "72b583a38d9c7eed503d6c48a9497da572ab4464e11a5353991eac95d83f903e"
+  },
+  {
+    "seed": 4,
+    "routing": "savings",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7643565,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43777471.21758721,
+      "physical_vkt": 43646662.981278524,
+      "common_vkt": 43645107.2679523,
+      "parcel_network_vkt": 64537.179442869994,
+      "parcel_common_vkt": 58021.86722993001,
+      "terrain_proxy_physical_vkt": 32006472.870186795,
+      "physical_grade_weighted_km_percent": 5504604.302132319,
+      "empty_network_vkt": 3995391.9167056605
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16780119836.889511,
+          "nox": 106638626.7756296,
+          "pm": 1759083.3908550297,
+          "so2": 100149.9173221944
+        },
+        "common_g": {
+          "co2": 16780119836.889511,
+          "nox": 106638626.7756296,
+          "pm": 1759083.3908550297,
+          "so2": 100149.9173221944
+        },
+        "parcel_common_g": {
+          "co2": 12310101.104923816,
+          "nox": 60434.385083878864,
+          "pm": 3069.8425578801784,
+          "so2": 73.97467447191092
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008565.2513129924,
+          "co2": 18137258692.2841,
+          "nox": 4956128.789434861,
+          "pm": 79833.16589769002
+        },
+        "common_g": {
+          "co": 1004859.8653407411,
+          "co2": 18038238074.632545,
+          "nox": 4912790.476492283,
+          "pm": 79361.41502329812
+        },
+        "parcel_common_g": {
+          "co": 15.094846416577472,
+          "co2": 12902502.797308069,
+          "nox": 7832.296299073291,
+          "pm": 8.25199889126037
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7333085895688157,
+    "common_vkt_share": 0.9999643566490549,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.146217204000095,
+    "loads_sha256": "f405112bbcce55d5d8b48665c116126b5c32a29f6a9b279040223d5f46dd7a65"
+  },
+  {
+    "seed": 4,
+    "routing": "savings",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7646956,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43769891.92016921,
+      "physical_vkt": 43639059.374487,
+      "common_vkt": 43637356.089936644,
+      "parcel_network_vkt": 64532.20539458001,
+      "parcel_common_vkt": 58016.17198325999,
+      "terrain_proxy_physical_vkt": 31969139.02534392,
+      "physical_grade_weighted_km_percent": 5416229.695918596,
+      "empty_network_vkt": 4001177.8933027503
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16781372488.858097,
+          "nox": 106653052.68343817,
+          "pm": 1759695.2154537402,
+          "so2": 100158.75784012473
+        },
+        "common_g": {
+          "co2": 16781372488.858097,
+          "nox": 106653052.68343817,
+          "pm": 1759695.2154537402,
+          "so2": 100158.75784012473
+        },
+        "parcel_common_g": {
+          "co2": 12307146.68462612,
+          "nox": 60421.54102066117,
+          "pm": 3070.049392986232,
+          "so2": 73.95862752650292
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1008561.0813481895,
+          "co2": 18134920817.57435,
+          "nox": 4952771.925704902,
+          "pm": 79835.28869703048
+        },
+        "common_g": {
+          "co": 1004855.298359426,
+          "co2": 18035842111.604435,
+          "nox": 4909403.619609749,
+          "pm": 79363.45760566814
+        },
+        "parcel_common_g": {
+          "co": 15.099306290366446,
+          "co2": 12898633.46457753,
+          "nox": 7826.0807799927015,
+          "pm": 8.251188900946982
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.73258084577401,
+    "common_vkt_share": 0.9999609688069641,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.418691445999684,
+    "loads_sha256": "7f304ddb4b02f445922c46e4a011d00a04f19d8966a2fb8012cacc5dfa884411"
+  },
+  {
+    "seed": 5,
+    "routing": "massgt",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7733202,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43814452.72584988,
+      "physical_vkt": 43683331.85412767,
+      "common_vkt": 43681717.46020397,
+      "parcel_network_vkt": 71298.26843297,
+      "parcel_common_vkt": 64551.05968076001,
+      "terrain_proxy_physical_vkt": 32075512.230166666,
+      "physical_grade_weighted_km_percent": 5619315.65535448,
+      "empty_network_vkt": 4016350.1066262205
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16814163108.857431,
+          "nox": 106854767.6486094,
+          "pm": 1760980.5410958028,
+          "so2": 100356.75895810852
+        },
+        "common_g": {
+          "co2": 16814163108.857431,
+          "nox": 106854767.6486094,
+          "pm": 1760980.5410958028,
+          "so2": 100356.75895810852
+        },
+        "parcel_common_g": {
+          "co2": 13700271.27974386,
+          "nox": 67254.67429789505,
+          "pm": 3412.917517390994,
+          "so2": 82.32204721802746
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010378.818840754,
+          "co2": 18179436741.88649,
+          "nox": 4960175.690173197,
+          "pm": 80056.82281612675
+        },
+        "common_g": {
+          "co": 1006657.333589866,
+          "co2": 18079993542.964237,
+          "nox": 4916679.381499398,
+          "pm": 79582.94193877558
+        },
+        "parcel_common_g": {
+          "co": 16.65174402957159,
+          "co2": 14314604.921545185,
+          "nox": 8695.328976396844,
+          "pm": 9.180595150846163
+        }
+      },
+      "copert-flat": {
+        "all_g": {
+          "co": 1010364.0172478289,
+          "co2": 18178299994.647297,
+          "nox": 4960160.208042357,
+          "pm": 80056.60022097298
+        },
+        "common_g": {
+          "co": 1006642.5329226344,
+          "co2": 18078856805.209503,
+          "nox": 4916663.894094959,
+          "pm": 79582.71936977372
+        },
+        "parcel_common_g": {
+          "co": 16.65174402957159,
+          "co2": 14314604.921545185,
+          "nox": 8695.328976396844,
+          "pm": 9.180595150846163
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7342734830135406,
+    "common_vkt_share": 0.9999630432511629,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 49.09734610899977,
+    "loads_sha256": "604e1e9005d0c66ee991c5b92c66f4588e35fa2b0e06ca340e48dfadc1b80b48"
+  },
+  {
+    "seed": 5,
+    "routing": "massgt",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7699844,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43811631.33855013,
+      "physical_vkt": 43680506.90811367,
+      "common_vkt": 43678893.243756294,
+      "parcel_network_vkt": 71298.8418626,
+      "parcel_common_vkt": 64551.81478295001,
+      "terrain_proxy_physical_vkt": 32048137.52324922,
+      "physical_grade_weighted_km_percent": 5513435.636835203,
+      "empty_network_vkt": 4020608.6535165496
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16813638884.77228,
+          "nox": 106854487.34567621,
+          "pm": 1760938.8675184795,
+          "so2": 100353.96495105475
+        },
+        "common_g": {
+          "co2": 16813638884.77228,
+          "nox": 106854487.34567621,
+          "pm": 1760938.8675184795,
+          "so2": 100353.96495105475
+        },
+        "parcel_common_g": {
+          "co2": 13699728.513144622,
+          "nox": 67252.49478974368,
+          "pm": 3414.2753241435626,
+          "so2": 82.32150747012649
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010392.439918143,
+          "co2": 18179087960.69675,
+          "nox": 4959177.053788252,
+          "pm": 80058.41986943969
+        },
+        "common_g": {
+          "co": 1006670.7157804416,
+          "co2": 18079637764.36346,
+          "nox": 4915674.617187839,
+          "pm": 79584.49088780042
+        },
+        "parcel_common_g": {
+          "co": 16.652349734235642,
+          "co2": 14314687.693411026,
+          "nox": 8694.969287530288,
+          "pm": 9.180702542937087
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7336942675749091,
+    "common_vkt_share": 0.9999630575633938,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 30.674675835000016,
+    "loads_sha256": "448fa004811ea844cc466eb30bdea0378c2eb7d9f12403ad1d8f590455b54234"
+  },
+  {
+    "seed": 5,
+    "routing": "massgt",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7701805,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43803928.22115057,
+      "physical_vkt": 43672776.039792955,
+      "common_vkt": 43671015.121589795,
+      "parcel_network_vkt": 71328.07653437999,
+      "parcel_common_vkt": 64580.91989473001,
+      "terrain_proxy_physical_vkt": 32010637.741955217,
+      "physical_grade_weighted_km_percent": 5425184.332341398,
+      "empty_network_vkt": 4022524.12034443
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16814935579.777235,
+          "nox": 106868704.08277188,
+          "pm": 1761548.3221769128,
+          "so2": 100363.02062189132
+        },
+        "common_g": {
+          "co2": 16814935579.777235,
+          "nox": 106868704.08277188,
+          "pm": 1761548.3221769128,
+          "so2": 100363.02062189132
+        },
+        "parcel_common_g": {
+          "co2": 13702242.147598634,
+          "nox": 67268.67597223853,
+          "pm": 3414.695848460748,
+          "so2": 82.33619856698037
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010364.0701317225,
+          "co2": 18176690139.70515,
+          "nox": 4955858.262484739,
+          "pm": 80060.28409627714
+        },
+        "common_g": {
+          "co": 1006641.5697567511,
+          "co2": 18077170667.957516,
+          "nox": 4912316.528376142,
+          "pm": 79586.19168861868
+        },
+        "parcel_common_g": {
+          "co": 16.65989342791856,
+          "co2": 14317413.822985139,
+          "nox": 8691.934843913545,
+          "pm": 9.184841936403938
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7329654911972702,
+    "common_vkt_share": 0.9999596792701807,
+    "parcel_operations": {
+      "tours": 1283,
+      "trips": 32745,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 30.79763178200028,
+    "loads_sha256": "8af3bd3c1c26694ff725a4653563bf9fa7844bbc5cb85f05c2a260bfaa4eda62"
+  },
+  {
+    "seed": 5,
+    "routing": "savings",
+    "grade_coefficient": 0.0,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7711337,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43807695.092346065,
+      "physical_vkt": 43676793.21966148,
+      "common_vkt": 43675191.72323943,
+      "parcel_network_vkt": 64540.634929149994,
+      "parcel_common_vkt": 58025.32271621001,
+      "terrain_proxy_physical_vkt": 32069763.25701811,
+      "physical_grade_weighted_km_percent": 5618063.75164066,
+      "empty_network_vkt": 4016350.106626219
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16812771662.664995,
+          "nox": 106847943.3868895,
+          "pm": 1760635.9155488163,
+          "so2": 100348.40164481745
+        },
+        "common_g": {
+          "co2": 16812771662.664995,
+          "nox": 106847943.3868895,
+          "pm": 1760635.9155488163,
+          "so2": 100348.40164481745
+        },
+        "parcel_common_g": {
+          "co2": 12308825.087306025,
+          "nox": 60430.412578012896,
+          "pm": 3068.2919704048422,
+          "so2": 73.96473392695133
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010377.1079337042,
+          "co2": 18177931680.397133,
+          "nox": 4959273.219584446,
+          "pm": 80055.86173047163
+        },
+        "common_g": {
+          "co": 1006655.7753093524,
+          "co2": 18078582161.288006,
+          "nox": 4915816.787045386,
+          "pm": 79582.01383396215
+        },
+        "parcel_common_g": {
+          "co": 15.093463516426656,
+          "co2": 12903223.245305907,
+          "nox": 7832.73452238395,
+          "pm": 8.252490337424604
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7342517820786723,
+    "common_vkt_share": 0.9999633330127055,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.550491736999902,
+    "loads_sha256": "07c16b510862da262b5d529dd127ed623d2821dd31a8770b839694571fdf38e4"
+  },
+  {
+    "seed": 5,
+    "routing": "savings",
+    "grade_coefficient": 0.05,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7678047,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43804869.676130384,
+      "physical_vkt": 43673964.244731575,
+      "common_vkt": 43672363.296203256,
+      "parcel_network_vkt": 64537.179442869994,
+      "parcel_common_vkt": 58021.86722993001,
+      "terrain_proxy_physical_vkt": 32042387.53078918,
+      "physical_grade_weighted_km_percent": 5512221.634573939,
+      "empty_network_vkt": 4020608.653516549
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16812249257.362917,
+          "nox": 106847669.23597321,
+          "pm": 1760594.434752725,
+          "so2": 100345.61811805879
+        },
+        "common_g": {
+          "co2": 16812249257.362917,
+          "nox": 106847669.23597321,
+          "pm": 1760594.434752725,
+          "so2": 100345.61811805879
+        },
+        "parcel_common_g": {
+          "co2": 12310101.103779318,
+          "nox": 60434.38508674035,
+          "pm": 3069.842558389088,
+          "so2": 73.97467447415691
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010390.7299141936,
+          "co2": 18177582179.924393,
+          "nox": 4958274.539491885,
+          "pm": 80057.45821078328
+        },
+        "common_g": {
+          "co": 1006669.1582771232,
+          "co2": 18078225579.467117,
+          "nox": 4914811.944198974,
+          "pm": 79583.5621841478
+        },
+        "parcel_common_g": {
+          "co": 15.094846416288878,
+          "co2": 12902502.797065716,
+          "nox": 7832.296298666827,
+          "pm": 8.251998890320337
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7336725228613631,
+    "common_vkt_share": 0.9999633431826946,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 30.755653444999552,
+    "loads_sha256": "289deac06188f7203c839529c3890420c4169edb46decf5a4ece6146c28ed1aa"
+  },
+  {
+    "seed": 5,
+    "routing": "savings",
+    "grade_coefficient": 0.2,
+    "cohort": "exploratory pilot",
+    "common_road_types": [
+      "Autosnelweg",
+      "Autoweg",
+      "ETW_bibeko_30",
+      "ETW_bubeko_breed_60",
+      "ETW_bubeko_smal_60",
+      "GOW_bibeko_50",
+      "GOW_bibeko_70",
+      "GOW_bubeko_gemengd_80",
+      "GOW_bubeko_gesloten_80",
+      "Industrieontsluitingsweg_50",
+      "Industriestraat_30",
+      "Verblijfsgebied_15",
+      "Vrachtverbod",
+      "WOW_bibeko_50"
+    ],
+    "factor_comparison": "inherited versus assumed modern COPERT fleet/configuration, not pure formula or accuracy test",
+    "load_rows": 7679910,
+    "segments": [
+      "construction",
+      "dangerous",
+      "facility",
+      "food",
+      "miscellaneous",
+      "parcel_consolidated",
+      "parcel_deliveries",
+      "temperature_controlled",
+      "van_construction",
+      "van_service",
+      "waste"
+    ],
+    "activity": {
+      "network_vkt": 43797132.35001077,
+      "physical_vkt": 43666198.49416932,
+      "common_vkt": 43664450.37367833,
+      "parcel_network_vkt": 64532.20539458,
+      "parcel_common_vkt": 58016.17198325999,
+      "terrain_proxy_physical_vkt": 32004835.55660149,
+      "physical_grade_weighted_km_percent": 5423985.889572705,
+      "empty_network_vkt": 4022524.1203444307
+    },
+    "emissions": {
+      "factors": {
+        "all_g": {
+          "co2": 16813540484.312948,
+          "nox": 106861856.94782545,
+          "pm": 1761203.6757224537,
+          "so2": 100354.64305085858
+        },
+        "common_g": {
+          "co2": 16813540484.312948,
+          "nox": 106861856.94782545,
+          "pm": 1761203.6757224537,
+          "so2": 100354.64305085858
+        },
+        "parcel_common_g": {
+          "co2": 12307146.683312314,
+          "nox": 60421.541025857485,
+          "pm": 3070.049394002734,
+          "so2": 73.95862753420225
+        }
+      },
+      "copert": {
+        "all_g": {
+          "co": 1010362.3574812051,
+          "co2": 18175178109.031677,
+          "nox": 4954952.711079821,
+          "pm": 80059.31757238154
+        },
+        "common_g": {
+          "co": 1006640.009169613,
+          "co2": 18075751887.599133,
+          "nox": 4911450.674311962,
+          "pm": 79585.25803558274
+        },
+        "parcel_common_g": {
+          "co": 15.099306290109741,
+          "co2": 12898633.464605007,
+          "nox": 7826.080779734289,
+          "pm": 8.251188900454817
+        }
+      }
+    },
+    "terrain_proxy_vkt_share": 0.7329430236725335,
+    "common_vkt_share": 0.9999599662770914,
+    "parcel_operations": {
+      "tours": 1332,
+      "trips": 31681,
+      "delivered_parcels": 228707.0
+    },
+    "elapsed_seconds": 31.65038927600017,
+    "loads_sha256": "73b32ef8904b4b5d1473692d0c678c7e86afab71255756a7b77b3b51ef14ffce"
+  }
+]

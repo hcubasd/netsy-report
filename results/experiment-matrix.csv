@@ -2,9 +2,9 @@ id,role,parcel_scheduling,emissions,activity_control,status
 M-RAW,source correspondence,source,source,source outputs,historical records retained; provenance refresh needed
 M-EXEC,execution control,source,source,documented execution repairs,available where audit records them; not a new run
 M-CORR,correction control,corrected where documented,corrected where documented,specific source corrections or analytic expectations,partial controls; no complete corrected source run asserted
-FIXED-TRIPS,downstream correspondence,source trips,inherited factors,identical imported tours parcel schedule and matrices,historical control; refresh at proposed freeze
-N00,core factorial,inherited corrected,inherited factors,frozen upstream realization,historical full chain seed 1; refresh at proposed freeze
-N10,core factorial,Clarke-Wright,inherited factors,same upstream demand as N00,historical parcel schedules; full downstream comparison planned
-N01,core factorial,same as N00,declared COPERT fleet/factors,identical saved link activity as N00,historical seed 1 example; comparability gates unresolved
-N11,core factorial,same as N10,same COPERT fleet/factors,identical saved link activity as N10,planned
-G-OPTION,optional terrain extension,to be specified,fixed within path contrast,directional grades and justified route costs,excluded from core; data and scientific question required
+FIXED-TRIPS,downstream correspondence,source trips,inherited factors,identical imported tours parcel schedule and matrices,completed at NetSy v0.5.0 against retained source trips; see dutch-pilot/fixed-reference-control.json
+N00,core factorial,inherited corrected,inherited factors,frozen upstream realization,completed for five paired exploratory realizations at zero grade penalty; see dutch-pilot/configurations.csv
+N10,core factorial,Clarke-Wright,inherited factors,same upstream demand as N00,completed for five paired exploratory realizations at zero grade penalty; see dutch-pilot/configurations.csv
+N01,core factorial,same as N00,declared COPERT fleet/factors,identical saved link activity as N00,completed for five paired exploratory realizations at zero grade penalty; see dutch-pilot/configurations.csv
+N11,core factorial,same as N10,same COPERT fleet/factors,identical saved link activity as N10,completed for five paired exploratory realizations at zero grade penalty; see dutch-pilot/configurations.csv
+G-SENSITIVITY,terrain path-cost sensitivity,both corrected inherited and Clarke-Wright,both inherited and assumed COPERT configurations,shared upstream; screened AHN4 proxy; uphill coefficients 0.05 and 0.20,completed for five paired exploratory realizations; not calibrated energy routing

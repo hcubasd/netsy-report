@@ -1,0 +1,8 @@
+{
+  "event": "One overlapping-assignment attempt terminated without a traceback; container reported an out-of-memory kill.",
+  "case": "seed-1/savings-g0p2",
+  "recovery": "Retained successful outputs, serialized subsequent assignments with a shared file lock, and resumed the failed case successfully.",
+  "original_child_returncode": "not persisted by original runner",
+  "effect_on_scientific_inputs": "none; failed outputs were not accepted by completion checks",
+  "runtime_interpretation": "Timings include differing concurrency, cache state and lock waiting; no benchmark claim."
+}

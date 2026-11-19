@@ -3,10 +3,17 @@
 \usepackage{lmodern}
 \usepackage[a4paper,margin=25mm]{geometry}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[backend=biber,style=authoryear,maxcitenames=2,maxbibnames=20]{biblatex}
+\addbibresource{../references/references.bib}
 \usepackage[hidelinks]{hyperref}
-\hypersetup{pdftitle={NetSy TR-D research-design brief}}
+\hypersetup{pdftitle={NetSy: A Network loads and emissions Synthesizer}}
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
 \setlength{\emergencystretch}{1.5em}
 \begin{document}
-\input{sections/research-design}
+\input{sections/paper-header}
+\input{sections/methods}
+\input{sections/results}
+\printbibliography
 \end{document}

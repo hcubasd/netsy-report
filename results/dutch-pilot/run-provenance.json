@@ -1,0 +1,1547 @@
+{
+  "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+  "root": "/workdir/docs/validation/paper-v1/run-2026-11-19",
+  "replicates": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "role": "exploratory pilot; no confirmatory precision claim",
+  "stages": [
+    {
+      "path": "common/trip-matrices-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "trip-matrices",
+        "--force"
+      ],
+      "seconds": 6.165277769000113,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "trip_matrices.omx"
+    },
+    {
+      "path": "fixed-reference-trips/network-emissions-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-emissions",
+        "--force"
+      ],
+      "seconds": 6.721524397999929,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_emissions.parquet"
+    },
+    {
+      "path": "fixed-reference-trips/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--force"
+      ],
+      "seconds": 72.58755123599985,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/massgt-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/massgt-g0p0",
+        "--seed",
+        "1",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 49.73673673600024,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/massgt-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 155.8650166540001,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/massgt-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/massgt-g0p05",
+        "--seed",
+        "1",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.496998781999537,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/massgt-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 148.61981510900023,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/massgt-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/massgt-g0p2",
+        "--seed",
+        "1",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.27124008300052,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/massgt-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 144.8204437309996,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/savings-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/savings-g0p0",
+        "--seed",
+        "1",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 31.71413831099926,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/savings-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 76.14106807899998,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/savings-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/savings-g0p05",
+        "--seed",
+        "1",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 32.09293212100056,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/savings-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 84.00983348099999,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/savings-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-1/savings-g0p2",
+        "--seed",
+        "1",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 32.136115242000415,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-1/savings-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 82.0506558269999,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-1/savings-tours/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "1",
+        "--routing",
+        "savings",
+        "--force"
+      ],
+      "seconds": 43.04734632200007,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-1/upstream/agents-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "agents",
+        "--seed",
+        "1",
+        "--min-size",
+        "4",
+        "--force"
+      ],
+      "seconds": 5.880720342999666,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "agents.gpkg"
+    },
+    {
+      "path": "seed-1/upstream/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "1",
+        "--force"
+      ],
+      "seconds": 10.269102748000023,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-1/upstream/parcel-demand-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "parcel-demand",
+        "--force"
+      ],
+      "seconds": 3.3771450689996527,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "parcel_demand.csv"
+    },
+    {
+      "path": "seed-1/upstream/shipments-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "shipments",
+        "--seed",
+        "1",
+        "--force"
+      ],
+      "seconds": 20.604060346000097,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "shipments.gpkg"
+    },
+    {
+      "path": "seed-1/upstream/tours-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "tours",
+        "--seed",
+        "1",
+        "--force"
+      ],
+      "seconds": 26.16743106800004,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "tours.gpkg"
+    },
+    {
+      "path": "seed-2/massgt-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/massgt-g0p0",
+        "--seed",
+        "2",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 50.34237697000026,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/massgt-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 84.02201507600012,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/massgt-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/massgt-g0p05",
+        "--seed",
+        "2",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.734322276999592,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/massgt-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 149.03557659099988,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/massgt-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/massgt-g0p2",
+        "--seed",
+        "2",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.467330080000465,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/massgt-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 144.03086295400044,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/savings-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/savings-g0p0",
+        "--seed",
+        "2",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 32.67232993400012,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/savings-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 76.5945190729999,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/savings-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/savings-g0p05",
+        "--seed",
+        "2",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 32.16845736199957,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/savings-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 83.38696572000026,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/savings-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-2/savings-g0p2",
+        "--seed",
+        "2",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.96495625300031,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-2/savings-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 83.41698121300033,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-2/savings-tours/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "2",
+        "--routing",
+        "savings",
+        "--force"
+      ],
+      "seconds": 42.04814694200013,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-2/upstream/agents-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "agents",
+        "--seed",
+        "2",
+        "--min-size",
+        "4",
+        "--force"
+      ],
+      "seconds": 5.943720401000064,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "agents.gpkg"
+    },
+    {
+      "path": "seed-2/upstream/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "2",
+        "--force"
+      ],
+      "seconds": 10.123769885000002,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-2/upstream/parcel-demand-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "parcel-demand",
+        "--force"
+      ],
+      "seconds": 3.3866756820002593,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "parcel_demand.csv"
+    },
+    {
+      "path": "seed-2/upstream/shipments-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "shipments",
+        "--seed",
+        "2",
+        "--force"
+      ],
+      "seconds": 20.60543732000042,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "shipments.gpkg"
+    },
+    {
+      "path": "seed-2/upstream/tours-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "tours",
+        "--seed",
+        "2",
+        "--force"
+      ],
+      "seconds": 25.814902314999927,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "tours.gpkg"
+    },
+    {
+      "path": "seed-3/massgt-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/massgt-g0p0",
+        "--seed",
+        "3",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 52.5311327899999,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/massgt-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 80.6508851880003,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/massgt-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/massgt-g0p05",
+        "--seed",
+        "3",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 32.44655873600004,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/massgt-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 81.6284152520002,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/massgt-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/massgt-g0p2",
+        "--seed",
+        "3",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 32.237178727000355,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/massgt-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 128.25827622999986,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/savings-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/savings-g0p0",
+        "--seed",
+        "3",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 31.58525064300011,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/savings-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 75.13378286299985,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/savings-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/savings-g0p05",
+        "--seed",
+        "3",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.752926221000052,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/savings-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 96.51838729999963,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/savings-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-3/savings-g0p2",
+        "--seed",
+        "3",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 33.28775532399959,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-3/savings-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 125.93477900400012,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-3/savings-tours/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "3",
+        "--routing",
+        "savings",
+        "--force"
+      ],
+      "seconds": 46.69382188700001,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-3/upstream/agents-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "agents",
+        "--seed",
+        "3",
+        "--min-size",
+        "4",
+        "--force"
+      ],
+      "seconds": 5.669377070999872,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "agents.gpkg"
+    },
+    {
+      "path": "seed-3/upstream/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "3",
+        "--force"
+      ],
+      "seconds": 10.676543211999615,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-3/upstream/parcel-demand-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "parcel-demand",
+        "--force"
+      ],
+      "seconds": 3.6111092299997836,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "parcel_demand.csv"
+    },
+    {
+      "path": "seed-3/upstream/shipments-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "shipments",
+        "--seed",
+        "3",
+        "--force"
+      ],
+      "seconds": 20.48067975999993,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "shipments.gpkg"
+    },
+    {
+      "path": "seed-3/upstream/tours-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "tours",
+        "--seed",
+        "3",
+        "--force"
+      ],
+      "seconds": 26.949728717999733,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "tours.gpkg"
+    },
+    {
+      "path": "seed-4/massgt-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/massgt-g0p0",
+        "--seed",
+        "4",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 52.977736664000076,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/massgt-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 77.88101475500025,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/massgt-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/massgt-g0p05",
+        "--seed",
+        "4",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 33.146383330999925,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/massgt-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 90.67595970899947,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/massgt-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/massgt-g0p2",
+        "--seed",
+        "4",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.828644938999787,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/massgt-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 130.48206472899983,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/savings-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/savings-g0p0",
+        "--seed",
+        "4",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0"
+      ],
+      "seconds": 31.790393367999968,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/savings-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 77.17916926900034,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/savings-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/savings-g0p05",
+        "--seed",
+        "4",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.652699328999915,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/savings-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 97.75290051299999,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/savings-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-4/savings-g0p2",
+        "--seed",
+        "4",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.88914008699976,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-4/savings-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 126.69136505000006,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-4/savings-tours/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "4",
+        "--routing",
+        "savings",
+        "--force"
+      ],
+      "seconds": 46.55718946399975,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-4/upstream/agents-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "agents",
+        "--seed",
+        "4",
+        "--min-size",
+        "4",
+        "--force"
+      ],
+      "seconds": 5.939576686000237,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "agents.gpkg"
+    },
+    {
+      "path": "seed-4/upstream/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "4",
+        "--force"
+      ],
+      "seconds": 10.293066999000075,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-4/upstream/parcel-demand-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "parcel-demand",
+        "--force"
+      ],
+      "seconds": 3.5548579189999145,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "parcel_demand.csv"
+    },
+    {
+      "path": "seed-4/upstream/shipments-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "shipments",
+        "--seed",
+        "4",
+        "--force"
+      ],
+      "seconds": 21.585661265,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "shipments.gpkg"
+    },
+    {
+      "path": "seed-4/upstream/tours-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "tours",
+        "--seed",
+        "4",
+        "--force"
+      ],
+      "seconds": 27.560306514999866,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "tours.gpkg"
+    },
+    {
+      "path": "seed-5/massgt-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/massgt-g0p0",
+        "--seed",
+        "5",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.0"
+      ],
+      "seconds": 49.58555250600057,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/massgt-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 80.0341489930006,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/massgt-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/massgt-g0p05",
+        "--seed",
+        "5",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.239145317999828,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/massgt-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 79.3526606610003,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/massgt-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/massgt-g0p2",
+        "--seed",
+        "5",
+        "--routing",
+        "massgt",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 31.30520517199966,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/massgt-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 76.89328105999994,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/savings-g0p0/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/savings-g0p0",
+        "--seed",
+        "5",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.0"
+      ],
+      "seconds": 32.006474683000306,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/savings-g0p0/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 85.14329296799951,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/savings-g0p05/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/savings-g0p05",
+        "--seed",
+        "5",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.05"
+      ],
+      "seconds": 31.263462189000165,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/savings-g0p05/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 77.26753030300006,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/savings-g0p2/assessment-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/assess_case.py",
+        "/workdir/docs/validation/paper-v1/run-2026-11-19/seed-5/savings-g0p2",
+        "--seed",
+        "5",
+        "--routing",
+        "savings",
+        "--coefficient",
+        "0.2"
+      ],
+      "seconds": 32.14549472900035,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "summary.json"
+    },
+    {
+      "path": "seed-5/savings-g0p2/network-loads-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "network-loads",
+        "--payload-strata",
+        "--force"
+      ],
+      "seconds": 76.05305774099998,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "network_loads.parquet"
+    },
+    {
+      "path": "seed-5/savings-tours/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "5",
+        "--routing",
+        "savings",
+        "--force"
+      ],
+      "seconds": 45.38500505799993,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-5/upstream/agents-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "agents",
+        "--seed",
+        "5",
+        "--min-size",
+        "4",
+        "--force"
+      ],
+      "seconds": 6.430481757000052,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "agents.gpkg"
+    },
+    {
+      "path": "seed-5/upstream/deliveries-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "deliveries",
+        "--seed",
+        "5",
+        "--force"
+      ],
+      "seconds": 11.330450697999822,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "delivery_tours.gpkg"
+    },
+    {
+      "path": "seed-5/upstream/parcel-demand-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "parcel-demand",
+        "--force"
+      ],
+      "seconds": 3.3082301770000413,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "parcel_demand.csv"
+    },
+    {
+      "path": "seed-5/upstream/shipments-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "shipments",
+        "--seed",
+        "5",
+        "--force"
+      ],
+      "seconds": 21.15330243399967,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "shipments.gpkg"
+    },
+    {
+      "path": "seed-5/upstream/tours-completed.json",
+      "command": [
+        "/workdir/netsy/.venv/bin/python",
+        "/workdir/netsy-report/analysis/experiment_stage.py",
+        "synth",
+        "tours",
+        "--seed",
+        "5",
+        "--force"
+      ],
+      "seconds": 26.570936931000233,
+      "returncode": 0,
+      "model_commit": "491b1d59c7d0cf5f8579f733afa6d1690a13abe6",
+      "output": "tours.gpkg"
+    }
+  ],
+  "analysis_sha256": {
+    "refresh_reference_control.py": "a22cedfa2a7de9501961e78e57581f5c7af1c9b32401cc7975f7e12fa141dbf3",
+    "inventory-evidence.py": "bceaa348a630a5d47805f6c02578b135698a6be9499fe49fd29b4fcde998c65c",
+    "test_experiment_controls.py": "d435199675a223c3ff3e2dfbee67cad5b916c3a79ee249394c967c95c34a23c4",
+    "complement_grades.py": "c34965698157e9a038497bf7c5081bce7e72330a3299cc797e1c2de981acdce4",
+    "path_cache.py": "0fedbf72a56fa178d1d77f81bf8d4e050442bfd01c1a6ec5e0c744ca713d7dbb",
+    "assess_case.py": "69077e84ce6e004679a27a993b51b31819b2de0f18641194279eb87bb46793ad",
+    "experiment_stage.py": "94a31d6f07f379e7382eda0014cde7bb6ea9870155d326b5aef4b04a23920c03",
+    "summarize_experiments.py": "046737b42f0af9a3eeef86f0dd10fdbc149bdb9300821d605b4ce281d84f1920",
+    "run_paper_experiments.py": "8ca988d6900a9137fdc364fca4b0cb09fd5b8d047025bdde375757ec7028bd1c"
+  }
+}

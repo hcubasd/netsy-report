@@ -1,0 +1,20 @@
+{
+  "accepted_links": 98162,
+  "node_geometry_endpoint_max_m": 1.8406878575731415e-10,
+  "node_geometry_endpoint_quantiles_m": {
+    "0": 0.0,
+    "0.5": 5.999908354159067e-11,
+    "0.99": 1.3015628661377063e-10,
+    "1": 1.8406878575731415e-10
+  },
+  "endpoint_mismatches_above_5m": 0,
+  "geometry_to_case_length_quantiles": {
+    "0.0": 0.9963061657978118,
+    "0.01": 0.999791542881651,
+    "0.5": 0.99999999941775,
+    "0.99": 1.0002169815436404,
+    "1.0": 3.6214776833382456
+  },
+  "geometry_to_case_length_mismatches_above_5percent": 2,
+  "note": "Grades use projected geometry length; model kilometres retain the source case length. Length discrepancies are retained as input-quality diagnostics, not silently corrected."
+}

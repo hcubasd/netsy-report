@@ -1,0 +1,140 @@
+\section{Materials and methods}
+\subsection{Study scope and controlled implementation}
+NetSy (A Network loads and emissions Synthesizer) represents freight activity
+through synthetic demand, vehicle tours, network loading and environmental
+accounting. This study examines a Dutch application using the MASS-GT input
+case and external gateways \parencite{massgt2025}. The comparison concerns correspondence with an
+existing model and sensitivity to alternative formulations; it does not assess
+accuracy against independent traffic or emissions observations.
+
+The implementation is frozen at NetSy v0.5.0 (commit \texttt{491b1d5}).
+The retained source reference is commit \texttt{4f727c3}, with execution
+repairs documented separately in the audit. Source model-logic corrections
+are identified explicitly rather than counted as methodological improvements.
+Case inputs are copied into an isolated, hashed snapshot. Five upstream
+realizations use stage seeds 1--5 for agent, shipment, freight-tour and parcel
+scheduling synthesis; the minimum establishment size is four employees.
+Parcel demand and service matrices are fixed by the supplied inputs.
+Within a realization, each alternative reuses the saved freight tours, parcel
+demand and service matrices. This pairing controls upstream synthesis rather
+than assuming that equal seed integers produce equal random draws across
+algorithms. The modelled period follows the supplied case and matrices;
+totals are not presented as independently observed national daily inventories.
+
+\subsection{Parcel scheduling and network paths}
+The corrected inherited parcel scheduler is compared with the available
+Clarke--Wright savings implementation \parencite{clarke1964}. The inherited method combines proximity clustering with pairwise stop swaps;
+the savings method combines capacity-constrained route merging with single-stop
+relocation, retaining direct tours for full zone loads. The contrast therefore
+compares the implemented scheduling packages, including their local improvement
+steps. Both retain the supplied depot/customer
+allocation, parcel quantities, vehicle capacities and service parameters,
+including depot returns. The supplied tour capacity is 180 parcels. Scheduling is capacity-constrained;
+computed arrival times are not evidence that explicit customer time-window
+constraints have been enforced. There is no explicit finite fleet-size
+constraint; tour counts are not simultaneous vehicle requirements. They may produce different tour counts and departure
+times. The supplied link-speed table is constant across time intervals, so
+changed departure times do not introduce an additional speed-profile treatment.
+The experiment examines the integration and consequences of these established
+heuristics in the case application.
+
+All-or-nothing loading uses Dijkstra shortest paths with the supplied time and
+distance costs and vehicle restrictions \parencite{dijkstra1959}. A terrain sensitivity adds an uphill
+preference to the link cost: link kilometres multiplied by positive signed
+grade (in percent) and a coefficient of 0, 0.05 or 0.20 in the case's cost units
+per kilometre per percentage point. Downhill coefficients remain zero.
+Existing replacement costs for restricted links retain their original
+precedence. These coefficients bracket an explicitly uncalibrated preference;
+they are neither estimated energy costs nor a COPERT-based route objective.
+Tour construction continues to use the supplied skims: this experiment changes
+network paths after scheduling, without an iterative rescheduling feedback.
+
+\subsection{Terrain data supplement}
+The original network contains 158,806 directed links and no grade attribute.
+AHN4 terrain and surface rasters at native 5\,m resolution supplement the case.
+Files are selected through the official national download portal, with
+provider SHA-256 archive checksums retained. AHN describes these as ground and
+surface products in Dutch national coordinates with heights relative to NAP;
+the surface includes objects such as vegetation and buildings.\footnote{AHN
+product description: \url{https://www.ahn.nl/dataroom}; official download portal:
+\url{https://basisdata.nl/hwh-portal/download/index.html}, accessed 19 November
+2026.}
+
+At each physical network node, the elevation estimate is the median of a
+$3\times3$ raster neighbourhood, requiring at least five valid cells.
+An estimate is retained only when the terrain and surface medians differ by
+at most 3\,m. Signed grade is the endpoint elevation difference divided by
+horizontal link geometry length, expressed as a percentage. Direction follows
+source node identifiers: reverse arcs can share the same coordinate order in
+the network geometry. Accepted reverse-arc grades are checked for opposite signs.
+Links shorter than 50\,m, gradients above 10\% in magnitude, missing endpoints,
+connectors, ferries and links named as bridges, viaducts or tunnels receive a
+flagged zero modelling fallback. This screening is incomplete: the result is
+a terrain-informed proxy, not a validated road-deck gradient or complete
+structure inventory. Raster acquisition and transport-input dates need not
+coincide. Coverage and fallback exposure are reported alongside effects.
+
+\subsection{Emissions and comparison boundaries}
+Building on integrated freight-network and COPERT assessment approaches
+\parencite{dias2026}, each saved assignment is evaluated with both the inherited empty/full,
+road-type factors and the supplied COPERT V hot-exhaust configuration. This follows the established
+COPERT modelling family \parencite{eeaRoad2026}; the exact coefficient table and
+vehicle mapping used here are retained with the hashed case inputs. The case
+adapter extracts the July 2026 road-transport Appendix 4 workbook (COPERT 5.10).
+Its CO$_2$ factors are derived from the energy-consumption functions using
+74.1\,g CO$_2$/MJ for diesel \parencite{ipccMobile2006}.
+The inherited method interpolates factors by utilization. COPERT uses supplied
+vehicle mappings, speed-dependent functions, and nearest grade and payload
+bins (grade: $-6,-4,-2,0,2,4,6$\%; payload: 0, 50, 100\%). Speeds outside
+coefficient validity limits are clipped as specified in the implementation.
+The supplied truck coefficients vary with grade. The van coefficients are
+repeated across grade bins, so parcel emissions have no direct grade-factor
+response in this configuration; path and speed changes can still affect them.
+The supplied COPERT fleet assumptions represent modern diesel technologies;
+they have not been matched to the inherited factors' implied fleet or
+fuel-carbon conventions. Therefore
+the contrast is a combined factor/fleet-configuration sensitivity, not an
+isolated comparison of mathematical formulations or evidence of superior
+accuracy. Parcel utilization for emissions remains the supplied constant 0.5, rather
+than being recomputed from the decreasing parcel count. Consequently, this
+experiment does not evaluate dynamic parcel payload emissions, and zero-
+utilization activity is not a complete measure of empty parcel travel.
+No non-exhaust factors are supplied. Nominal CO$_2$ mass is reported,
+not CO$_2$ equivalents or a life-cycle footprint.
+
+Missing inherited road-type factors otherwise yield zero modelled emissions.
+The primary cross-configuration comparison therefore uses a fixed common
+physical-road support, defined as the intersection of CO$_2$ road classes
+covered for every assignment vehicle, excluding connectors and ferries.
+Unrestricted totals and support coverage are retained as diagnostics.
+CO and pollutant-specific quantities are not treated as interchangeable across
+methods; in particular, the inherited PM boundary requires reconciliation
+before comparison with COPERT exhaust PM. A flat-grade COPERT calculation on
+the inherited, zero-penalty activity additionally separates direct factor
+response to terrain from changes in selected paths.
+
+\subsection{Experimental design and reproducibility}
+Two schedulers, three path-cost coefficients and two emissions configurations
+yield 12 configurations per upstream realization. Both emissions calculations
+reuse exactly the same link activity, speed and payload representation.
+Link-level vehicle-kilometres, rather than skim-based tour distances, define
+network activity outcomes. Parcel and whole-network outcomes are retained
+separately. Scheduling contrasts compare paired realizations at a fixed path
+coefficient and emissions configuration; path-cost contrasts retain scheduler
+and emissions configuration. Factor contrasts retain the same assignment.
+
+These five realizations constitute an exploratory pilot. Means and observed
+replicate ranges describe conditional simulation variability; they do not
+establish stochastic equivalence to the single source realization or a
+confirmatory precision target. Links and time intervals are not independent
+replications. Confirmatory stochastic claims would require a prespecified precision
+criterion and a justified replication plan.
+
+To bound memory use, emissions are evaluated in row-local batches using the
+frozen model functions, with the CLI's float32 output precision and float64
+aggregation. Cached Dijkstra predecessors are keyed by the exact sparse cost
+graph, ordering, numerical representation and SciPy version. Cached/uncached
+assignment and batched/full-frame emissions are checked for numerical identity
+on controlled fixtures. These execution adaptations do not change the model
+formulation. Inputs, output hashes, commands, timings and environment versions
+are retained with the experiment records.
