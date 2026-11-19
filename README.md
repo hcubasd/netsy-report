@@ -10,7 +10,7 @@ the MASS-GT configuration integrated into every section.
 A search/selection appendix prints all 33 retained query pairs, including
 model-name refinement, and records the limits of the current evidence base.
 Model positioning and implementation choices are deliberately deferred.
-The v0 line explicitly opts in to tagged PDF releases.
+The SLR line explicitly opts in to tagged PDF releases.
 Release v0.2.0 reorganizes the synthesis while retaining the evidence cohort of
 v0.1.0; the earlier published tag remains unchanged.
 
@@ -45,8 +45,10 @@ Branch pushes and pull requests call the same build workflow. Obsolete CI runs o
 the same ref are cancelled. Successful builds upload checked PDFs and provenance;
 logs are retained even on failure. These CI artifacts are not GitHub releases.
 
-Only a tag push matching `v*.*.*` can trigger CD. The exact tag must satisfy the
-three-number format and the major in publication.json. Publication lines without explicit opt-in are blocked.
+Only a tag push matching a publication namespace (`slr/v*.*.*` or
+`trd/v*.*.*`) can trigger CD. The exact tag must contain a three-number version
+and match `release_namespace` in publication.json. Publication lines without
+explicit PDF opt-in are blocked.
 An eligible tag rebuilds/checks the manuscript, then publishes the PDF, source archive,
 provenance and SHA-256 checksums. Release jobs have write permission; checks do not.
 See `docs/branches.md` before enabling publication on a paper branch.
